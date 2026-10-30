@@ -1,0 +1,85 @@
+/*
+  Synthetix UI Font - open-source stand-in tuned to measured UI metrics.
+  Base: Instrument Sans (SIL OFL) variable, from Google Fonts. Not bundled here.
+
+  All sizes are css px at the 4.5 px/css-px scale used in the redline sheet.
+  Numbers marked PROVISIONAL were solved on the static Regular/Bold files; re-run
+    python tools/fit_font.py --font "InstrumentSans[wdth,wght].ttf"
+  on the variable file to finalise them (widths shift when the wght axis moves).
+*/
+
+@font-face {
+  font-family: "Synthetix UI";
+  src: local("Instrument Sans"),
+       url("../fonts/InstrumentSans-Variable.woff2") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+:root {
+  --sx-font: "Synthetix UI", "Instrument Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* weight classes: stem/cap target 0.117 / 0.143 / 0.179 -> wght by linear
+     interpolation between Instrument Sans 400 (0.111) and 700 (0.208). */
+  --sx-w-regular: 420;
+  --sx-w-semibold: 500;   /* Pinterest "semibold" rows/labels */
+  --sx-w-bold: 610;       /* Pinterest headline bold */
+
+  /* size = measured cap height / 0.708 (blend of cap and x-height match) */
+  --sx-fs-body: 17.6px;   /* cap 12.44, x-height 9.11, ascender 12.9 */
+  --sx-fs-tabs: 16.3px;   /* cap 11.56 */
+  --sx-fs-title: 21.9px;  /* cap 15.56 */
+  --sx-fs-h1: 22.3px;     /* cap 15.78, x-height 11.56 */
+
+  /* baseline pitch measured on the web login card: 24.67 / 31.56 css px */
+  --sx-lh-body: 1.404;
+  --sx-lh-h1: 1.418;
+}
+
+.sx-body, .sx-label, .sx-tabs, .sx-title, .sx-h1 {
+  font-family: var(--sx-font);
+  font-variant-numeric: lining-nums proportional-nums;   /* digits = cap height, narrow "1" */
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sx-body {            /* regular: stem/cap 0.117 */
+  font-size: var(--sx-fs-body);
+  line-height: var(--sx-lh-body);
+  font-weight: var(--sx-w-regular);
+  letter-spacing: 0.0072em;
+  word-spacing: 0em;
+}
+
+.sx-label {           /* semibold rows: "Message settings", menu items */
+  font-size: var(--sx-fs-body);
+  line-height: var(--sx-lh-body);
+  font-weight: var(--sx-w-semibold);
+  letter-spacing: -0.016em;     /* PROVISIONAL */
+  word-spacing: 0.019em;        /* PROVISIONAL */
+}
+
+.sx-tabs {
+  font-size: var(--sx-fs-tabs);
+  font-weight: var(--sx-w-semibold);
+  letter-spacing: -0.016em;     /* PROVISIONAL */
+}
+
+.sx-title {           /* app titles: "Inspire with a Pin" */
+  font-size: var(--sx-fs-title);
+  line-height: 1.4;
+  font-weight: var(--sx-w-semibold);
+  letter-spacing: -0.014em;     /* PROVISIONAL */
+  word-spacing: 0.019em;
+}
+
+.sx-h1 {              /* web headline: "Endless inspiration awaits" */
+  font-size: var(--sx-fs-h1);
+  line-height: var(--sx-lh-h1);
+  font-weight: var(--sx-w-bold);
+  letter-spacing: -0.018em;     /* PROVISIONAL */
+  word-spacing: 0.05em;         /* PROVISIONAL: one sample only */
+}
+
+/* Fallback when the variable file is unavailable (static 400 + 700 only):
+   the same classes work; bold falls to 700, which is ~16% heavier than target. */

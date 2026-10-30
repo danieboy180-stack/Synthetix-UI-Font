@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Synthetix UI Font – live fit</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&display=swap">
+<style>
+:root{--bg:#f6f5f1;--fg:#16150f;--mute:#5d5b52;--line:#d9d6cb;--card:#fff;--ok:#1f6b3a;--warn:#9a5b00;--bad:#a12626;
+ --sx-font:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141410;--fg:#efede4;--mute:#a4a195;--line:#34322a;--card:#1d1d17;--ok:#6fcf93;--warn:#e0a54a;--bad:#ef8a8a}}
+:root[data-theme="dark"]{--bg:#141410;--fg:#efede4;--mute:#a4a195;--line:#34322a;--card:#1d1d17;--ok:#6fcf93;--warn:#e0a54a;--bad:#ef8a8a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sx-font);font-size:17.6px;line-height:1.404;font-weight:420;letter-spacing:.0072em;font-variant-numeric:lining-nums proportional-nums;font-kerning:normal}
+main{max-width:720px;margin:0 auto;padding:28px 18px 56px}
+h1{font-size:22.3px;line-height:1.418;font-weight:610;letter-spacing:-.0183em;word-spacing:.0497em;margin:0 0 8px}
+h2{font-size:17.6px;font-weight:500;letter-spacing:-.016em;word-spacing:.019em;margin:34px 0 10px}
+p{margin:0 0 12px;max-width:62ch}
+.mute{color:var(--mute)}
+.spec{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:0 0 12px}
+.spec small{display:block;color:var(--mute);font-size:13px;letter-spacing:0;margin-top:6px;font-variant-numeric:tabular-nums}
+.w5{font-weight:500;letter-spacing:-.016em;word-spacing:.019em}
+.w6{font-size:22.3px;line-height:1.418;font-weight:610;letter-spacing:-.0183em;word-spacing:.0497em}
+.big{font-size:44px;line-height:1.1;font-weight:610;letter-spacing:-.018em}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:15px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:500}
+.s{font-weight:610;white-space:nowrap}
+.hi{color:var(--ok)}.mid{color:var(--warn)}.lo{color:var(--bad)}
+a{color:inherit}
+</style>
+</head>
+<body>
+<main>
+<h1>Synthetix UI Font: live fit</h1>
+<p class="mute">Instrument Sans tuned to metrics measured from Pinterest app and web screenshots. This page is set in the tuned values, so what you see is the result.</p>
+
+<h2>Specimen at measured sizes</h2>
+<div class="spec">Log in to find ideas and inspiration you’ll love. No words required.
+<small>Regular · 17.6 px / 1.404 · wght 420 · +0.0072em</small></div>
+<div class="spec"><span class="w5">Message settings</span><br><span class="w5">Account management</span>
+<small>Semibold rows · 17.6 px · wght 500 · −0.016em (provisional)</small></div>
+<div class="spec"><span class="w6">Endless inspiration awaits</span>
+<small>Web H1 · 22.3 px / 1.418 · wght 610 · −0.0183em (provisional)</small></div>
+<div class="spec"><span class="big">Jan 14, 2004</span><br>0 1 2 3 4 5 6 7 8 9
+<small>Lining, proportional figures · digit height = cap height</small></div>
+
+<h2>Honest score</h2>
+<div class="scroll"><table>
+<tr><th>Dimension</th><th>Result</th><th>Score</th></tr>
+<tr><td>Vertical proportions</td><td>Within 3.5%; descenders 15–20% long</td><td class="s hi">8/10</td></tr>
+<tr><td>Real-browser widths</td><td>−0.5% to +1.8% (Chromium, 4.5×)</td><td class="s hi">8/10</td></tr>
+<tr><td>Glyph spacing, held-out</td><td>0.91 css px Regular, 0.74 Semibold</td><td class="s hi">7/10</td></tr>
+<tr><td>Weight match</td><td>Stem −5% Regular; 500/610 interpolated</td><td class="s mid">6/10</td></tr>
+<tr><td>Glyph shapes</td><td>0.77 overlap; g, t, terminals differ</td><td class="s mid">5/10</td></tr>
+<tr><td>Coverage</td><td>~20 lowercase, 4 digit widths</td><td class="s lo">4/10</td></tr>
+</table></div>
+<p style="margin-top:14px"><strong style="font-weight:610">Overall: 7/10 as a stand-in, 5/10 against “100% identical”.</strong> Identical shapes need the licensed font, which this project does not copy.</p>
+
+<h2>What the research found</h2>
+<p>Pinterest Sans was designed by Grilli Type with Made Thought in 2021, with a tall x-height. Pinterest’s public Gestalt docs say product UI uses system fonts, which conflicts with the screenshots: the UI digits do not match the phone’s status-bar font. Which face the app ships is unconfirmed, and pinterest.com blocks automated inspection.</p>
+<p class="mute">Code, data and tools: github.com/danieboy180-stack/Synthetix-UI-Font</p>
+</main>
+</body>
+</html>
