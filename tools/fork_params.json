@@ -1,0 +1,31 @@
+{
+ "family": "Synthetix UI",
+ "base": "Instrument Sans (SIL OFL 1.1)",
+ "size_adjust": 1.1,
+ "scale_px_per_css": 4.5,
+ "method": "tracking(w)=a0+a1*(wght-420)/190, least squares on glyph left edges rendered in Chromium (subpixel positioning, 4.5x DPR); model chosen by leave-one-out over 9 samples (held-out 0.97 vs untuned 1.14 css px)",
+ "coefficients": {
+  "a0": 0.00422,
+  "a1": -0.01326
+ },
+ "instances": [
+  {
+   "style": "Regular",
+   "wght": 420,
+   "weightClass": 400,
+   "track_em": 0.00422
+  },
+  {
+   "style": "SemiBold",
+   "wght": 500,
+   "weightClass": 600,
+   "track_em": -0.00136
+  },
+  {
+   "style": "Bold",
+   "wght": 610,
+   "weightClass": 700,
+   "track_em": -0.00904
+  }
+ ]
+}

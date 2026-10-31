@@ -1,52 +1,48 @@
-# Synthetix UI Font
+# Synthetix UI
 
-Open-source stand-in tuned to measurements of Pinterest's in-app UI type (Android app + mobile web), built from screenshots.
-Base font: **Instrument Sans** (SIL OFL). Nothing here contains Pinterest font files or traced outlines.
+A tuned fork of **Instrument Sans** (SIL OFL 1.1) that mimics the proportions, weights and spacing measured from Pinterest's in-app UI type. It copies no Pinterest font data and is not affiliated with Pinterest. Glyph shapes are Instrument Sans's.
 
-## Honest score
-| Dimension | Result | Score |
+## Files
+- `fonts/SynthetixUI-{Regular,SemiBold,Bold}.{ttf,woff}` and `fonts/OFL.txt` (font binaries: see "Getting the fonts" below)
+- `css/synthetix-ui-font.css` tokens and classes
+- `tools/build_fork.py` rebuilds the fonts from Instrument Sans; `tools/fork_params.json` holds the calculations
+- `tools/browser_fit.py` fits and verifies in real Chromium
+- `metrics/pinterest-sans-measured.json` the measurements; `preview/index.html` the specimen
+
+## What was calculated
+1. **Weights:** Regular and Bold masters become a variable font, then three weights are cut to hit the measured stem/cap ratios. Regular = wght 420 (stem/cap 0.116 vs 0.117), SemiBold = 500 (0.143 vs 0.143), Bold = 610 (0.178 vs 0.179). Plain Instrument Sans only has 400 and 700, so its bold is about 14% too heavy.
+2. **Tracking:** fitted on glyph positions rendered in Chromium, `track(w) = +0.00422 - 0.01326 * (wght-420)/190` em, baked into advance widths: +4 / -1 / -9 units per 1000. Five other models were tested by leave-one-out and lost (word-spacing models overfit).
+3. **Size:** `size-adjust:110%` so `16px` reproduces the measured body (cap 12.44 css px at 4.5 px/css-px). This assumes Pinterest's body is 16px; if it is not, only the nominal sizes change.
+
+## Measured accuracy (9 strings, one device, real Chromium at 4.5x)
+| | Synthetix UI | Plain Instrument Sans 400/700 |
 |---|---|---|
-| Vertical proportions (x-height, ascender, round "o", "n") | within 3.5% of target; descenders 15-20% too long | 8/10 |
-| Real-browser widths (Chromium, 4.5x) | -0.5% to +1.8% on 3 strings | 8/10 |
-| Glyph spacing, **held-out** (leave-one-out) | Regular 0.91 css px, Semibold 0.74 (untuned: 1.24 / 1.83). Bold not testable (1 sample) | 7/10 |
-| Weight match | Regular stem -5%; Semibold/Bold use interpolated wght 500/610, untested on a variable file | 6/10 |
-| Glyph shapes | 0.77 overlap (IoU); g tail, t cut, terminals differ | 5/10 |
-| Coverage | ~20 lowercase letters, 4 digit widths, few capitals | 4/10 |
+| Mean glyph x-error | **0.81 css px** (0.97 held-out) | 2.09 |
+| Mean width error | **0.95%** (worst +4.0%, "Settings") | 2.84% |
 
-**Overall: 7/10 as a stand-in, 5/10 against "100% identical".** The earlier "0.65 css px" figure was in-sample; the held-out figure is 0.91.
-
-## Research findings
-- **Pinterest Sans** was designed by Grilli Type with Made Thought (announced 2021). Press coverage describes a taller x-height in every weight, vertically cut stroke endings, and a mix of geometric and handwritten character. My measured x-height/cap of 0.73 fits that description.
-- **Conflict:** Pinterest's public design system (github.com/pinterest/gestalt, typography page) says product UI defaults to system fonts and Pinterest Sans is for branded graphics, "never for UI". That page may be stale or may describe only parts of the product.
-- **Test:** the UI "0" matches the phone's own status-bar "0" at only 0.78 IoU (same-font control = 1.0, a plain Arial-like "0" = 0.91). So these screenshots are **not** in the phone's system font. They most likely show a Pinterest-supplied face, but I could not confirm which.
-- `pinterest.com` blocks automated access, so its CSS and font files were not inspected. To confirm yourself: open the site, DevTools > Elements > Computed > "Rendered Fonts".
-
-## Measured spec (css px = screenshot px / 4.5)
-Scale checks: 48 css button = 216 px; 16 dp margin = 72 px; card width 1440 px = 320 css px.
-
-| Role | cap | x-height | ascender | baseline pitch | stem/cap |
-|---|---|---|---|---|---|
-| Body | 12.44 | 9.11 | 12.9 | 24.67 | 0.117 |
-| Semibold rows | 12.44 | 9.11 | 12.9 | n/a | 0.143 |
-| Web H1 | 15.78 | 11.56 | 16.44 | 31.56 | 0.179 |
-
-Scale-free: x-height/cap 0.73, ascender/cap 1.03-1.04, descender/cap 0.23-0.27, "o" width/x-height 1.00-1.02, digits lining and proportional ("1" = 0.43 cap).
-All raw data: `metrics/pinterest-sans-measured.json`.
-
-## Candidates tested (12 fonts available offline)
-Instrument Sans was the best balance (regular IoU 0.765). Adventor fit proportions but has the wrong single-story a. Carlito was too narrow, Liberation Sans too narrow in "o", Poppins and Work Sans off in x-height or width.
-Not tested (no network): Figtree, DM Sans, Plus Jakarta Sans, Albert Sans, Hanken Grotesk, Onest, Inter.
+**Score: 7.5/10 as a stand-in, 5/10 against "identical".** Weights 9, spacing 8, widths 8, vertical proportions 8, glyph shapes 5 (0.77 overlap), coverage 4 (about 20 lowercase letters).
 
 ## Use it
-- `css/synthetix-ui-font.css`: tokens and classes. Values marked PROVISIONAL were solved on static 400/700 files.
-- `python tools/fit_font.py --font <file> ...`: ranks any font against the measurements and emits CSS numbers (sweeps `wght` on variable fonts).
-- `python tools/loo_validate.py --regular R.ttf --bold B.ttf`: held-out accuracy.
-- `python tools/browser_check.py --regular R.ttf --bold B.ttf`: real Chromium render check (needs playwright).
-- `preview/index.html`: live specimen.
+```html
+<link rel="stylesheet" href="css/synthetix-ui-font.css">
+<p class="sx-body">Body</p>  <p class="sx-label">Row label</p>  <h1 class="sx-h1">Headline</h1>
+```
+or `font-family:"Synthetix UI"; font-size:16px; font-weight:400|600|700`. No letter-spacing needed. Needs Chrome/Edge/Firefox 92+ or Safari 17+ for `size-adjust`.
 
-## What cannot reach 10/10 here
-1. **Glyph outlines:** identical shapes need the licensed font. Redrawing it from screenshots is copying it. An original face drawn to this spec is the only legitimate route to full metric parity.
-2. **Coverage:** every missing glyph needs more screenshots (all digits, A-Z, punctuation, Medium weight, 12-14 px sizes).
-3. **Variable-weight tracking:** Semibold/Bold spacing must be re-fitted on the real variable file.
-4. **Candidate search:** run `fit_font.py` on the untested fonts above.
-5. **Single device:** one phone, one renderer; a second capture would test the 4.5 scale assumption.
+## Getting the fonts
+Font binaries cannot be pushed through the tooling used to build this repo. Either upload the six files from the chat download into `fonts/` (GitHub: Add file > Upload files), or rebuild:
+```
+pip install fonttools
+python tools/build_fork.py --regular InstrumentSans-Regular.ttf --bold InstrumentSans-Bold.ttf --out fonts
+```
+Inputs: https://github.com/Instrument/instrument-sans. WOFF2 needs the optional `brotli` package; WOFF is written by default.
+Re-check the fit: `python tools/browser_fit.py verify --fonts fonts --plain-regular R.ttf --plain-bold B.ttf`.
+
+## Corrections to earlier results
+Earlier spacing numbers (held-out 0.91 / 0.74 css px, widths +1.3%) came from two flawed methods: Pillow ignores GPOS kerning, and default headless Chromium rounds glyph advances to whole css px. Both are replaced by `browser_fit.py` (subpixel positioning on). `tools/fit_font.py` is still useful for ranking proportions, but ignore its spacing output.
+
+## Licence
+Fonts are a Modified Version of Instrument Sans under the SIL OFL 1.1 (`fonts/OFL.txt`). Copyright 2022 The Instrument Sans Project Authors. Renamed; no Reserved Font Name is declared by the original. Do not sell the fonts by themselves.
+
+## Limits
+Identical outlines would need the licensed font. More coverage needs more screenshots (digits, A-Z, punctuation, Medium, small sizes). Medium weight and the 4.5 scale (assumed from the redline, cross-checked by a 16 dp margin) remain unverified.
