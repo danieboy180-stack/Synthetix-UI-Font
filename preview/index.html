@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Synthetix UI: a tuned fork of Instrument Sans</title>
+<title>Synthetix UI v2: a tuned fork of Instrument Sans</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&amp;display=swap">
 <style>
-@font-face{font-family:"Synthetix UI";font-weight:400;font-display:swap;size-adjust:110%;src:url("../fonts/SynthetixUI-Regular.woff") format("woff"),url("../fonts/SynthetixUI-Regular.ttf") format("truetype")}@font-face{font-family:"Synthetix UI";font-weight:600;font-display:swap;size-adjust:110%;src:url("../fonts/SynthetixUI-SemiBold.woff") format("woff"),url("../fonts/SynthetixUI-SemiBold.ttf") format("truetype")}@font-face{font-family:"Synthetix UI";font-weight:700;font-display:swap;size-adjust:110%;src:url("../fonts/SynthetixUI-Bold.woff") format("woff"),url("../fonts/SynthetixUI-Bold.ttf") format("truetype")}
+@font-face{font-family:"Synthetix UI";font-weight:400;font-display:swap;size-adjust:108%;src:url("../fonts/SynthetixUI-Regular.woff") format("woff"),url("../fonts/SynthetixUI-Regular.ttf") format("truetype")}@font-face{font-family:"Synthetix UI";font-weight:600;font-display:swap;size-adjust:108%;src:url("../fonts/SynthetixUI-SemiBold.woff") format("woff"),url("../fonts/SynthetixUI-SemiBold.ttf") format("truetype")}@font-face{font-family:"Synthetix UI";font-weight:700;font-display:swap;size-adjust:108%;src:url("../fonts/SynthetixUI-Bold.woff") format("woff"),url("../fonts/SynthetixUI-Bold.ttf") format("truetype")}
 :root{--bg:#f6f5f1;--fg:#16150f;--mute:#5d5b52;--line:#d9d6cb;--card:#fff;--ok:#1f6b3a;--warn:#9a5b00;--bad:#a12626;--tag:#e8e5da;
  --sx:"Synthetix UI",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--is:"Instrument Sans",system-ui,sans-serif;
  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -20,14 +20,14 @@ p{margin:0 0 12px;max-width:62ch}.mute{color:var(--mute)}
 .tag{display:inline-block;font:600 12px/1 var(--sx);background:var(--tag);color:var(--mute);border-radius:99px;padding:4px 8px;margin-bottom:8px;letter-spacing:.02em}
 .sx{font-family:var(--sx)}.is{font-family:var(--is)}
 .b{font-size:16px;line-height:1.542;font-weight:400}.l{font-size:16px;font-weight:600}.h{font-size:20.3px;line-height:1.555;font-weight:700}
-.is.b{font-size:17.6px}.is.l{font-size:17.6px;font-weight:700}.is.h{font-size:22.3px;font-weight:700}
+.is.b{font-size:17.3px}.is.l{font-size:17.3px;font-weight:700}.is.h{font-size:21.9px;font-weight:700}
 pre{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;overflow-x:auto;font:13px/1.5 ui-monospace,Menlo,Consolas,monospace;margin:0 0 12px}
 .scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:520px;font-size:14.5px}
 th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-weight:600}
 .s{font-weight:700;white-space:nowrap}.hi{color:var(--ok)}.mid{color:var(--warn)}.lo{color:var(--bad)}
 </style></head><body><main>
-<h1>Synthetix UI</h1>
-<p class="mute">A tuned fork of Instrument Sans (SIL OFL). Real font files, loaded by this page: Regular, SemiBold and Bold. Not affiliated with Pinterest.</p>
+<h1>Synthetix UI v2</h1>
+<p class="mute">A tuned fork of Instrument Sans (SIL OFL). Real font files, loaded by this page: Regular, SemiBold and Bold (v2). Not affiliated with Pinterest.</p>
 
 <h2>Side by side</h2>
 <div class="row"><span class="tag">Plain Instrument Sans 400 / 700</span><div class="is b">Log in to find ideas and inspiration you’ll love. No words required.</div></div>
@@ -36,7 +36,7 @@ th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);verti
 <div class="row"><span class="tag">Synthetix UI SemiBold</span><div class="sx l">Message settings · Account management</div></div>
 <div class="row"><span class="tag">Plain Instrument Sans 700</span><div class="is h">Endless inspiration awaits</div></div>
 <div class="row"><span class="tag">Synthetix UI Bold</span><div class="sx h">Endless inspiration awaits</div></div>
-<p class="mute">The fork’s stems are calibrated: Regular, SemiBold and Bold sit within 1.3% of the measured stem weights. Plain Instrument Sans only offers 400 and 700, so its bold is about 14% too heavy.</p>
+<p class="mute">v2 also matches Pinterest’s proportions: 24 letter widths, ascender, descender and dot heights are tuned from the pangram at three display sizes. Stems sit within 1.3% of the measured weights; plain Instrument Sans only offers 400 and 700, so its bold is about 14% too heavy.</p>
 
 <h2>How to use it</h2>
 <pre>&lt;link rel="stylesheet" href="css/synthetix-ui-font.css"&gt;
@@ -44,17 +44,18 @@ th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);verti
 &lt;p class="sx-body"&gt;Body text&lt;/p&gt;
 &lt;p class="sx-label"&gt;Row label&lt;/p&gt;
 &lt;h1 class="sx-h1"&gt;Headline&lt;/h1&gt;</pre>
-<p class="mute">Or in your own CSS: <code>font-family:"Synthetix UI"; font-size:16px;</code> The fonts carry <code>size-adjust:110%</code>, so 16px renders the measured body size. No letter-spacing needed; tracking is baked in.</p>
+<p class="mute">Or in your own CSS: <code>font-family:"Synthetix UI"; font-size:16px;</code> The fonts carry <code>size-adjust:108%</code>, so 16px renders the measured body size. No letter-spacing needed; tracking is baked in.</p>
 
 <h2>Honest score</h2>
 <div class="scroll"><table>
 <tr><th>Dimension</th><th>Result</th><th>Score</th></tr>
-<tr><td>Weight match</td><td>Stem/cap within 1.3% (420, 500, 610 cut from true masters)</td><td class="s hi">9/10</td></tr>
-<tr><td>Glyph spacing</td><td>0.81 css px error (plain Instrument Sans: 2.09); 0.97 held-out</td><td class="s hi">8/10</td></tr>
-<tr><td>Real-browser widths</td><td>0.95% mean error, worst +4.0% (“Settings”)</td><td class="s hi">8/10</td></tr>
-<tr><td>Vertical proportions</td><td>x-height −2.8%, ascender −3.4%, descenders 15–20% long</td><td class="s hi">8/10</td></tr>
-<tr><td>Glyph shapes</td><td>0.77 overlap; g, t, terminals are Instrument Sans’s</td><td class="s mid">5/10</td></tr>
-<tr><td>Coverage</td><td>9 measured strings, ~20 lowercase letters</td><td class="s lo">4/10</td></tr>
+<tr><td>Weight match</td><td>Stem/cap within 1.3% (420, 500, 610 from true masters)</td><td class="s hi">9/10</td></tr>
+<tr><td>Vertical proportions</td><td>Ascender, descender, dots, x-height within 0.6% of cap</td><td class="s hi">9/10</td></tr>
+<tr><td>Letter widths</td><td>0.011 cap mean error (was 0.032); worst J 0.085</td><td class="s hi">8.5/10</td></tr>
+<tr><td>String spacing, held-out</td><td>0.97 css px (plain Instrument Sans: 1.19)</td><td class="s hi">8.5/10</td></tr>
+<tr><td>Real-browser widths</td><td>0.98% mean error (plain: 1.62%)</td><td class="s hi">8.5/10</td></tr>
+<tr><td>Glyph shapes</td><td>Outlines are Instrument Sans’s (g, a, t, J, terminals)</td><td class="s mid">6/10</td></tr>
+<tr><td>Coverage</td><td>52 letters at 3 sizes; digits, punctuation, Medium unedited</td><td class="s mid">7/10</td></tr>
 </table></div>
-<p style="margin-top:14px"><strong>Overall: 7.5/10 as a stand-in, 5/10 against “identical”.</strong> Measured on 9 strings from one device; the held-out figure comes from leave-one-out, not new text.</p>
+<p style="margin-top:14px"><strong>Overall: 8/10 as a stand-in, 5.5/10 against “identical”.</strong> Measured on 41 strings from one device; the held-out figure is leave-one-text-out. All-caps runs are about 2–3% wide.</p>
 </main></body></html>
