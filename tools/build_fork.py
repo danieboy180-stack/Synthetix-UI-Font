@@ -8,9 +8,10 @@ What it does (all deterministic, no network):
        Regular  = wght 420   (stem/cap 0.116 vs target 0.117)
        SemiBold = wght 500   (0.143 vs 0.143)
        Bold     = wght 610   (0.178 vs 0.179)
-  3. Bakes weight-dependent tracking into the advance widths (units from fork_params.json).
-  4. Renames the family to "Synthetix UI" and sets weight classes 400 / 600 / 700.
-  5. Writes TTF + WOFF (zlib; WOFF2 needs the optional 'brotli' package).
+  3. Applies measured proportion edits (tune_glyphs.py): per-letter widths, ascender/descender/dot heights.
+  4. Bakes weight-dependent tracking into the advance widths (units from fork_params.json).
+  5. Renames the family to "Synthetix UI" and sets weight classes 400 / 600 / 700.
+  6. Writes TTF + WOFF (zlib; WOFF2 needs the optional 'brotli' package).
 
   pip install fonttools
   python build_fork.py --regular InstrumentSans-Regular.ttf --bold InstrumentSans-Bold.ttf --out ../fonts
@@ -23,6 +24,9 @@ from fontTools.ttLib import TTFont
 from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor
 from fontTools import varLib
 from fontTools.varLib import instancer
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import tune_glyphs
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -86,7 +90,7 @@ def main():
     ap.add_argument("--regular", required=True); ap.add_argument("--bold", required=True)
     ap.add_argument("--params", default=os.path.join(HERE, "fork_params.json"))
     ap.add_argument("--out", default=os.path.join(HERE, "..", "fonts"))
-    ap.add_argument("--no-tracking", action="store_true", help="write unbaked calibrated weights (Unbaked-<Style>.ttf) for browser_fit.py fit")
+    ap.add_argument("--no-tracking", action="store_true", help="write edited but untracked weights (Unbaked-<Style>.ttf) for browser_fit.py fit")
     a = ap.parse_args()
     P = json.load(open(a.params)); os.makedirs(a.out, exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:
@@ -94,6 +98,7 @@ def main():
         vp = os.path.join(tmp, "vf.ttf"); vf.save(vp)
         for inst in P["instances"]:
             f = instancer.instantiateVariableFont(TTFont(vp), {"wght": inst["wght"]}, inplace=False)
+            tune_glyphs.apply_edits(f, P["edits"], mode="center")
             if a.no_tracking:
                 f.save(os.path.join(a.out, f"Unbaked-{inst['style']}.ttf")); continue
             units = round(inst["track_em"] * f["head"].unitsPerEm)

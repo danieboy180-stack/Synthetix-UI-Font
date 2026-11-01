@@ -1,31 +1,87 @@
 {
  "family": "Synthetix UI",
  "base": "Instrument Sans (SIL OFL 1.1)",
- "size_adjust": 1.1,
+ "version": 2,
+ "size_adjust": 1.08,
  "scale_px_per_css": 4.5,
- "method": "tracking(w)=a0+a1*(wght-420)/190, least squares on glyph left edges rendered in Chromium (subpixel positioning, 4.5x DPR); model chosen by leave-one-out over 9 samples (held-out 0.97 vs untuned 1.14 css px)",
+ "method": "v2: (1) weights cut from the Regular/Bold masters to hit measured stem/cap; (2) proportion edits from the pangram at 3 display sizes (letter widths scaled about the ink centre with advances unchanged; ascenders +4% cap, descenders -4.6% cap, i/j dots +2% cap); (3) tracking(w)=a0+a1*(wght-420)/190 em fitted by least squares on glyph left edges rendered in Chromium at cap-matched size over 41 UI strings (20 distinct texts), model chosen by leave-one-text-out validation (held-out 0.97 css px vs 1.08 without the edits)",
  "coefficients": {
-  "a0": 0.00422,
-  "a1": -0.01326
+  "a0": 0.01387,
+  "a1": -0.00646
+ },
+ "edits": {
+  "width_scale": {
+   "J": 1.08,
+   "E": 0.92,
+   "t": 0.92,
+   "w": 1.08,
+   "T": 0.92,
+   "a": 1.08,
+   "F": 0.92,
+   "L": 0.92,
+   "z": 1.08,
+   "Y": 0.926,
+   "P": 0.929,
+   "K": 0.934,
+   "p": 1.064,
+   "d": 1.063,
+   "R": 0.938,
+   "V": 0.941,
+   "q": 1.058,
+   "B": 0.945,
+   "b": 1.053,
+   "r": 0.948,
+   "M": 0.955,
+   "X": 1.04,
+   "f": 0.962,
+   "Z": 1.038
+  },
+  "vertical": {
+   "ascender_raise": {
+    "cap": 0.04,
+    "glyphs": [
+     "b",
+     "d",
+     "f",
+     "h",
+     "k",
+     "l"
+    ]
+   },
+   "dot_lift": {
+    "cap": 0.02,
+    "glyphs": [
+     "i",
+     "j"
+    ]
+   },
+   "descender_shorten": {
+    "p": 0.046,
+    "q": 0.046,
+    "g": 0.049,
+    "j": 0.049,
+    "y": 0.029
+   }
+  }
  },
  "instances": [
   {
    "style": "Regular",
    "wght": 420,
    "weightClass": 400,
-   "track_em": 0.00422
+   "track_em": 0.01387
   },
   {
    "style": "SemiBold",
    "wght": 500,
    "weightClass": 600,
-   "track_em": -0.00136
+   "track_em": 0.01115
   },
   {
    "style": "Bold",
    "wght": 610,
    "weightClass": 700,
-   "track_em": -0.00904
+   "track_em": 0.00741
   }
  ]
 }

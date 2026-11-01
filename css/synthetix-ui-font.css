@@ -1,25 +1,26 @@
 /*
-  Synthetix UI - fork of Instrument Sans (SIL OFL 1.1), tuned to measured UI type metrics.
+  Synthetix UI v2 - fork of Instrument Sans (SIL OFL 1.1), tuned to measured UI type metrics.
   Fonts: ../fonts/SynthetixUI-{Regular,SemiBold,Bold}.{woff,ttf}   (build with tools/build_fork.py)
 
-  What is baked into the fonts:  interpolated weights (stem/cap within 1.3% of target) and
-  weight-dependent tracking (+4 / -1 / -9 units per 1000 em).  No letter-spacing is needed in CSS.
-  What the CSS adds:  size-adjust 110% so that "16px" reproduces the measured body size
-  (cap 12.44 css px at the 4.5 px/css-px scale).  Needs Chrome/Edge 92+, Firefox 92+, Safari 17+.
+  Baked into the fonts:  interpolated weights (stem/cap within 1.3% of target), per-letter width edits,
+  ascender/descender/dot heights matched to Pinterest's, and weight-dependent tracking (+14 / +11 / +7 units per 1000 em).
+  No letter-spacing is needed in CSS.
+  The CSS adds size-adjust 108%, so "16px" reproduces the measured body size (cap 12.44 css px at the
+  4.5 px/css-px scale; font px = cap / 0.72).  Needs Chrome/Edge 92+, Firefox 92+, Safari 17+.
 */
-@font-face{font-family:"Synthetix UI";font-weight:400;font-style:normal;font-display:swap;size-adjust:110%;
+@font-face{font-family:"Synthetix UI";font-weight:400;font-style:normal;font-display:swap;size-adjust:108%;
   src:url("../fonts/SynthetixUI-Regular.woff") format("woff"),url("../fonts/SynthetixUI-Regular.ttf") format("truetype")}
-@font-face{font-family:"Synthetix UI";font-weight:600;font-style:normal;font-display:swap;size-adjust:110%;
+@font-face{font-family:"Synthetix UI";font-weight:600;font-style:normal;font-display:swap;size-adjust:108%;
   src:url("../fonts/SynthetixUI-SemiBold.woff") format("woff"),url("../fonts/SynthetixUI-SemiBold.ttf") format("truetype")}
-@font-face{font-family:"Synthetix UI";font-weight:700;font-style:normal;font-display:swap;size-adjust:110%;
+@font-face{font-family:"Synthetix UI";font-weight:700;font-style:normal;font-display:swap;size-adjust:108%;
   src:url("../fonts/SynthetixUI-Bold.woff") format("woff"),url("../fonts/SynthetixUI-Bold.ttf") format("truetype")}
 
 :root{
   --sx-font:"Synthetix UI",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --sx-fs-body:16px;     /* measured cap 12.44, x-height 9.11 css px */
-  --sx-fs-tabs:14.8px;   /* cap 11.56 */
-  --sx-fs-title:19.9px;  /* cap 15.56 */
-  --sx-fs-h1:20.3px;     /* cap 15.78, x-height 11.56 */
+  --sx-fs-body:16px;     /* measured cap 12.44 css px */
+  --sx-fs-tabs:14.9px;   /* cap 11.56 */
+  --sx-fs-title:20px;    /* cap 15.56 */
+  --sx-fs-h1:20.3px;     /* cap 15.78 */
   --sx-lh-body:1.542;    /* measured baseline pitch 24.67 css px */
   --sx-lh-h1:1.555;      /* 31.56 css px */
 }
