@@ -1,5 +1,7 @@
 # Synthetix UI (v2)
 
+> **V4 in progress** on branch `v4`: contract in `docs/V4_CONTRACT.md`, status in `reports/V4.0.0-status.md`. Everything below describes v2 as shipped; none of its scores are V4 claims.
+
 A tuned fork of **Instrument Sans** (SIL OFL 1.1) that mimics the proportions, weights and spacing measured from Pinterest's in-app UI type. It copies no Pinterest font data and is not affiliated with Pinterest. Glyph outlines are Instrument Sans's, edited only for proportions.
 
 ## Honest score
