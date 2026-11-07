@@ -64,10 +64,11 @@ Two reviewers use `IDENTITY_DIRECTION.md`. In a blind comparison of Synthetix, I
 
 | ID | Gap in the plan text |
 |---|---|
-| O-1 | No weights or formula roll F1-F5 into a 0-100 score. Until set, the operative test is that every criterion meets its threshold, and no /100 number is reported. |
+| O-1 | No weights or formula roll F1-F5 into a 0-100 score. V3's own blended rubric (weights 25 / 15 / 10 / 15 / 15 / 10 / 5 / 5) is one candidate, but the plan forbids blending. Until set, the operative test is that every criterion meets its threshold, and no /100 number is reported. |
 | O-2 | The Quality scorecard has no numeric thresholds. |
 | O-3 | Name: "Synthetix" collides with an active DeFi protocol (SNX). Keep or rename is undecided; the trademark and domain search record is outstanding. |
 | O-4 | "Critical defect" has no severity definition and there is no defect register. |
-| O-5 | The frozen scorer is not in this repo. Its location and hash are to be recorded. |
+| O-5 | The frozen scorer does not exist yet. V3's scoring scripts (`tools/evalref.py`, `tools/geometry.py`, `tools/v3/eval_final.py`, `tools/v3/make_scores.py`, `tools/v3/final_checks.py`) are pinned by `baseline/v3/MANIFEST.sha256` but cannot be re-run: the reference screenshots and bitmaps are not in the V3 zip, and 16 of its 18 scripts hardcode absolute paths. V3's 72.1/100 is recorded, not re-verified. |
 | O-6 | Reference definition: screenshots with device, OS and app version (Stage 3). Whether the target UI really uses Pinterest Sans is unconfirmed (README, Known limits), so F1-F5 measure similarity to a captured reference, not to "Pinterest Sans". |
 | O-7 | The Glyph Decision Register (Match / Keep / Diverge per glyph) is not started. |
+| O-8 | "Required character" is undefined, so H2 and H3 (no .notdef for any required character) cannot be fully evaluated. The baseline audit used its own lists (`reports/V3-baseline-audit.md`). |
