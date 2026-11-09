@@ -1,0 +1,9 @@
+fonttools==4.67.0
+numpy>=2.0
+pillow>=11
+playwright==1.63.0
+opencv-python-headless>=4.9   # frozen v3 scorer (tools/scorer)
+scipy>=1.13               # frozen v3 scorer
+scikit-image>=0.24        # frozen v3 scorer
+# For WOFF2 install the real wheel:  brotli>=1.1   (then do NOT use tools/brotli_node_shim)
+# For Stage 11/12 CI:  fontbakery[googlefonts]  gftools  (see .github/workflows/ci.yml)

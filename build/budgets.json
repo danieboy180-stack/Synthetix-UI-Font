@@ -1,0 +1,16 @@
+{
+ "unit": "bytes per face, WOFF2",
+ "registered_before_first_export": true,
+ "static": {
+  "latin": 30000,
+  "latin-ext": 24000,
+  "african": 12000,
+  "symbols": 10000
+ },
+ "variable": {
+  "latin": 45000,
+  "latin-ext": 36000,
+  "african": 18000,
+  "symbols": 15000
+ }
+}
