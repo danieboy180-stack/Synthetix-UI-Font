@@ -12,9 +12,9 @@ Not affiliated with Pinterest. **Status: release candidate. This is NOT a 10/10 
   Decomposed, precomposed and reversed-mark-order text render pixel-identically (192 Chromium comparisons).
 - **Numerals**: exactly equal tabular figures (`tnum`), slashed zero (`zero`), `lnum`, `frac`, `numr`/`dnom`, `sups`/`subs`/`sinf`, ¼ ½ ¾ ⅓ ⅔ ⅛, ¹²³, ⁰–⁹, ₀–₉.
 - **UI symbols**: ✓ № ± ≠ ≤ ≥ ≈ ∞ ₵ ₹ ⁄ and the Latin-1/Latin Ext-A gaps (Ĉ Ĝ Ĥ Ĵ Ŝ Ĕ Ĭ Ŏ Ĩ Ũ Ţ Ŧ Ŀ ŉ ĸ …).
-- **Opt-in `ss13`** (tailed l, serifed I) for IDs/codes; with `zero` it separates Il1 / O0 at 12–14 px.
-- **Variable font** `SynthetixUI[wght].ttf` (wght 400–600, three masters, STAT + named instances); static 400/500/600; WOFF, WOFF2; unicode-range subsets (latin, latin-ext, african, symbols).
-- **Reproducible**: all 27 shipped font files rebuild byte-identically from a clean copy of the inputs.
+- **Opt-in `ss13`** (tailed l, serifed I, looser rn/cl/vv) for IDs/codes; with `zero` it separates Il1, O0, rn/m, cl/d and vv/w at 12–14 px (the default text still fails I~l and rn~m).
+- **Variable font** `SynthetixUI[wght].ttf` (wght 400–600, three masters, STAT + named instances); static 400/500/600; WOFF, WOFF2; unicode-range subsets (latin, latin-ext, african, symbols). The full variable latin subset is 50,192 B (over its 45,000 B budget); `css/synthetix-ui-lite.css` uses a 40,128 B lite subset (core features + ss13, no stylistic sets/frac).
+- **Reproducible**: all 28 shipped font files rebuild byte-identically from a clean copy of the inputs.
 - Design tokens (W3C JSON → CSS, Swift, Android), WCAG-checked palette, UI kit, wordmark outlines, QA tooling, CI workflow.
 - Fixed an inherited V3 defect: `usWinDescent` was 300 while comma-below reached −329 in SemiBold (clipping on Windows).
 

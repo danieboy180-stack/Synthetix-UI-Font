@@ -6,9 +6,9 @@
 |---|---|---|---|
 | Hard | Font Bakery universal + Google Fonts profiles: 0 FAIL | **NOT MEASURED** | fontbakery not installed and no network in the build sandbox. tools/run_checks.py::check_metadata is a small own subset, not a substitute. |
 | Hard | Pri-African coverage + language shaping (Hausa, Yoruba, Igbo) | **PASS** | coverage sets complete in 3 masters; 192 NFC/NFD/reversed-mark render comparisons, 0 failures (Chromium). |
-| Hard | Latin Core coverage (official 324-glyph list) | **NOT MEASURED** | glyphsets/GF_Latin_Core not available offline. Own check: Latin-1 + Latin Ext-A complete except U+017F (long s) and U+0192 (florin), which are not drawn. |
+| Hard | Latin Core coverage (official 324-glyph list) | **PARTIAL** | official Core letters: 219/219 present in all 3 masters (source: googlefonts/glyphsets 0.6.19). NOT verified: the 104 non-letter Core glyphs (list not retrievable offline) and the unencoded /idotaccent glyph (absent). |
 | Hard | Tabular figures equal width; no .notdef for required characters | **PASS** | static + 7 variable instances equal; no cmap entry maps to .notdef. |
-| Hard | Clean-clone build reproduces recorded SHA-256 | **PASS** | 27/27 font files identical from a clean copy of the inputs (checked under two PYTHONHASHSEED values). Run inside the same sandbox, not on a separate machine/CI. |
+| Hard | Clean-clone build reproduces recorded SHA-256 | **PASS** | 28/28 font files identical from a clean copy of the inputs (checked under two PYTHONHASHSEED values). Run inside the same sandbox, not on a separate machine/CI. |
 | Hard | Variable and static agree within 1 unit | **PASS** | max coordinate delta 0.5 units at 400/500/600; advances identical. |
 | Hard | Advance widths identical across Chromium, Firefox, WebKit, native apps | **NOT MEASURED** | Chromium only: TTF/WOFF/WOFF2/variable agree (max delta 0.000 px); DPR 1-3, dark, forced-colours, 200% zoom/text agree (0.008 px). Firefox, WebKit, iOS, Android not run. |
 | Hard | OFL text and copyright intact | **PASS** | fonts/OFL.txt + name IDs 0/13/14 verified. |
@@ -19,9 +19,9 @@
 | Fidelity | Held-out pair gaps within 1 px for >= 90% | **FAIL** | 40/49 = 81.6%; NOT held out (V3 fitted on the same pairs), so this is an upper bound. |
 | Fidelity | Vertical metrics all within 1 px | **FAIL** | 8/9; failing: ['Q below baseline'] |
 | Fidelity | Stems within 5% in all four weights from real references | **FAIL / NOT MEASURABLE** | Regular 9/11 (HIGH targets). Medium/SemiBold targets are inferred; no Bold exists; no heavier references. Cannot be met without new references. |
-| Quality | Small-size confusables (Il1, O0, rn~m at 12-14 px) | **FAIL (default); I~l fixed by opt-in ss13** | default worst-case Jaccard: {'I~l': 1.0, 'I~1': 0.367, 'l~1': 0.355, 'O~0': 0.492, 'rn~m': 0.75}; with ss13+zero: {'I~l': 0.394, 'I~1': 0.6, 'l~1': 0.387, 'O~0': 0.464, 'rn~m': 0.75}. Pre-registered threshold 0.65. |
+| Quality | Small-size confusables (Il1, O0, rn~m at 12-14 px) | **FAIL (default); passes with opt-in ss13** | default worst-case Jaccard: {'I~l': 1.0, 'I~1': 0.367, 'l~1': 0.355, 'O~0': 0.492, 'rn~m': 0.75, 'cl~d': 0.512, 'vv~w': 0.467}; with ss13+zero: {'I~l': 0.394, 'I~1': 0.6, 'l~1': 0.387, 'O~0': 0.464, 'rn~m': 0.491, 'cl~d': 0.488, 'vv~w': 0.478}. Pre-registered threshold 0.65. Default fails 2 of 7 pairs; ss13+zero passes 7 of 7. |
 | Quality | WCAG 2.2 AA contrast pairs (light + dark) | **PASS** | 22 pairs, 0 failures. Palette is a placeholder. |
-| Quality | Subset byte budgets (registered before first export) | **FAIL** | over budget: ['variable/latin 51232 > 45000'] |
+| Quality | Subset byte budgets (registered before first export) | **FAIL** | over budget: ['variable/latin 50192 > 45000']. The variable latin-lite subset (core features + ss13) is 40128 B, within its 45,000 B limit; the owner decides which variable build ships. |
 | Quality | Human review of named kerning pairs | **NOT DONE** | needs people/devices/tools not available in this run (scaffolds provided where possible). |
 | Quality | Token adoption on real product screens (one per platform) | **NOT DONE** | needs people/devices/tools not available in this run (scaffolds provided where possible). |
 | Quality | Native iOS/Android test apps | **NOT DONE** | needs people/devices/tools not available in this run (scaffolds provided where possible). |

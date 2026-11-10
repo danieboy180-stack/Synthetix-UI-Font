@@ -11,6 +11,8 @@
   "latin": 45000,
   "latin-ext": 36000,
   "african": 18000,
-  "symbols": 15000
- }
+  "symbols": 15000,
+  "latin-lite": 45000
+ },
+ "note": "latin-lite (core features + ss13) added in the fix pass with the SAME 45000 limit as latin; no limit was changed."
 }
