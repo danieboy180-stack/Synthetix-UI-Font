@@ -1,0 +1,1 @@
+# V5 contract = Part XVI of the directive + amendments in PROCEDURE_REVIEW.md (additions only). Thresholds registered 2026-11-12 **before** further tuning: confusables (§9), interpolation (§6), fit error ≤1.5u, weight-validity gates (§5). Pinterest-similarity is not a V5 criterion.
