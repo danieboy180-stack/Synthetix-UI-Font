@@ -1,0 +1,39 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stackra Sans — specimen (V5 working build)</title>
+<style>
+@font-face{font-family:"Stackra Sans";src:url("../fonts/variable/StackraSans-VF.ttf") format("truetype");font-weight:300 500;font-display:block}
+:root{--bg:#fff;--fg:#111;--mut:#666;--line:#e4e4e4;--card:#f7f7f7}
+@media (prefers-color-scheme:dark){:root{--bg:#121212;--fg:#f2f2f2;--mut:#9a9a9a;--line:#2c2c2c;--card:#1b1b1b}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:400 16px/1.5 "Stackra Sans",sans-serif;padding:24px;max-width:1100px;margin-inline:auto}
+h1,h2{font-weight:500;margin:.2em 0}.mut{color:var(--mut);font-size:13px}
+.ctl{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin:14px 0;padding:12px;background:var(--card);border-radius:10px}
+.ctl label{font-size:13px;color:var(--mut)}input[type=text]{font:inherit;padding:8px 10px;width:min(560px,100%);border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
+#out{font-size:48px;line-height:1.15;margin:12px 0;word-break:break-word}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:6px}.grid div{background:var(--card);border-radius:6px;text-align:center;font-size:28px;padding:6px 0}
+table{border-collapse:collapse;width:100%;font-size:15px}td,th{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left}th{font-weight:500;color:var(--mut);font-size:12px}td.n,th.n{text-align:right}
+.card{border:1px solid var(--line);border-radius:12px;padding:16px;margin:12px 0}.row{display:flex;gap:16px;flex-wrap:wrap}.row>*{flex:1 1 280px}
+.pill{display:inline-block;padding:2px 10px;border-radius:99px;background:var(--card);font-size:12px}.btn{background:var(--fg);color:var(--bg);border:0;border-radius:10px;padding:10px 16px;font:500 15px "Stackra Sans"}
+.conf span{display:inline-block;margin:0 14px 8px 0;font-size:34px}
+</style></head><body>
+<h1>Stackra Sans <span class="pill">V5 working build · wght 300–500 · NOT a release</span></h1>
+<p class="mut">Latin basic set + figures + core punctuation. African-language letters, diacritics, kerning and OpenType features are not built yet (see GLYPH_STATUS.md).</p>
+<div class="ctl"><input id="t" type="text" value="Hamburgefontsiv — ₦1,250,000.00 · Il1 O0 rn m cl d (12) 5>3?"><label>weight <input id="w" type="range" min="300" max="500" value="400"> <b id="wv">400</b></label><label>size <input id="s" type="range" min="12" max="96" value="48"> <b id="sv">48</b>px</label></div>
+<div id="out" contenteditable="true"></div>
+<h2>Characters</h2><div class="grid" id="g"></div>
+<h2>Confusables</h2><div class="conf" id="c"><span>Il1</span><span>O0</span><span>rn m</span><span>cl d</span><span>vv w</span><span>B8</span><span>S5</span><span>GC</span><span>A4</span></div>
+<h2>Interface test: transactions</h2>
+<div class="card"><table id="tx"><thead><tr><th>Customer</th><th>Order</th><th>Status</th><th class="n">Amount</th></tr></thead><tbody>
+<tr><td>Amaka Obi</td><td>#10482</td><td><span class="pill">Paid</span></td><td class="n">₦1,250,000.00</td></tr>
+<tr><td>Tunde Bello</td><td>#10481</td><td><span class="pill">Pending</span></td><td class="n">₦9,999,999.99</td></tr>
+<tr><td>Zainab Musa</td><td>#10480</td><td><span class="pill">Paid</span></td><td class="n">₦150,000.50</td></tr>
+<tr><td>Chidi Eze</td><td>#10479</td><td><span class="pill">Refunded</span></td><td class="n">₦12,345.67</td></tr>
+<tr><td>Ngozi Adeyemi</td><td>#10478</td><td><span class="pill">Paid</span></td><td class="n">₦1,000,000,000.00</td></tr></tbody></table></div>
+<div class="row"><div class="card"><h2>Checkout</h2><p class="mut">Order summary · 3 items</p><p style="font-size:34px;font-weight:500;margin:.1em 0">₦48,750.00</p><button class="btn">Pay with transfer</button></div>
+<div class="card"><h2>Product</h2><p style="margin:.2em 0">Ankara tote bag — handmade in Lagos</p><p class="mut">In stock · Delivery in 2–3 days</p><p style="font-size:22px;font-weight:500">₦18,500.00</p></div></div>
+<h2>Paragraph (16 px)</h2><p style="max-width:62ch">Stackra helps small merchants sell on WhatsApp and social media: orders, payments and delivery tracking in one place. The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs. 0123456789.</p>
+<script>
+const t=document.getElementById('t'),w=document.getElementById('w'),s=document.getElementById('s'),o=document.getElementById('out');
+function up(){o.textContent=t.value;o.style.fontWeight=w.value;o.style.fontSize=s.value+'px';wv.textContent=w.value;sv.textContent=s.value}
+[t,w,s].forEach(e=>e.addEventListener('input',up));up();
+document.getElementById('g').innerHTML=[...'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,:;!?-()/+=\'"₦’“”–—'].map(c=>`<div>${c}</div>`).join('');
+</script></body></html>
