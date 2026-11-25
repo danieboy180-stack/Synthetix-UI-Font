@@ -23,9 +23,10 @@ never hashed into the release checksums, never given web formats. Promotion need
 
 ## D-0004 I/l confusable: OPEN, gate failing
 Registered maximum (carried from V5): Jaccard(I, l) at 14 px <= 0.60. Measured on the V6 proto master: 0.692.
-Candidate fixes measured (tail of `l`, ink width 216 -> 519 units): rxh 104 (current) 0.692, 150 -> 0.600, 180 -> 0.562,
-200 -> 0.529, 220 -> 0.500, with the `l` advance growing 348 -> 424 -> 492 -> 538 -> 585. Not applied: a wider hooked `l`
-changes the typographic colour and identity of every text, and a serifed capital `I` is the other route. Owner decides.
+Candidate fixes measured (a longer tail on `l`; its ink width grows from 216 to 453 units): tail radius 104 (current) 0.692,
+150 -> 0.600, 180 -> 0.562, 200 -> 0.529, 220 -> 0.500, with the `l` advance growing 348 -> 424 -> 492 -> 538 -> 585.
+Not applied: a wider hooked `l` changes the typographic colour and identity of every text, and a serifed capital `I` is the
+other route. Owner decides.
 Other registered pairs at 14 px: l/1 0.13, O/0 0.40, rn/m 0.28, cl/d 0.42 (all within their maxima).
 The bitmap Jaccard is a proxy; it is not a legibility test.
 
