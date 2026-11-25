@@ -1,16 +1,22 @@
 """Confusable-pair similarity (Jaccard of ink bitmaps at 12/14/16 px; lower = more distinct).
-Registered thresholds @14px (PROCEDURE_REVIEW s9): I/l<=0.60, l/1<=0.30, O/0<=0.45, rn/m<=0.40, cl/d<=0.45.
-Needs fonts/proto/Stackra-<dir>-400.ttf  (python fontbuild.py A 400)."""
+Registered maxima @14px live in contract.CONFUSABLE_MAX_14PX (I/l<=0.60, l/1<=0.30, O/0<=0.45, rn/m<=0.40, cl/d<=0.45).
+Needs fonts/proto/Stackra-<dir>-400.ttf  (python fontbuild.py A 400).
+
+V6: the registered pairs are now GATED (exit code 1 when any exceeds its maximum) and the report states which
+layout engine rendered the bitmaps.  This is a bitmap-overlap proxy, not a human legibility test (plan item 41/81)."""
 import os, sys, json
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, features
+import buildenv
+import contract as K
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 PAIRS = [('I', 'l'), ('l', '1'), ('I', '1'), ('O', '0'), ('B', '8'), ('S', '5'), ('rn', 'm'), ('cl', 'd'), ('vv', 'w'), ('G', 'C'), ('A', '4')]
+ENGINE = ImageFont.Layout.RAQM if features.check('raqm') else ImageFont.Layout.BASIC
 
 
 def bmp(path, txt, px, ss=4):
-    f = ImageFont.truetype(path, px * ss, layout_engine=ImageFont.Layout.RAQM)
+    f = ImageFont.truetype(path, px * ss, layout_engine=ENGINE)
     img = Image.new('L', (px * ss * 4, px * ss * 2), 0); d = ImageDraw.Draw(img)
     d.text((px * ss // 2, px * ss // 4), txt, font=f, fill=255)
     img = img.resize((px * 4, px * 2), Image.LANCZOS)
@@ -33,8 +39,17 @@ def run(path, sizes=(12, 14, 16)):
 if __name__ == '__main__':
     out = {d: run(f'{BASE}/fonts/proto/Stackra-{d}-400.ttf') for d in sys.argv[1:]}
     os.makedirs(f'{BASE}/reports/qa', exist_ok=True)
-    json.dump(out, open(f'{BASE}/reports/qa/confusables_proto.json', 'w'), indent=1)
+    gate = {}
+    for d, res in out.items():
+        for pair, limit in K.CONFUSABLE_MAX_14PX.items():
+            gate[f'{d}:{pair}'] = {'value': res[pair][14], 'max': limit, 'pass': res[pair][14] <= limit}
+    json.dump({'engine': 'raqm' if ENGINE == ImageFont.Layout.RAQM else 'basic (RAQM unavailable)', 'results': out, 'gate': gate},
+              open(f'{BASE}/reports/qa/confusables_proto.json', 'w'), indent=1)
+    print('layout engine:', 'raqm' if ENGINE == ImageFont.Layout.RAQM else 'basic')
     print('pair   ' + '  '.join(f'{d}@14' for d in out))
     for p in PAIRS:
         k = ''.join(p); print(f'{k:6s} ' + '   '.join(f"{out[d][k][14]:.2f}" for d in out))
     print('mean@14', {d: round(sum(out[d][k][14] for k in out[d]) / len(out[d]), 3) for d in out})
+    bad = {k: v for k, v in gate.items() if not v['pass']}
+    for k, v in bad.items(): print(f'GATE FAIL {k}: {v["value"]} > {v["max"]}')
+    sys.exit(1 if bad else 0)
