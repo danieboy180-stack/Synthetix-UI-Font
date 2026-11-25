@@ -1,5 +1,8 @@
-fonttools>=4.67
-numpy
-scipy
-Pillow
-playwright
+# Versions the V6 build and every gate were run on (pip freeze of the verified environment).
+# brotli is needed only for WOFF2 (absent from the verification sandbox: 1.1.0 is NOT verified here; CI proves it).
+# No hash lock: generating one needs network access (ledger A71 stays PARTIAL).
+fonttools==4.67.0
+numpy==2.5.4
+scipy==1.18.1
+Pillow==13.0.0
+brotli==1.1.0
