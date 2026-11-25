@@ -1,0 +1,45 @@
+name: font-ci
+
+# TEMPLATE. To activate, copy to .github/workflows/font-ci.yml with a token that has the `workflow` scope
+# (the connector used to create this branch is refused with 403 when it writes under .github/workflows).
+#
+# Builds Stackra Sans V6, runs every integrity gate, the dense interpolation gate and the double-build
+# reproducibility proof.  Registered design gates that are still open (see RELEASE_READINESS.md) are reported in
+# the log and the uploaded report, and become fatal with `build_all.sh --release`.
+# NEVER EXECUTED: ledger A74/A81 stay PARTIAL until it has run green on a clean clone.
+
+on:
+  push:
+    branches: [v6-stackra-sans]
+    paths: ['STACKRA-SANS/**', '.github/workflows/font-ci.yml']
+  pull_request:
+    paths: ['STACKRA-SANS/**', '.github/workflows/font-ci.yml']
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    env:
+      STACKRA_REQUIRE_WOFF2: '1'
+      SOURCE_DATE_EPOCH: '1795392000'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: System libraries for the confusables renderer
+        run: sudo apt-get update && sudo apt-get install -y libraqm0 libfribidi0
+      - name: Install pinned Python packages
+        run: pip install -r STACKRA-SANS/build/requirements.txt
+      - name: Build and run all gates
+        run: bash STACKRA-SANS/build/build_all.sh
+      - name: Double-build reproducibility proof
+        run: bash STACKRA-SANS/build/repro_check.sh
+      - name: Upload fonts and reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stackra-sans-v6
+          path: |
+            STACKRA-SANS/fonts
+            STACKRA-SANS/reports
+            STACKRA-SANS/RELEASE_READINESS.md
