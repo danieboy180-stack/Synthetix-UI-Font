@@ -34,3 +34,7 @@ for n,u,f,cl in [('endash',0x2013,'g_endash','ff'),('emdash',0x2014,'g_emdash','
 
 SB = {'s': lambda v: 0.55*v+20, 'r': lambda v: 0.38*v+14, 'd': lambda v: 0.10*v+8, 'f': lambda v: 0.28*v+10,
       'o': lambda v: 0.22*v+10, 'p': lambda v: 0.55*v+14}
+
+# --- V6: apply named glyph redraws/repairs (glyphs_v6.OVERRIDES) on top of the frozen V5 registry ----------------
+import glyphs_v6 as _V6
+R[:] = [(n, u, _V6.OVERRIDES.get(n, fn), l, r) for (n, u, fn, l, r) in R]
