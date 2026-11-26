@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0326.ss01" format="2">
+  <anchor x="125" y="0" name="_Anchor-1"/>
+  <anchor x="125" y="-308" name="Anchor-3"/>
+  <anchor x="125" y="0" name="_Anchor-3"/>
+  <outline>
+    <contour>
+      <point x="70" y="-308" type="qcurve"/>
+      <point x="70" y="-241" type="line"/>
+      <point x="101" y="-234"/>
+      <point x="132" y="-194"/>
+      <point x="132" y="-159" type="qcurve"/>
+      <point x="186" y="-159" type="line"/>
+      <point x="157" y="-182"/>
+      <point x="135" y="-191"/>
+      <point x="125" y="-191" type="qcurve"/>
+      <point x="97" y="-191"/>
+      <point x="57" y="-154"/>
+      <point x="57" y="-119" type="qcurve"/>
+      <point x="57" y="-83"/>
+      <point x="96" y="-47"/>
+      <point x="122" y="-47" type="qcurve"/>
+      <point x="151" y="-47"/>
+      <point x="192" y="-91"/>
+      <point x="192" y="-146" type="qcurve"/>
+      <point x="192" y="-190"/>
+      <point x="163" y="-257"/>
+      <point x="109" y="-302"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>c358980d2c3d8c472096be76c7743978ae76241f441de10338e28939bc5d02829eea47f7093a011de7bc6f62a43444517767582b160232a01b695983dae4a80a</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asciicircum" format="2">
+  <advance width="566"/>
+  <unicode hex="005E"/>
+  <outline>
+    <contour>
+      <point x="178" y="454" type="line"/>
+      <point x="62" y="454" type="line"/>
+      <point x="228" y="719" type="line"/>
+      <point x="337" y="719" type="line"/>
+      <point x="503" y="454" type="line"/>
+      <point x="387" y="454" type="line"/>
+      <point x="224" y="680" type="line"/>
+      <point x="341" y="680" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w566l178+454l62+454l228+719l337+719l503+454l387+454l224+680l341+680|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

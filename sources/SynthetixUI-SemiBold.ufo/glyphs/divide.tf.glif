@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide.tf" format="2">
+  <advance width="587"/>
+  <outline>
+    <contour>
+      <point x="65" y="297" type="line"/>
+      <point x="65" y="417" type="line"/>
+      <point x="522" y="417" type="line"/>
+      <point x="522" y="297" type="line"/>
+    </contour>
+    <contour>
+      <point x="295" y="443" type="qcurve"/>
+      <point x="263" y="443"/>
+      <point x="222" y="479"/>
+      <point x="222" y="524" type="qcurve"/>
+      <point x="222" y="567"/>
+      <point x="263" y="605"/>
+      <point x="294" y="605" type="qcurve"/>
+      <point x="322" y="605"/>
+      <point x="365" y="567"/>
+      <point x="365" y="524" type="qcurve"/>
+      <point x="365" y="479"/>
+      <point x="322" y="443"/>
+    </contour>
+    <contour>
+      <point x="295" y="113" type="qcurve"/>
+      <point x="263" y="113"/>
+      <point x="222" y="149"/>
+      <point x="222" y="193" type="qcurve"/>
+      <point x="222" y="235"/>
+      <point x="263" y="273"/>
+      <point x="294" y="273" type="qcurve"/>
+      <point x="322" y="273"/>
+      <point x="365" y="235"/>
+      <point x="365" y="193" type="qcurve"/>
+      <point x="365" y="149"/>
+      <point x="322" y="113"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>727dd59953288cce4b2018b7ec74f331168f90730f03f240416b924c261ed1610461498671b8072c7a37e4685222a72eadceeba94ed798bc34b2ea49b33b02cb</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

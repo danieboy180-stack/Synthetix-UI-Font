@@ -1,0 +1,74 @@
+{
+ "Regular": {
+  "glyphs": 626,
+  "glyph_order_identical": true,
+  "missing": [],
+  "identical": 626,
+  "advance_mismatch": [],
+  "outline_mismatch": [],
+  "kind_mismatch": [],
+  "n_advance": 0,
+  "n_outline": 0,
+  "n_kind": 0,
+  "n_overlap_flag_only": 244,
+  "upm": [
+   1000,
+   1000
+  ],
+  "layout_bytes_identical": {
+   "GDEF": true,
+   "GSUB": false,
+   "GPOS": false
+  },
+  "tables_missing_vs_shipped": [],
+  "tables_extra_vs_shipped": []
+ },
+ "Medium": {
+  "glyphs": 626,
+  "glyph_order_identical": true,
+  "missing": [],
+  "identical": 626,
+  "advance_mismatch": [],
+  "outline_mismatch": [],
+  "kind_mismatch": [],
+  "n_advance": 0,
+  "n_outline": 0,
+  "n_kind": 0,
+  "n_overlap_flag_only": 244,
+  "upm": [
+   1000,
+   1000
+  ],
+  "layout_bytes_identical": {
+   "GDEF": true,
+   "GSUB": false,
+   "GPOS": false
+  },
+  "tables_missing_vs_shipped": [],
+  "tables_extra_vs_shipped": []
+ },
+ "SemiBold": {
+  "glyphs": 626,
+  "glyph_order_identical": true,
+  "missing": [],
+  "identical": 626,
+  "advance_mismatch": [],
+  "outline_mismatch": [],
+  "kind_mismatch": [],
+  "n_advance": 0,
+  "n_outline": 0,
+  "n_kind": 0,
+  "n_overlap_flag_only": 244,
+  "upm": [
+   1000,
+   1000
+  ],
+  "layout_bytes_identical": {
+   "GDEF": true,
+   "GSUB": false,
+   "GPOS": false
+  },
+  "tables_missing_vs_shipped": [],
+  "tables_extra_vs_shipped": []
+ }
+}

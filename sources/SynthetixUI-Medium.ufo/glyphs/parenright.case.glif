@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright.case" format="2">
+  <advance width="436"/>
+  <outline>
+    <contour>
+      <point x="168" y="739" type="line"/>
+      <point x="234" y="684"/>
+      <point x="319" y="558"/>
+      <point x="362" y="421"/>
+      <point x="362" y="349" type="qcurve"/>
+      <point x="362" y="278"/>
+      <point x="319" y="142"/>
+      <point x="234" y="16"/>
+      <point x="168" y="-39" type="qcurve"/>
+      <point x="45" y="-39" type="line"/>
+      <point x="164" y="61"/>
+      <point x="261" y="252"/>
+      <point x="261" y="349" type="qcurve"/>
+      <point x="261" y="448"/>
+      <point x="161" y="639"/>
+      <point x="45" y="739" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w436l168+739o234+684o319+558o362+421q362+349o362+278o319+142o234+16q168-39l45-39o164+61o261+252q261+349o261+448o161+639q45+739|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

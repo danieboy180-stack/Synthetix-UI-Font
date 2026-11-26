@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.dnom" format="2">
+  <advance width="365"/>
+  <outline>
+    <contour>
+      <point x="90" y="-11" type="line"/>
+      <point x="100" y="119"/>
+      <point x="186" y="307"/>
+      <point x="269" y="401" type="qcurve"/>
+      <point x="276" y="343" type="line"/>
+      <point x="14" y="343" type="line"/>
+      <point x="14" y="445" type="line"/>
+      <point x="353" y="445" type="line"/>
+      <point x="353" y="355" type="line"/>
+      <point x="312" y="301"/>
+      <point x="247" y="181"/>
+      <point x="211" y="62"/>
+      <point x="205" y="-11" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w365l90-11o100+119o186+307q269+401l276+343l14+343l14+445l353+445l353+355o312+301o247+181o211+62q205-11|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

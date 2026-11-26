@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emdash" format="2">
+  <advance width="871"/>
+  <unicode hex="2014"/>
+  <unicode hex="2015"/>
+  <outline>
+    <contour>
+      <point x="70" y="217" type="line"/>
+      <point x="70" y="314" type="line"/>
+      <point x="801" y="314" type="line"/>
+      <point x="801" y="217" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w871l70+217l70+314l801+314l801+217|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

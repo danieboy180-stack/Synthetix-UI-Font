@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="K" format="2">
+  <advance width="659"/>
+  <unicode hex="004B"/>
+  <anchor x="349" y="700" name="Anchor-0"/>
+  <anchor x="351" y="0" name="Anchor-1"/>
+  <outline>
+    <contour>
+      <point x="56" y="0" type="line"/>
+      <point x="56" y="700" type="line"/>
+      <point x="178" y="700" type="line"/>
+      <point x="178" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="118" y="348" type="line"/>
+      <point x="435" y="700" type="line"/>
+      <point x="623" y="700" type="line"/>
+      <point x="290" y="348" type="line"/>
+    </contour>
+    <contour>
+      <point x="449" y="0" type="line"/>
+      <point x="117" y="376" type="line"/>
+      <point x="290" y="376" type="line"/>
+      <point x="641" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w659l56+0l56+700l178+700l178+0|l118+348l435+700l623+700l290+348|l449+0l117+376l290+376l641+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

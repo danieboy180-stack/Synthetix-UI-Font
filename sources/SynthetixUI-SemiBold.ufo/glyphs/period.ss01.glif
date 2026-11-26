@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period.ss01" format="2">
+  <advance width="270"/>
+  <outline>
+    <contour>
+      <point x="136" y="-10" type="qcurve"/>
+      <point x="101" y="-10"/>
+      <point x="53" y="34"/>
+      <point x="53" y="83" type="qcurve"/>
+      <point x="53" y="132"/>
+      <point x="101" y="175"/>
+      <point x="136" y="175" type="qcurve"/>
+      <point x="168" y="175"/>
+      <point x="218" y="132"/>
+      <point x="218" y="83" type="qcurve"/>
+      <point x="218" y="34"/>
+      <point x="168" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w270q136-10o101-10o53+34q53+83o53+132o101+175q136+175o168+175o218+132q218+83o218+34o168-10|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four" format="2">
+  <advance width="615"/>
+  <unicode hex="0034"/>
+  <outline>
+    <contour>
+      <point x="397" y="0" type="line"/>
+      <point x="397" y="188" type="line"/>
+      <point x="399" y="207" type="line"/>
+      <point x="399" y="605" type="line"/>
+      <point x="442" y="602" type="line"/>
+      <point x="122" y="194" type="line"/>
+      <point x="78" y="241" type="line"/>
+      <point x="586" y="241" type="line"/>
+      <point x="586" y="156" type="line"/>
+      <point x="32" y="156" type="line"/>
+      <point x="32" y="231" type="line"/>
+      <point x="404" y="700" type="line"/>
+      <point x="494" y="700" type="line"/>
+      <point x="494" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w615l397+0l397+188l399+207l399+605l442+602l122+194l78+241l586+241l586+156l32+156l32+231l404+700l494+700l494+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0168" format="2">
+  <advance width="709"/>
+  <unicode hex="0168"/>
+  <anchor x="341" y="700" name="Anchor-0"/>
+  <anchor x="341" y="0" name="Anchor-1"/>
+  <anchor x="488" y="19" name="Anchor-2"/>
+  <outline>
+    <component base="U" identifier="component0"/>
+    <component base="tildecomb" xOffset="81" yOffset="204" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

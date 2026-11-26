@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglleft" format="2">
+  <advance width="344"/>
+  <unicode hex="2039"/>
+  <outline>
+    <contour>
+      <point x="187" y="65" type="line"/>
+      <point x="53" y="246" type="line"/>
+      <point x="187" y="427" type="line"/>
+      <point x="281" y="427" type="line"/>
+      <point x="152" y="246" type="line"/>
+      <point x="281" y="65" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w344l187+65l53+246l187+427l281+427l152+246l281+65|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

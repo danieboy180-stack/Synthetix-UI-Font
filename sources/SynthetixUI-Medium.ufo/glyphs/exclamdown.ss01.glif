@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclamdown.ss01" format="2">
+  <advance width="295"/>
+  <outline>
+    <contour>
+      <point x="88" y="-199" type="line"/>
+      <point x="104" y="277" type="line"/>
+      <point x="189" y="277" type="line"/>
+      <point x="206" y="-199" type="line"/>
+    </contour>
+    <contour>
+      <point x="147" y="509" type="qcurve"/>
+      <point x="176" y="509"/>
+      <point x="218" y="471"/>
+      <point x="218" y="433" type="qcurve"/>
+      <point x="218" y="394"/>
+      <point x="176" y="357"/>
+      <point x="147" y="357" type="qcurve"/>
+      <point x="120" y="357"/>
+      <point x="77" y="394"/>
+      <point x="77" y="433" type="qcurve"/>
+      <point x="77" y="471"/>
+      <point x="120" y="509"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>d5d47a60e2d0b5e5e26816dd3656f8cd3d98611624bbe0bf8d0dea5ba6764e195db0111e5fef9ce88573ab4da29914c9b308494cc2567a593670a874cdb2f49e</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

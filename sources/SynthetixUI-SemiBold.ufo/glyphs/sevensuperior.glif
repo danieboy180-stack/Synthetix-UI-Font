@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sevensuperior" format="2">
+  <advance width="365"/>
+  <unicode hex="2077"/>
+  <outline>
+    <contour>
+      <point x="90" y="284" type="line"/>
+      <point x="100" y="414"/>
+      <point x="186" y="602"/>
+      <point x="269" y="696" type="qcurve"/>
+      <point x="276" y="638" type="line"/>
+      <point x="14" y="638" type="line"/>
+      <point x="14" y="740" type="line"/>
+      <point x="353" y="740" type="line"/>
+      <point x="353" y="650" type="line"/>
+      <point x="312" y="596"/>
+      <point x="247" y="476"/>
+      <point x="211" y="357"/>
+      <point x="205" y="284" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w365l90+284o100+414o186+602q269+696l276+638l14+638l14+740l353+740l353+650o312+596o247+476o211+357q205+284|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

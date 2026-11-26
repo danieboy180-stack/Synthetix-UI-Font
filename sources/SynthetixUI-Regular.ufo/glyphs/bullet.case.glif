@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet.case" format="2">
+  <advance width="702"/>
+  <outline>
+    <contour>
+      <point x="73" y="101" type="line"/>
+      <point x="73" y="657" type="line"/>
+      <point x="630" y="657" type="line"/>
+      <point x="630" y="101" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w702l73+101l73+657l630+657l630+101|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

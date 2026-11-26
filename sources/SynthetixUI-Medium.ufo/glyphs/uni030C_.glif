@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni030C" format="2">
+  <unicode hex="030C"/>
+  <anchor x="246" y="496" name="_Anchor-0"/>
+  <anchor x="246" y="719" name="Anchor-4"/>
+  <anchor x="246" y="496" name="_Anchor-4"/>
+  <outline>
+    <contour>
+      <point x="190" y="551" type="line"/>
+      <point x="42" y="719" type="line"/>
+      <point x="150" y="719" type="line"/>
+      <point x="314" y="574" type="line"/>
+      <point x="177" y="574" type="line"/>
+      <point x="340" y="719" type="line"/>
+      <point x="449" y="719" type="line"/>
+      <point x="301" y="551" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l190+551l42+719l150+719l314+574l177+574l340+719l449+719l301+551|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

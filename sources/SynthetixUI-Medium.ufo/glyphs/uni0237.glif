@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0237" format="2">
+  <advance width="247"/>
+  <unicode hex="0237"/>
+  <anchor x="122" y="496" name="Anchor-0"/>
+  <anchor x="122" y="-199" name="Anchor-1"/>
+  <outline>
+    <contour>
+      <point x="23" y="-186" type="qcurve"/>
+      <point x="5" y="-186"/>
+      <point x="-23" y="-182"/>
+      <point x="-32" y="-179" type="qcurve"/>
+      <point x="-32" y="-89" type="line"/>
+      <point x="-23" y="-90"/>
+      <point x="-2" y="-94"/>
+      <point x="10" y="-94" type="qcurve"/>
+      <point x="43" y="-94"/>
+      <point x="70" y="-68"/>
+      <point x="70" y="-50" type="qcurve"/>
+      <point x="70" y="500" type="line"/>
+      <point x="177" y="500" type="line"/>
+      <point x="177" y="-53" type="line"/>
+      <point x="177" y="-120"/>
+      <point x="102" y="-186"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w247q23-186o5-186o-23-182q-32-179l-32-89o-23-90o-2-94q10-94o43-94o70-68q70-50l70+500l177+500l177-53o177-120o102-186|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

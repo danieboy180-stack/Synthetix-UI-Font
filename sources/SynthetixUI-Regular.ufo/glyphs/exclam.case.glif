@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam.case" format="2">
+  <advance width="273"/>
+  <outline>
+    <contour>
+      <point x="102" y="205" type="line"/>
+      <point x="90" y="700" type="line"/>
+      <point x="183" y="700" type="line"/>
+      <point x="170" y="205" type="line"/>
+    </contour>
+    <contour>
+      <point x="82" y="0" type="line"/>
+      <point x="82" y="117" type="line"/>
+      <point x="191" y="117" type="line"/>
+      <point x="191" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w273l102+205l90+700l183+700l170+205|l82+0l82+117l191+117l191+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

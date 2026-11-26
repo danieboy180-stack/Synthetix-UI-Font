@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.tf" format="2">
+  <advance width="587"/>
+  <outline>
+    <contour>
+      <point x="165" y="0" type="line"/>
+      <point x="181" y="186"/>
+      <point x="303" y="481"/>
+      <point x="397" y="617" type="qcurve"/>
+      <point x="397" y="569" type="line"/>
+      <point x="57" y="569" type="line"/>
+      <point x="57" y="700" type="line"/>
+      <point x="529" y="700" type="line"/>
+      <point x="529" y="577" type="line"/>
+      <point x="441" y="434"/>
+      <point x="329" y="154"/>
+      <point x="317" y="0" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w587l165+0o181+186o303+481q397+617l397+569l57+569l57+700l529+700l529+577o441+434o329+154q317+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bullet.ss01" format="2">
+  <advance width="357"/>
+  <outline>
+    <contour>
+      <point x="179" y="225" type="qcurve"/>
+      <point x="130" y="225"/>
+      <point x="62" y="286"/>
+      <point x="62" y="350" type="qcurve"/>
+      <point x="62" y="412"/>
+      <point x="130" y="475"/>
+      <point x="179" y="475" type="qcurve"/>
+      <point x="225" y="475"/>
+      <point x="295" y="412"/>
+      <point x="295" y="350" type="qcurve"/>
+      <point x="295" y="286"/>
+      <point x="225" y="225"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w357q179+225o130+225o62+286q62+350o62+412o130+475q179+475o225+475o295+412q295+350o295+286o225+225|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

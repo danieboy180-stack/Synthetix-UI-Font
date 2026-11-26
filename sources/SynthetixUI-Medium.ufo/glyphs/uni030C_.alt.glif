@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni030C.alt" format="2">
+  <outline>
+    <contour>
+      <point x="127" y="467" type="line"/>
+      <point x="57" y="467" type="line"/>
+      <point x="57" y="700" type="line"/>
+      <point x="154" y="700" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l127+467l57+467l57+700l154+700|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

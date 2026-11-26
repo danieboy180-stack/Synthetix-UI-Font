@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0312" format="2">
+  <unicode hex="0312"/>
+  <anchor x="135" y="496" name="_Anchor-0"/>
+  <anchor x="135" y="823" name="Anchor-4"/>
+  <anchor x="135" y="496" name="_Anchor-4"/>
+  <outline>
+    <contour>
+      <point x="65" y="542" type="line"/>
+      <point x="65" y="659" type="line"/>
+      <point x="65" y="737"/>
+      <point x="139" y="820"/>
+      <point x="204" y="823" type="qcurve"/>
+      <point x="204" y="736" type="line"/>
+      <point x="170" y="733"/>
+      <point x="135" y="693"/>
+      <point x="135" y="657" type="qcurve"/>
+      <point x="55" y="683" type="line"/>
+      <point x="204" y="694" type="line"/>
+      <point x="204" y="542" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l65+542l65+659o65+737o139+820q204+823l204+736o170+733o135+693q135+657l55+683l204+694l204+542|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

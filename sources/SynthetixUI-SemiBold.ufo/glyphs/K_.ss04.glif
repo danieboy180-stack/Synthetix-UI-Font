@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="K.ss04" format="2">
+  <advance width="715"/>
+  <anchor x="349" y="700" name="Anchor-0"/>
+  <anchor x="351" y="0" name="Anchor-1"/>
+  <outline>
+    <contour>
+      <point x="56" y="0" type="line"/>
+      <point x="56" y="700" type="line"/>
+      <point x="191" y="700" type="line"/>
+      <point x="191" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="138" y="312" type="line"/>
+      <point x="487" y="700" type="line"/>
+      <point x="682" y="700" type="line"/>
+      <point x="339" y="322" type="line"/>
+      <point x="317" y="315" type="line"/>
+      <point x="149" y="134" type="line"/>
+    </contour>
+    <contour>
+      <point x="511" y="0" type="line"/>
+      <point x="230" y="392" type="line"/>
+      <point x="368" y="441" type="line"/>
+      <point x="697" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w715l56+0l56+700l191+700l191+0|l138+312l487+700l682+700l339+322l317+315l149+134|l511+0l230+392l368+441l697+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

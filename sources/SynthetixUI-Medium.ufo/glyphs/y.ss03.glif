@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="y.ss03" format="2">
+  <advance width="536"/>
+  <anchor x="260" y="496" name="Anchor-0"/>
+  <anchor x="259" y="0" name="Anchor-1"/>
+  <outline>
+    <contour>
+      <point x="126" y="-209" type="qcurve"/>
+      <point x="111" y="-209"/>
+      <point x="80" y="-204"/>
+      <point x="70" y="-201" type="qcurve"/>
+      <point x="70" y="-97" type="line"/>
+      <point x="79" y="-101"/>
+      <point x="103" y="-104"/>
+      <point x="116" y="-104" type="qcurve"/>
+      <point x="148" y="-104"/>
+      <point x="188" y="-69"/>
+      <point x="201" y="-37" type="qcurve"/>
+      <point x="247" y="84" type="line"/>
+      <point x="268" y="115" type="line"/>
+      <point x="412" y="500" type="line"/>
+      <point x="526" y="500" type="line"/>
+      <point x="288" y="-79" type="line"/>
+      <point x="268" y="-129"/>
+      <point x="223" y="-184"/>
+      <point x="165" y="-209"/>
+    </contour>
+    <contour>
+      <point x="231" y="1" type="line"/>
+      <point x="13" y="500" type="line"/>
+      <point x="133" y="500" type="line"/>
+      <point x="315" y="56" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>e75ed859cc77a601a31b0a69532521fd154f23093340bfdf86d9f3a1975dcf2e7316a44e09d7ee9882feb6fd1af92bee4d5373936ba53bf18cfadb596b5923a7</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

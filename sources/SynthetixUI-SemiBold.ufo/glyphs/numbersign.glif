@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign" format="2">
+  <advance width="700"/>
+  <unicode hex="0023"/>
+  <outline>
+    <contour>
+      <point x="121" y="0" type="line"/>
+      <point x="221" y="700" type="line"/>
+      <point x="337" y="700" type="line"/>
+      <point x="238" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="363" y="0" type="line"/>
+      <point x="462" y="700" type="line"/>
+      <point x="579" y="700" type="line"/>
+      <point x="479" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="58" y="528" type="line"/>
+      <point x="667" y="528" type="line"/>
+      <point x="667" y="396" type="line"/>
+      <point x="58" y="396" type="line"/>
+    </contour>
+    <contour>
+      <point x="33" y="307" type="line"/>
+      <point x="642" y="307" type="line"/>
+      <point x="642" y="177" type="line"/>
+      <point x="33" y="177" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w700l121+0l221+700l337+700l238+0|l363+0l462+700l579+700l479+0|l58+528l667+528l667+396l58+396|l33+307l642+307l642+177l33+177|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

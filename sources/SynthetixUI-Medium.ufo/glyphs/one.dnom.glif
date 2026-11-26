@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.dnom" format="2">
+  <advance width="255"/>
+  <outline>
+    <contour>
+      <point x="126" y="-9" type="line"/>
+      <point x="127" y="386" type="line"/>
+      <point x="166" y="372" type="line"/>
+      <point x="148" y="334"/>
+      <point x="107" y="301"/>
+      <point x="55" y="277"/>
+      <point x="13" y="272" type="qcurve"/>
+      <point x="13" y="363" type="line"/>
+      <point x="47" y="368"/>
+      <point x="96" y="391"/>
+      <point x="132" y="422"/>
+      <point x="144" y="443" type="qcurve"/>
+      <point x="212" y="443" type="line"/>
+      <point x="212" y="-9" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w255l126-9l127+386l166+372o148+334o107+301o55+277q13+272l13+363o47+368o96+391o132+422q144+443l212+443l212-9|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

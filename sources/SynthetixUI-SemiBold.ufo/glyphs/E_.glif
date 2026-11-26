@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E" format="2">
+  <advance width="559"/>
+  <unicode hex="0045"/>
+  <anchor x="317" y="700" name="Anchor-0"/>
+  <anchor x="307" y="0" name="Anchor-1"/>
+  <anchor x="529" y="0" name="Anchor-2"/>
+  <outline>
+    <contour>
+      <point x="56" y="0" type="line"/>
+      <point x="56" y="700" type="line"/>
+      <point x="177" y="700" type="line"/>
+      <point x="177" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="113" y="0" type="line"/>
+      <point x="113" y="129" type="line"/>
+      <point x="514" y="129" type="line"/>
+      <point x="514" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="113" y="295" type="line"/>
+      <point x="113" y="423" type="line"/>
+      <point x="483" y="423" type="line"/>
+      <point x="483" y="295" type="line"/>
+    </contour>
+    <contour>
+      <point x="113" y="571" type="line"/>
+      <point x="113" y="700" type="line"/>
+      <point x="505" y="700" type="line"/>
+      <point x="505" y="571" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w559l56+0l56+700l177+700l177+0|l113+0l113+129l514+129l514+0|l113+295l113+423l483+423l483+295|l113+571l113+700l505+700l505+571|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

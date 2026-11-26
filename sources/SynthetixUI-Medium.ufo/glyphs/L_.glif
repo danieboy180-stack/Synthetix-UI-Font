@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L" format="2">
+  <advance width="538"/>
+  <unicode hex="004C"/>
+  <anchor x="122" y="700" name="Anchor-0"/>
+  <anchor x="315" y="0" name="Anchor-1"/>
+  <outline>
+    <contour>
+      <point x="70" y="0" type="line"/>
+      <point x="70" y="700" type="line"/>
+      <point x="170" y="700" type="line"/>
+      <point x="170" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="118" y="0" type="line"/>
+      <point x="118" y="104" type="line"/>
+      <point x="493" y="104" type="line"/>
+      <point x="493" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w538l70+0l70+700l170+700l170+0|l118+0l118+104l493+104l493+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

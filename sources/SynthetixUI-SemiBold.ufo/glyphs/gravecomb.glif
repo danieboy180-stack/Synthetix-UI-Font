@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb" format="2">
+  <unicode hex="0300"/>
+  <anchor x="245" y="496" name="_Anchor-0"/>
+  <anchor x="245" y="719" name="Anchor-4"/>
+  <anchor x="245" y="496" name="_Anchor-4"/>
+  <outline>
+    <contour>
+      <point x="218" y="542" type="line"/>
+      <point x="29" y="719" type="line"/>
+      <point x="235" y="719" type="line"/>
+      <point x="352" y="542" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l218+542l29+719l235+719l352+542|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

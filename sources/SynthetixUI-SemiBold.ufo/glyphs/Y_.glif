@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Y" format="2">
+  <advance width="664"/>
+  <unicode hex="0059"/>
+  <anchor x="342" y="700" name="Anchor-0"/>
+  <anchor x="342" y="0" name="Anchor-1"/>
+  <outline>
+    <contour>
+      <point x="270" y="0" type="line"/>
+      <point x="270" y="278" type="line"/>
+      <point x="13" y="700" type="line"/>
+      <point x="179" y="700" type="line"/>
+      <point x="389" y="324" type="line"/>
+      <point x="289" y="324" type="line"/>
+      <point x="498" y="700" type="line"/>
+      <point x="651" y="700" type="line"/>
+      <point x="394" y="278" type="line"/>
+      <point x="394" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w664l270+0l270+278l13+700l179+700l389+324l289+324l498+700l651+700l394+278l394+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

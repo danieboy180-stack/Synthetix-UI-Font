@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="M.ss06" format="2">
+  <advance width="866"/>
+  <outline>
+    <contour>
+      <point x="62" y="0" type="line"/>
+      <point x="132" y="700" type="line"/>
+      <point x="252" y="700" type="line"/>
+      <point x="452" y="24" type="line"/>
+      <point x="413" y="24" type="line"/>
+      <point x="612" y="700" type="line"/>
+      <point x="733" y="700" type="line"/>
+      <point x="805" y="0" type="line"/>
+      <point x="716" y="0" type="line"/>
+      <point x="646" y="660" type="line"/>
+      <point x="681" y="660" type="line"/>
+      <point x="490" y="0" type="line"/>
+      <point x="370" y="0" type="line"/>
+      <point x="180" y="655" type="line"/>
+      <point x="214" y="655" type="line"/>
+      <point x="145" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w866l62+0l132+700l252+700l452+24l413+24l612+700l733+700l805+0l716+0l646+660l681+660l490+0l370+0l180+655l214+655l145+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

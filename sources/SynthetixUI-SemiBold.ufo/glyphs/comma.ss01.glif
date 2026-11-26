@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="comma.ss01" format="2">
+  <advance width="270"/>
+  <outline>
+    <contour>
+      <point x="69" y="-158" type="qcurve"/>
+      <point x="69" y="-66" type="line"/>
+      <point x="106" y="-53"/>
+      <point x="143" y="-2"/>
+      <point x="143" y="40" type="qcurve"/>
+      <point x="217" y="39" type="line"/>
+      <point x="175" y="4"/>
+      <point x="148" y="-6"/>
+      <point x="135" y="-6" type="qcurve"/>
+      <point x="100" y="-6"/>
+      <point x="53" y="37"/>
+      <point x="53" y="85" type="qcurve"/>
+      <point x="53" y="133"/>
+      <point x="101" y="175"/>
+      <point x="132" y="175" type="qcurve"/>
+      <point x="168" y="175"/>
+      <point x="218" y="124"/>
+      <point x="218" y="53" type="qcurve"/>
+      <point x="218" y="-33"/>
+      <point x="139" y="-139"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>22b22bcc57c1948f8378a5d14f681d2118a482d57152c4bcc487ef36f4884620b9fa53a8de7266d5c10576acf45d7b216fcba817191ffecf64d3326d1bc600d1</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

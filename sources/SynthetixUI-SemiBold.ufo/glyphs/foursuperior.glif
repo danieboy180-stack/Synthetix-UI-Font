@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="foursuperior" format="2">
+  <advance width="413"/>
+  <unicode hex="2074"/>
+  <outline>
+    <contour>
+      <point x="238" y="284" type="line"/>
+      <point x="238" y="424" type="line"/>
+      <point x="243" y="436" type="line"/>
+      <point x="245" y="686" type="line"/>
+      <point x="317" y="656" type="line"/>
+      <point x="105" y="397" type="line"/>
+      <point x="24" y="461" type="line"/>
+      <point x="400" y="468" type="line"/>
+      <point x="400" y="366" type="line"/>
+      <point x="16" y="366" type="line"/>
+      <point x="16" y="460" type="line"/>
+      <point x="247" y="740" type="line"/>
+      <point x="351" y="740" type="line"/>
+      <point x="351" y="284" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w413l238+284l238+424l243+436l245+686l317+656l105+397l24+461l400+468l400+366l16+366l16+460l247+740l351+740l351+284|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

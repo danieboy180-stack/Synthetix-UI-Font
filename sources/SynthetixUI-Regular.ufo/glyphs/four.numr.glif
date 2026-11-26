@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.numr" format="2">
+  <advance width="397"/>
+  <outline>
+    <contour>
+      <point x="246" y="259" type="line"/>
+      <point x="246" y="383" type="line"/>
+      <point x="247" y="394" type="line"/>
+      <point x="247" y="649" type="line"/>
+      <point x="293" y="644" type="line"/>
+      <point x="85" y="375" type="line"/>
+      <point x="45" y="420" type="line"/>
+      <point x="379" y="422" type="line"/>
+      <point x="379" y="356" type="line"/>
+      <point x="20" y="356" type="line"/>
+      <point x="20" y="412" type="line"/>
+      <point x="254" y="707" type="line"/>
+      <point x="322" y="707" type="line"/>
+      <point x="322" y="259" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w397l246+259l246+383l247+394l247+649l293+644l85+375l45+420l379+422l379+356l20+356l20+412l254+707l322+707l322+259|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

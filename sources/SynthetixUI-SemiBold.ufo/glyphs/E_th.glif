@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eth" format="2">
+  <advance width="746"/>
+  <unicode hex="00D0"/>
+  <anchor x="384" y="700" name="Anchor-0"/>
+  <anchor x="384" y="0" name="Anchor-1"/>
+  <outline>
+    <contour>
+      <point x="8" y="285" type="line"/>
+      <point x="8" y="413" type="line"/>
+      <point x="382" y="413" type="line"/>
+      <point x="382" y="285" type="line"/>
+    </contour>
+    <contour>
+      <point x="153" y="0" type="line"/>
+      <point x="153" y="129" type="line"/>
+      <point x="332" y="129" type="line"/>
+      <point x="411" y="129"/>
+      <point x="521" y="190"/>
+      <point x="579" y="295"/>
+      <point x="579" y="351" type="qcurve"/>
+      <point x="579" y="405"/>
+      <point x="522" y="509"/>
+      <point x="412" y="567"/>
+      <point x="332" y="567" type="qcurve"/>
+      <point x="156" y="567" type="line"/>
+      <point x="156" y="700" type="line"/>
+      <point x="332" y="700" type="line"/>
+      <point x="448" y="700"/>
+      <point x="621" y="617"/>
+      <point x="716" y="464"/>
+      <point x="716" y="349" type="qcurve"/>
+      <point x="716" y="233"/>
+      <point x="620" y="83"/>
+      <point x="448" y="0"/>
+      <point x="333" y="0" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="71" y="0" type="line"/>
+      <point x="71" y="700" type="line"/>
+      <point x="206" y="700" type="line"/>
+      <point x="206" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>5a25864532acd77a96be2db565b84c30d2d58b40fe2e512e1189329339d7f4143d6ad65b1c0e4277ac6d630117d91a43e749fc5e59fc9e4c2a82331600e25873</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

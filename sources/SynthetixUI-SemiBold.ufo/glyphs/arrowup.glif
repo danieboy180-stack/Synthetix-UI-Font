@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowup" format="2">
+  <advance width="788"/>
+  <unicode hex="2191"/>
+  <outline>
+    <contour>
+      <point x="333" y="0" type="line"/>
+      <point x="333" y="631" type="line"/>
+      <point x="397" y="538" type="line"/>
+      <point x="58" y="213" type="line"/>
+      <point x="58" y="399" type="line"/>
+      <point x="394" y="725" type="line"/>
+      <point x="730" y="399" type="line"/>
+      <point x="730" y="213" type="line"/>
+      <point x="391" y="538" type="line"/>
+      <point x="455" y="631" type="line"/>
+      <point x="455" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w788l333+0l333+631l397+538l58+213l58+399l394+725l730+399l730+213l391+538l455+631l455+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

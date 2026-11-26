@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash" format="2">
+  <advance width="261"/>
+  <unicode hex="0142"/>
+  <anchor x="128" y="700" name="Anchor-0"/>
+  <anchor x="128" y="0" name="Anchor-1"/>
+  <outline>
+    <contour>
+      <point x="135" y="328" type="line"/>
+      <point x="1" y="275" type="line"/>
+      <point x="1" y="353" type="line"/>
+      <point x="133" y="405" type="line"/>
+    </contour>
+    <contour>
+      <point x="129" y="407" type="line"/>
+      <point x="260" y="459" type="line"/>
+      <point x="260" y="382" type="line"/>
+      <point x="131" y="331" type="line"/>
+    </contour>
+    <contour>
+      <point x="87" y="0" type="line"/>
+      <point x="87" y="700" type="line"/>
+      <point x="173" y="700" type="line"/>
+      <point x="173" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w261l135+328l1+275l1+353l133+405|l129+407l260+459l260+382l131+331|l87+0l87+700l173+700l173+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

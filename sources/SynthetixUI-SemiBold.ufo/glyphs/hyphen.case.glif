@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen.case" format="2">
+  <advance width="476"/>
+  <outline>
+    <contour>
+      <point x="63" y="282" type="line"/>
+      <point x="63" y="413" type="line"/>
+      <point x="414" y="413" type="line"/>
+      <point x="414" y="282" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w476l63+282l63+413l414+413l414+282|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
