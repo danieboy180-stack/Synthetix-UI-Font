@@ -1,0 +1,762 @@
+[
+ {
+  "kind": "gate",
+  "n": 1,
+  "title": "Gate 01: Font Bakery universal + Google Fonts profiles: 0 FAIL",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Font Bakery universal + Google Fonts profiles: 0 FAIL\n\n**Status at session 1 baseline:** NOT MEASURED\n\n**Evidence note:** fontbakery not installed and no network in the build sandbox. tools/run_checks.py::check_metadata is a small own subset, not a substitute.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 2,
+  "title": "Gate 02: Pri-African coverage + language shaping (Hausa, Yoruba, Igbo)",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Pri-African coverage + language shaping (Hausa, Yoruba, Igbo)\n\n**Status at session 1 baseline:** PASS\n\n**Evidence note:** coverage sets complete in 3 masters; 192 NFC/NFD/reversed-mark render comparisons, 0 failures (Chromium).\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 3,
+  "title": "Gate 03: Latin Core coverage (official 324-glyph list)",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Latin Core coverage (official 324-glyph list)\n\n**Status at session 1 baseline:** PARTIAL\n\n**Evidence note:** official Core letters: 219/219 present in all 3 masters (source: googlefonts/glyphsets 0.6.19). NOT verified: the 104 non-letter Core glyphs (list not retrievable offline) and the unencoded /idotaccent glyph (absent).\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 4,
+  "title": "Gate 04: Tabular figures equal width; no .notdef for required characters",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Tabular figures equal width; no .notdef for required characters\n\n**Status at session 1 baseline:** PASS\n\n**Evidence note:** static + 7 variable instances equal; no cmap entry maps to .notdef.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 5,
+  "title": "Gate 05: Clean-clone build reproduces recorded SHA-256",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Clean-clone build reproduces recorded SHA-256\n\n**Status at session 1 baseline:** PASS\n\n**Evidence note:** 28/28 font files identical from a clean copy of the inputs (checked under two PYTHONHASHSEED values). Run inside the same sandbox, not on a separate machine/CI.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 6,
+  "title": "Gate 06: Variable and static agree within 1 unit",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Variable and static agree within 1 unit\n\n**Status at session 1 baseline:** PASS\n\n**Evidence note:** max coordinate delta 0.5 units at 400/500/600; advances identical.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 7,
+  "title": "Gate 07: Advance widths identical across Chromium, Firefox, WebKit, native apps",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Advance widths identical across Chromium, Firefox, WebKit, native apps\n\n**Status at session 1 baseline:** NOT MEASURED\n\n**Evidence note:** Chromium only: TTF/WOFF/WOFF2/variable agree (max delta 0.000 px); DPR 1-3, dark, forced-colours, 200% zoom/text agree (0.008 px). Firefox, WebKit, iOS, Android not run.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 8,
+  "title": "Gate 08: OFL text and copyright intact",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** OFL text and copyright intact\n\n**Status at session 1 baseline:** PASS\n\n**Evidence note:** fonts/OFL.txt + name IDs 0/13/14 verified.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 9,
+  "title": "Gate 09: Name clearance recorded",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Name clearance recorded\n\n**Status at session 1 baseline:** RECORDED - DECISION OPEN\n\n**Evidence note:** NAME_CLEARANCE.md: an established DeFi protocol named Synthetix exists (web search). Trademark/domain registries were not searched. Owner decision pending.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 10,
+  "title": "Gate 10: Zero open critical defects",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Zero open critical defects\n\n**Status at session 1 baseline:** FAIL\n\n**Evidence note:** Open: name collision (critical for any public release), Q tail, J/K/R/a/C/G shape gaps, rn~m confusable, variable latin subset over budget. See V4_REPORT.md.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 11,
+  "title": "Gate 11: Shape similarity >= 0.85 on >= 90% of Match glyphs",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Shape similarity >= 0.85 on >= 90% of Match glyphs\n\n**Status at session 1 baseline:** FAIL (recorded, not re-measured)\n\n**Evidence note:** V3 recorded raw IoU: 31/52 = 59.6% >= 0.85. The outlines are byte-identical in V4 (regression ledger), so the recorded values carry over. Reference bitmaps are absent: cannot re-measure.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 12,
+  "title": "Gate 12: Widths within 1 px for >= 90%",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Widths within 1 px for >= 90%\n\n**Status at session 1 baseline:** FAIL\n\n**Evidence note:** 68/79 = 86.1% (frozen scorer, Regular). Failing: 'J' 'r' '!' '(' ')' '/' '-' ':' ';' ',' '.'\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 13,
+  "title": "Gate 13: Held-out pair gaps within 1 px for >= 90%",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Held-out pair gaps within 1 px for >= 90%\n\n**Status at session 1 baseline:** FAIL\n\n**Evidence note:** 40/49 = 81.6%; NOT held out (V3 fitted on the same pairs), so this is an upper bound.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 14,
+  "title": "Gate 14: Vertical metrics all within 1 px",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Vertical metrics all within 1 px\n\n**Status at session 1 baseline:** FAIL\n\n**Evidence note:** 8/9; failing: ['Q below baseline']\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 15,
+  "title": "Gate 15: Stems within 5% in all four weights from real references",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Stems within 5% in all four weights from real references\n\n**Status at session 1 baseline:** FAIL / NOT MEASURABLE\n\n**Evidence note:** Regular 9/11 (HIGH targets). Medium/SemiBold targets are inferred; no Bold exists; no heavier references. Cannot be met without new references.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 16,
+  "title": "Gate 16: Small-size confusables (Il1, O0, rn~m at 12-14 px)",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Small-size confusables (Il1, O0, rn~m at 12-14 px)\n\n**Status at session 1 baseline:** FAIL (default); passes with opt-in ss13\n\n**Evidence note:** default worst-case Jaccard: {'I~l': 1.0, 'I~1': 0.367, 'l~1': 0.355, 'O~0': 0.492, 'rn~m': 0.75, 'cl~d': 0.512, 'vv~w': 0.467}; with ss13+zero: {'I~l': 0.394, 'I~1': 0.6, 'l~1': 0.387, 'O~0': 0.464, 'rn~m': 0.491, 'cl~d': 0.488, 'vv~w': 0.478}. Pre-registered threshold 0.65. Default fails 2 of 7 pairs; ss13+zero passes 7 of 7.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 17,
+  "title": "Gate 17: WCAG 2.2 AA contrast pairs (light + dark)",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** WCAG 2.2 AA contrast pairs (light + dark)\n\n**Status at session 1 baseline:** PASS\n\n**Evidence note:** 22 pairs, 0 failures. Palette is a placeholder.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 18,
+  "title": "Gate 18: Subset byte budgets (registered before first export)",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Subset byte budgets (registered before first export)\n\n**Status at session 1 baseline:** FAIL\n\n**Evidence note:** over budget: ['variable/latin 50344 > 45000']. The variable latin-lite subset (core features + ss13) is 40184 B, within its 45,000 B limit; the owner decides which variable build ships.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 19,
+  "title": "Gate 19: Human review of named kerning pairs",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Human review of named kerning pairs\n\n**Status at session 1 baseline:** NOT DONE\n\n**Evidence note:** needs people/devices/tools not available in this run (scaffolds provided where possible).\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 20,
+  "title": "Gate 20: Token adoption on real product screens (one per platform)",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Token adoption on real product screens (one per platform)\n\n**Status at session 1 baseline:** NOT DONE\n\n**Evidence note:** needs people/devices/tools not available in this run (scaffolds provided where possible).\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 21,
+  "title": "Gate 21: Native iOS/Android test apps",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Native iOS/Android test apps\n\n**Status at session 1 baseline:** NOT DONE\n\n**Evidence note:** needs people/devices/tools not available in this run (scaffolds provided where possible).\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 22,
+  "title": "Gate 22: Firefox + WebKit rendering",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Firefox + WebKit rendering\n\n**Status at session 1 baseline:** NOT DONE\n\n**Evidence note:** needs people/devices/tools not available in this run (scaffolds provided where possible).\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 23,
+  "title": "Gate 23: Real-device checks",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Real-device checks\n\n**Status at session 1 baseline:** NOT DONE\n\n**Evidence note:** needs people/devices/tools not available in this run (scaffolds provided where possible).\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "gate",
+  "n": 24,
+  "title": "Gate 24: Blind identity review by two reviewers (IDENTITY_DIRECTION.md)",
+  "labels": [
+   "gate",
+   "contract"
+  ],
+  "body": "**Gate:** Blind identity review by two reviewers (IDENTITY_DIRECTION.md)\n\n**Status at session 1 baseline:** NOT DONE\n\n**Evidence note:** requires two human reviewers.\n\n**Acceptance:** the number produced by `python tools/contract_check.py` (and the frozen scorer where applicable) meets the CONTRACT_98 threshold on a clean clone in CI. No threshold changes (CONTRACT_98.md rule 1). Anything that cannot be measured stays NOT MEASURED.\n\nPlan reference: docs/PLAN_98.md."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "A",
+  "title": "Glyph 'A': shape IoU 0.93 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `A`\n\n**Recorded V3 IoU:** 0.932 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(A): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "B",
+  "title": "Glyph 'B': shape IoU 0.91 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `B`\n\n**Recorded V3 IoU:** 0.912 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(B): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "C",
+  "title": "Glyph 'C': shape IoU 0.78 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `C`\n\n**Recorded V3 IoU:** 0.776 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(C): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "D",
+  "title": "Glyph 'D': shape IoU 0.98 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `D`\n\n**Recorded V3 IoU:** 0.983 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(D): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "E",
+  "title": "Glyph 'E': shape IoU 0.93 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `E`\n\n**Recorded V3 IoU:** 0.932 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(E): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "F",
+  "title": "Glyph 'F': shape IoU 0.93 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `F`\n\n**Recorded V3 IoU:** 0.933 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(F): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "G",
+  "title": "Glyph 'G': shape IoU 0.77 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `G`\n\n**Recorded V3 IoU:** 0.766 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(G): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "H",
+  "title": "Glyph 'H': shape IoU 0.87 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `H`\n\n**Recorded V3 IoU:** 0.872 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(H): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "I",
+  "title": "Glyph 'I': shape IoU 0.86 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `I`\n\n**Recorded V3 IoU:** 0.857 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(I): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "J",
+  "title": "Glyph 'J': shape IoU 0.44 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `J`\n\n**Recorded V3 IoU:** 0.445 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(J): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "K",
+  "title": "Glyph 'K': shape IoU 0.63 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `K`\n\n**Recorded V3 IoU:** 0.633 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(K): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "L",
+  "title": "Glyph 'L': shape IoU 1.00 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `L`\n\n**Recorded V3 IoU:** 1.000 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(L): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "M",
+  "title": "Glyph 'M': shape IoU 0.85 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `M`\n\n**Recorded V3 IoU:** 0.854 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(M): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "N",
+  "title": "Glyph 'N': shape IoU 0.96 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `N`\n\n**Recorded V3 IoU:** 0.957 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(N): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "O",
+  "title": "Glyph 'O': shape IoU 0.87 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `O`\n\n**Recorded V3 IoU:** 0.868 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(O): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "P",
+  "title": "Glyph 'P': shape IoU 0.91 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `P`\n\n**Recorded V3 IoU:** 0.914 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(P): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "Q",
+  "title": "Glyph 'Q': shape IoU 0.71 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `Q`\n\n**Recorded V3 IoU:** 0.708 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(Q): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "R",
+  "title": "Glyph 'R': shape IoU 0.74 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `R`\n\n**Recorded V3 IoU:** 0.737 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(R): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "S",
+  "title": "Glyph 'S': shape IoU 0.82 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `S`\n\n**Recorded V3 IoU:** 0.818 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(S): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "T",
+  "title": "Glyph 'T': shape IoU 0.92 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `T`\n\n**Recorded V3 IoU:** 0.918 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(T): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "U",
+  "title": "Glyph 'U': shape IoU 0.85 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `U`\n\n**Recorded V3 IoU:** 0.845 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(U): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "V",
+  "title": "Glyph 'V': shape IoU 0.94 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `V`\n\n**Recorded V3 IoU:** 0.941 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(V): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "W",
+  "title": "Glyph 'W': shape IoU 0.91 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `W`\n\n**Recorded V3 IoU:** 0.907 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(W): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "X",
+  "title": "Glyph 'X': shape IoU 0.82 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `X`\n\n**Recorded V3 IoU:** 0.823 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(X): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "Y",
+  "title": "Glyph 'Y': shape IoU 0.76 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `Y`\n\n**Recorded V3 IoU:** 0.763 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(Y): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "Z",
+  "title": "Glyph 'Z': shape IoU 0.91 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `Z`\n\n**Recorded V3 IoU:** 0.915 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(Z): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "a",
+  "title": "Glyph 'a': shape IoU 0.75 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `a`\n\n**Recorded V3 IoU:** 0.752 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(a): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "b",
+  "title": "Glyph 'b': shape IoU 0.86 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `b`\n\n**Recorded V3 IoU:** 0.857 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(b): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "c",
+  "title": "Glyph 'c': shape IoU 0.80 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `c`\n\n**Recorded V3 IoU:** 0.802 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(c): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "d",
+  "title": "Glyph 'd': shape IoU 0.90 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `d`\n\n**Recorded V3 IoU:** 0.898 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(d): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "e",
+  "title": "Glyph 'e': shape IoU 0.83 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `e`\n\n**Recorded V3 IoU:** 0.827 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(e): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "f",
+  "title": "Glyph 'f': shape IoU 0.97 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `f`\n\n**Recorded V3 IoU:** 0.966 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(f): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "g",
+  "title": "Glyph 'g': shape IoU 0.77 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `g`\n\n**Recorded V3 IoU:** 0.770 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(g): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "h",
+  "title": "Glyph 'h': shape IoU 0.95 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `h`\n\n**Recorded V3 IoU:** 0.954 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(h): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "i",
+  "title": "Glyph 'i': shape IoU 0.71 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `i`\n\n**Recorded V3 IoU:** 0.711 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(i): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "j",
+  "title": "Glyph 'j': shape IoU 0.81 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `j`\n\n**Recorded V3 IoU:** 0.808 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(j): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "k",
+  "title": "Glyph 'k': shape IoU 0.83 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `k`\n\n**Recorded V3 IoU:** 0.832 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(k): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "l",
+  "title": "Glyph 'l': shape IoU 0.86 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `l`\n\n**Recorded V3 IoU:** 0.857 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(l): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "m",
+  "title": "Glyph 'm': shape IoU 0.90 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `m`\n\n**Recorded V3 IoU:** 0.896 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(m): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "n",
+  "title": "Glyph 'n': shape IoU 0.93 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `n`\n\n**Recorded V3 IoU:** 0.929 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(n): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "o",
+  "title": "Glyph 'o': shape IoU 0.90 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `o`\n\n**Recorded V3 IoU:** 0.896 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(o): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "p",
+  "title": "Glyph 'p': shape IoU 0.87 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `p`\n\n**Recorded V3 IoU:** 0.871 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(p): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "q",
+  "title": "Glyph 'q': shape IoU 0.91 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `q`\n\n**Recorded V3 IoU:** 0.911 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(q): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "r",
+  "title": "Glyph 'r': shape IoU 0.80 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `r`\n\n**Recorded V3 IoU:** 0.798 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(r): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "s",
+  "title": "Glyph 's': shape IoU 0.85 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `s`\n\n**Recorded V3 IoU:** 0.849 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(s): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "t",
+  "title": "Glyph 't': shape IoU 0.88 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `t`\n\n**Recorded V3 IoU:** 0.877 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(t): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "u",
+  "title": "Glyph 'u': shape IoU 0.90 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `u`\n\n**Recorded V3 IoU:** 0.896 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(u): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "v",
+  "title": "Glyph 'v': shape IoU 0.85 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `v`\n\n**Recorded V3 IoU:** 0.855 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(v): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "w",
+  "title": "Glyph 'w': shape IoU 0.82 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `w`\n\n**Recorded V3 IoU:** 0.824 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(w): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "x",
+  "title": "Glyph 'x': shape IoU 0.88 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `x`\n\n**Recorded V3 IoU:** 0.882 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(x): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "y",
+  "title": "Glyph 'y': shape IoU 0.75 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `y`\n\n**Recorded V3 IoU:** 0.754 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(y): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ },
+ {
+  "kind": "glyph",
+  "glyph": "z",
+  "title": "Glyph 'z': shape IoU 0.91 -> >= 0.88 (median target 0.93)",
+  "labels": [
+   "glyph",
+   "phase-c"
+  ],
+  "body": "**Glyph:** `z`\n\n**Recorded V3 IoU:** 0.907 (frozen baseline, reference/v3-reports/glyph_table.json)\n\n**Acceptance (CONTRACT_98):** IoU >= 0.88 against the reference bitmap, width error <= 0.5 px, vertical error <= 1 px, held-out crop checked, `tools/check_regression.py` shows no change to untouched glyphs, no other glyph's IoU lowered, no advance moved > 0.5 px.\n\n**Workflow:** docs/PLAN_98.md Phase C: DNA spec -> CMA-ES fit on training sizes only -> held-out check -> step-29 gate -> render 12/14/16/24 px in FreeType + Chromium -> one commit `glyph(z): IoU a -> b, width err x -> y px (closes #N)`. Max 5 optimiser restarts, then report the structural gap with heatmap.\n\n**Blocked by:** Phase B reference bitmaps (plan steps 11-26)."
+ }
+]
