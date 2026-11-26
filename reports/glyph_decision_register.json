@@ -1,0 +1,5117 @@
+{
+ "note": "PROPOSED defaults generated from recorded V3 evidence. The owner's 14 priority glyphs + 6 identified are not in this repo; confirm or override.",
+ "glyphs": [
+  {
+   "glyph": ".notdef",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "A",
+   "unicode": "U+0041",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.932,
+   "width_factor_v3": null,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.93 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Aacute",
+   "unicode": "U+00C1",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Abreve",
+   "unicode": "U+0102",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni01CD",
+   "unicode": "U+01CD",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Acircumflex",
+   "unicode": "U+00C2",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Adieresis",
+   "unicode": "U+00C4",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Agrave",
+   "unicode": "U+00C0",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Amacron",
+   "unicode": "U+0100",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Aogonek",
+   "unicode": "U+0104",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Aring",
+   "unicode": "U+00C5",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Atilde",
+   "unicode": "U+00C3",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "AE",
+   "unicode": "U+00C6",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "B",
+   "unicode": "U+0042",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.912,
+   "width_factor_v3": 0.956,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.91 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "C",
+   "unicode": "U+0043",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.776,
+   "width_factor_v3": 1.03,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.78 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Cacute",
+   "unicode": "U+0106",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ccaron",
+   "unicode": "U+010C",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ccedilla",
+   "unicode": "U+00C7",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Cdotaccent",
+   "unicode": "U+010A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "D",
+   "unicode": "U+0044",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.983,
+   "width_factor_v3": 0.961,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.98 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Eth",
+   "unicode": "U+00D0",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Dcaron",
+   "unicode": "U+010E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Dcroat",
+   "unicode": "U+0110",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "E",
+   "unicode": "U+0045",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.932,
+   "width_factor_v3": 0.9,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.93 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Eacute",
+   "unicode": "U+00C9",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ecaron",
+   "unicode": "U+011A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ecircumflex",
+   "unicode": "U+00CA",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Edieresis",
+   "unicode": "U+00CB",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Edotaccent",
+   "unicode": "U+0116",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Egrave",
+   "unicode": "U+00C8",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Emacron",
+   "unicode": "U+0112",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Eogonek",
+   "unicode": "U+0118",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "F",
+   "unicode": "U+0046",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.933,
+   "width_factor_v3": 0.91,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.93 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "G",
+   "unicode": "U+0047",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.766,
+   "width_factor_v3": 1.017,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.77 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Gbreve",
+   "unicode": "U+011E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0122",
+   "unicode": "U+0122",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Gdotaccent",
+   "unicode": "U+0120",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "H",
+   "unicode": "U+0048",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.872,
+   "width_factor_v3": 1.024,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.87 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Hbar",
+   "unicode": "U+0126",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "I",
+   "unicode": "U+0049",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.857,
+   "width_factor_v3": null,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.86 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "IJ",
+   "unicode": "U+0132",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Iacute",
+   "unicode": "U+00CD",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Icircumflex",
+   "unicode": "U+00CE",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Idieresis",
+   "unicode": "U+00CF",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Idotaccent",
+   "unicode": "U+0130",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Igrave",
+   "unicode": "U+00CC",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Imacron",
+   "unicode": "U+012A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Iogonek",
+   "unicode": "U+012E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "J",
+   "unicode": "U+004A",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.445,
+   "width_factor_v3": 1.1,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.44 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "K",
+   "unicode": "U+004B",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.633,
+   "width_factor_v3": 0.9,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.63 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0136",
+   "unicode": "U+0136",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "L",
+   "unicode": "U+004C",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 1.0,
+   "width_factor_v3": 0.922,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 1.00 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Lacute",
+   "unicode": "U+0139",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Lcaron",
+   "unicode": "U+013D",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni013B",
+   "unicode": "U+013B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Lslash",
+   "unicode": "U+0141",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "M",
+   "unicode": "U+004D",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.854,
+   "width_factor_v3": 0.967,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.85 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "N",
+   "unicode": "U+004E",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.957,
+   "width_factor_v3": 1.024,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.96 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Nacute",
+   "unicode": "U+0143",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ncaron",
+   "unicode": "U+0147",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0145",
+   "unicode": "U+0145",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ntilde",
+   "unicode": "U+00D1",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Eng",
+   "unicode": "U+014A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "O",
+   "unicode": "U+004F",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.868,
+   "width_factor_v3": 1.076,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.87 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Oacute",
+   "unicode": "U+00D3",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ocircumflex",
+   "unicode": "U+00D4",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Odieresis",
+   "unicode": "U+00D6",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ograve",
+   "unicode": "U+00D2",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ohungarumlaut",
+   "unicode": "U+0150",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Omacron",
+   "unicode": "U+014C",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Oslash",
+   "unicode": "U+00D8",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Otilde",
+   "unicode": "U+00D5",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "OE",
+   "unicode": "U+0152",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "P",
+   "unicode": "U+0050",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.914,
+   "width_factor_v3": 0.926,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.91 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Thorn",
+   "unicode": "U+00DE",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Q",
+   "unicode": "U+0051",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.708,
+   "width_factor_v3": 1.036,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.71 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "R",
+   "unicode": "U+0052",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.737,
+   "width_factor_v3": 0.9,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.74 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Racute",
+   "unicode": "U+0154",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Rcaron",
+   "unicode": "U+0158",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0156",
+   "unicode": "U+0156",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "S",
+   "unicode": "U+0053",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.818,
+   "width_factor_v3": 1.04,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.82 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Sacute",
+   "unicode": "U+015A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Scaron",
+   "unicode": "U+0160",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Scedilla",
+   "unicode": "U+015E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0218",
+   "unicode": "U+0218",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni1E9E",
+   "unicode": "U+1E9E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "T",
+   "unicode": "U+0054",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.918,
+   "width_factor_v3": 0.928,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.92 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Tcaron",
+   "unicode": "U+0164",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni021A",
+   "unicode": "U+021A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "U",
+   "unicode": "U+0055",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.845,
+   "width_factor_v3": 1.045,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.85 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Uacute",
+   "unicode": "U+00DA",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ubreve",
+   "unicode": "U+016C",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ucircumflex",
+   "unicode": "U+00DB",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Udieresis",
+   "unicode": "U+00DC",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ugrave",
+   "unicode": "U+00D9",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Uhungarumlaut",
+   "unicode": "U+0170",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Umacron",
+   "unicode": "U+016A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Uogonek",
+   "unicode": "U+0172",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Uring",
+   "unicode": "U+016E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "V",
+   "unicode": "U+0056",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.941,
+   "width_factor_v3": 0.961,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.94 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "W",
+   "unicode": "U+0057",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.907,
+   "width_factor_v3": 1.024,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.91 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Wacute",
+   "unicode": "U+1E82",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Wcircumflex",
+   "unicode": "U+0174",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Wdieresis",
+   "unicode": "U+1E84",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Wgrave",
+   "unicode": "U+1E80",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "X",
+   "unicode": "U+0058",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.823,
+   "width_factor_v3": 1.012,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.82 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Y",
+   "unicode": "U+0059",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.763,
+   "width_factor_v3": 0.919,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.76 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Yacute",
+   "unicode": "U+00DD",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ycircumflex",
+   "unicode": "U+0176",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ydieresis",
+   "unicode": "U+0178",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ygrave",
+   "unicode": "U+1EF2",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Z",
+   "unicode": "U+005A",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.915,
+   "width_factor_v3": 1.049,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.91 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Zacute",
+   "unicode": "U+0179",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Zcaron",
+   "unicode": "U+017D",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Zdotaccent",
+   "unicode": "U+017B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Adieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Cdotaccent.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Edieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Edotaccent.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0122.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Gdotaccent.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Idieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Idotaccent.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0136.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni013B.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0145.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Odieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0156.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0218.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni021A.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Udieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Ydieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Zdotaccent.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "K.ss04",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0136.ss04",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "R.ss05",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Racute.ss05",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Rcaron.ss05",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0156.ss05",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "M.ss06",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "G.ss07",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Gbreve.ss07",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0122.ss07",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Gdotaccent.ss07",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "J.ss08",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Q.ss09",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0136.ss01.ss04",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0156.ss01.ss05",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0122.ss01.ss07",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Gdotaccent.ss01.ss07",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "a",
+   "unicode": "U+0061",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.752,
+   "width_factor_v3": 1.076,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.75 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "aacute",
+   "unicode": "U+00E1",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "abreve",
+   "unicode": "U+0103",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni01CE",
+   "unicode": "U+01CE",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "acircumflex",
+   "unicode": "U+00E2",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "adieresis",
+   "unicode": "U+00E4",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "agrave",
+   "unicode": "U+00E0",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "amacron",
+   "unicode": "U+0101",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "aogonek",
+   "unicode": "U+0105",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "aring",
+   "unicode": "U+00E5",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "atilde",
+   "unicode": "U+00E3",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ae",
+   "unicode": "U+00E6",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "b",
+   "unicode": "U+0062",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.857,
+   "width_factor_v3": 1.069,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.86 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "c",
+   "unicode": "U+0063",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.802,
+   "width_factor_v3": 1.031,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.80 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "cacute",
+   "unicode": "U+0107",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ccaron",
+   "unicode": "U+010D",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ccedilla",
+   "unicode": "U+00E7",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "cdotaccent",
+   "unicode": "U+010B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "d",
+   "unicode": "U+0064",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.898,
+   "width_factor_v3": 1.071,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.90 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "eth",
+   "unicode": "U+00F0",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "dcaron",
+   "unicode": "U+010F",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "dcroat",
+   "unicode": "U+0111",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "e",
+   "unicode": "U+0065",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.827,
+   "width_factor_v3": null,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.83 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "eacute",
+   "unicode": "U+00E9",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ecaron",
+   "unicode": "U+011B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ecircumflex",
+   "unicode": "U+00EA",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "edieresis",
+   "unicode": "U+00EB",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "edotaccent",
+   "unicode": "U+0117",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "egrave",
+   "unicode": "U+00E8",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "emacron",
+   "unicode": "U+0113",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "eogonek",
+   "unicode": "U+0119",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "f",
+   "unicode": "U+0066",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.966,
+   "width_factor_v3": 0.94,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.97 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "g",
+   "unicode": "U+0067",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.77,
+   "width_factor_v3": null,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.77 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "gbreve",
+   "unicode": "U+011F",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0123",
+   "unicode": "U+0123",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "gdotaccent",
+   "unicode": "U+0121",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "h",
+   "unicode": "U+0068",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.954,
+   "width_factor_v3": null,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.95 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "hbar",
+   "unicode": "U+0127",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "i",
+   "unicode": "U+0069",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.711,
+   "width_factor_v3": null,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.71 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "dotlessi",
+   "unicode": "U+0131",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "iacute",
+   "unicode": "U+00ED",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "icircumflex",
+   "unicode": "U+00EE",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "idieresis",
+   "unicode": "U+00EF",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "i.loclTRK",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "igrave",
+   "unicode": "U+00EC",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ij",
+   "unicode": "U+0133",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "imacron",
+   "unicode": "U+012B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "iogonek",
+   "unicode": "U+012F",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "j",
+   "unicode": "U+006A",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.808,
+   "width_factor_v3": null,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.81 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0237",
+   "unicode": "U+0237",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "k",
+   "unicode": "U+006B",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.832,
+   "width_factor_v3": 0.975,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.83 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0137",
+   "unicode": "U+0137",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "l",
+   "unicode": "U+006C",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.857,
+   "width_factor_v3": null,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.86 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "lacute",
+   "unicode": "U+013A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "lcaron",
+   "unicode": "U+013E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni013C",
+   "unicode": "U+013C",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "lslash",
+   "unicode": "U+0142",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "m",
+   "unicode": "U+006D",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.896,
+   "width_factor_v3": null,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.90 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "n",
+   "unicode": "U+006E",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.929,
+   "width_factor_v3": null,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.93 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "nacute",
+   "unicode": "U+0144",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ncaron",
+   "unicode": "U+0148",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0146",
+   "unicode": "U+0146",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ntilde",
+   "unicode": "U+00F1",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "eng",
+   "unicode": "U+014B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "o",
+   "unicode": "U+006F",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.896,
+   "width_factor_v3": 1.055,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.90 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "oacute",
+   "unicode": "U+00F3",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ocircumflex",
+   "unicode": "U+00F4",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "odieresis",
+   "unicode": "U+00F6",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ograve",
+   "unicode": "U+00F2",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ohungarumlaut",
+   "unicode": "U+0151",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "omacron",
+   "unicode": "U+014D",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "oslash",
+   "unicode": "U+00F8",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "otilde",
+   "unicode": "U+00F5",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "oe",
+   "unicode": "U+0153",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "p",
+   "unicode": "U+0070",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.871,
+   "width_factor_v3": 1.069,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.87 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "thorn",
+   "unicode": "U+00FE",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "q",
+   "unicode": "U+0071",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.911,
+   "width_factor_v3": 1.071,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.91 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "r",
+   "unicode": "U+0072",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.798,
+   "width_factor_v3": null,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.80 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "racute",
+   "unicode": "U+0155",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "rcaron",
+   "unicode": "U+0159",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0157",
+   "unicode": "U+0157",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "s",
+   "unicode": "U+0073",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.849,
+   "width_factor_v3": 1.053,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.85 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "sacute",
+   "unicode": "U+015B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "scaron",
+   "unicode": "U+0161",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "scedilla",
+   "unicode": "U+015F",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0219",
+   "unicode": "U+0219",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "germandbls",
+   "unicode": "U+00DF",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "t",
+   "unicode": "U+0074",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.877,
+   "width_factor_v3": 0.9,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.88 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "tcaron",
+   "unicode": "U+0165",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni021B",
+   "unicode": "U+021B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "u",
+   "unicode": "U+0075",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.896,
+   "width_factor_v3": 1.02,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.90 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uacute",
+   "unicode": "U+00FA",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ubreve",
+   "unicode": "U+016D",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ucircumflex",
+   "unicode": "U+00FB",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "udieresis",
+   "unicode": "U+00FC",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ugrave",
+   "unicode": "U+00F9",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uhungarumlaut",
+   "unicode": "U+0171",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "umacron",
+   "unicode": "U+016B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uogonek",
+   "unicode": "U+0173",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uring",
+   "unicode": "U+016F",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "v",
+   "unicode": "U+0076",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.855,
+   "width_factor_v3": 0.983,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.85 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "w",
+   "unicode": "U+0077",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.824,
+   "width_factor_v3": 1.088,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.82 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "wacute",
+   "unicode": "U+1E83",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "wcircumflex",
+   "unicode": "U+0175",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "wdieresis",
+   "unicode": "U+1E85",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "wgrave",
+   "unicode": "U+1E81",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "x",
+   "unicode": "U+0078",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.882,
+   "width_factor_v3": 0.965,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.88 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "y",
+   "unicode": "U+0079",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.754,
+   "width_factor_v3": null,
+   "proposed": "Match (structural gap - needs references to redraw)",
+   "basis": "recorded V3 raw IoU 0.75 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "yacute",
+   "unicode": "U+00FD",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ycircumflex",
+   "unicode": "U+0177",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ydieresis",
+   "unicode": "U+00FF",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ygrave",
+   "unicode": "U+1EF3",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "z",
+   "unicode": "U+007A",
+   "origin": "V3/Instrument Sans",
+   "recorded_v3_iou": 0.907,
+   "width_factor_v3": 1.088,
+   "proposed": "Keep",
+   "basis": "recorded V3 raw IoU 0.91 (threshold 0.85)",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "zacute",
+   "unicode": "U+017A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "zcaron",
+   "unicode": "U+017E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "zdotaccent",
+   "unicode": "U+017C",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "adieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "cdotaccent.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "edieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "edotaccent.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0123.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "gdotaccent.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "i.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "idieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "i.loclTRK.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ij.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "iogonek.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "j.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0137.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni013C.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0146.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "odieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0157.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0219.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni021B.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "udieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "wdieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ydieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "zdotaccent.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "a.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "aacute.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "abreve.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni01CE.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "acircumflex.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "adieresis.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "agrave.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "amacron.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "aogonek.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "aring.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "atilde.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "y.ss03",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "yacute.ss03",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ycircumflex.ss03",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ydieresis.ss03",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ygrave.ss03",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "k.ss04",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0137.ss04",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "adieresis.ss01.ss02",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ydieresis.ss01.ss03",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0137.ss01.ss04",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "f_f_i",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "f_f_l",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "f_i",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "f_l",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "w_w_w.liga",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "f_f_i.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "f_i.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ordfeminine",
+   "unicode": "U+00AA",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ordmasculine",
+   "unicode": "U+00BA",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "zero",
+   "unicode": "U+0030",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "one",
+   "unicode": "U+0031",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "two",
+   "unicode": "U+0032",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "three",
+   "unicode": "U+0033",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "four",
+   "unicode": "U+0034",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "five",
+   "unicode": "U+0035",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "six",
+   "unicode": "U+0036",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "seven",
+   "unicode": "U+0037",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "eight",
+   "unicode": "U+0038",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "nine",
+   "unicode": "U+0039",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "two.ss10",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "zero.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "one.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "two.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "three.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "four.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "five.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "six.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "seven.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "eight.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "nine.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "two.tf.ss10",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "space",
+   "unicode": "U+0020",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni00A0",
+   "unicode": "U+00A0",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "hyphen_greater.liga",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "period",
+   "unicode": "U+002E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "comma",
+   "unicode": "U+002C",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "colon",
+   "unicode": "U+003A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "semicolon",
+   "unicode": "U+003B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ellipsis",
+   "unicode": "U+2026",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "exclam",
+   "unicode": "U+0021",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "exclamdown",
+   "unicode": "U+00A1",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "question",
+   "unicode": "U+003F",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "questiondown",
+   "unicode": "U+00BF",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "periodcentered",
+   "unicode": "U+2219",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "bullet",
+   "unicode": "U+2022",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "asterisk",
+   "unicode": "U+002A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "numbersign",
+   "unicode": "U+0023",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "slash",
+   "unicode": "U+2215",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "backslash",
+   "unicode": "U+005C",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "colon.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "semicolon.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "exclam.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "exclamdown.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "question.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "questiondown.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "bullet.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "periodcentered.loclCAT",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "period.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "comma.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "colon.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "semicolon.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ellipsis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "exclam.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "exclamdown.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "question.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "questiondown.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "periodcentered.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "bullet.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "periodcentered.loclCAT.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "bullet.case.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "periodcentered.loclCAT.case.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "hyphen",
+   "unicode": "U+2011",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "endash",
+   "unicode": "U+2013",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "emdash",
+   "unicode": "U+2015",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "underscore",
+   "unicode": "U+005F",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "hyphen.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "endash.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "emdash.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "parenleft",
+   "unicode": "U+0028",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "parenright",
+   "unicode": "U+0029",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "braceleft",
+   "unicode": "U+007B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "braceright",
+   "unicode": "U+007D",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "bracketleft",
+   "unicode": "U+005B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "bracketright",
+   "unicode": "U+005D",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "parenleft.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "parenright.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "braceleft.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "braceright.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "bracketleft.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "bracketright.case",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quotesinglbase",
+   "unicode": "U+201A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quotedblbase",
+   "unicode": "U+201E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quotedblleft",
+   "unicode": "U+201C",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quotedblright",
+   "unicode": "U+201D",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quoteleft",
+   "unicode": "U+2018",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quoteright",
+   "unicode": "U+2019",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "guillemotleft",
+   "unicode": "U+00AB",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "guillemotright",
+   "unicode": "U+00BB",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "guilsinglleft",
+   "unicode": "U+2039",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "guilsinglright",
+   "unicode": "U+203A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quotedbl",
+   "unicode": "U+0022",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quotesingle",
+   "unicode": "U+0027",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quotesinglbase.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quotedblbase.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quotedblleft.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quotedblright.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quoteleft.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "quoteright.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "less_hyphen.liga",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "at",
+   "unicode": "U+0040",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ampersand",
+   "unicode": "U+0026",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "paragraph",
+   "unicode": "U+00B6",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "section",
+   "unicode": "U+00A7",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "copyright",
+   "unicode": "U+00A9",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "registered",
+   "unicode": "U+00AE",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "trademark",
+   "unicode": "U+2122",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "degree",
+   "unicode": "U+00B0",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "bar",
+   "unicode": "U+007C",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ampersand.ss11",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "cent",
+   "unicode": "U+00A2",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "dollar",
+   "unicode": "U+0024",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "Euro",
+   "unicode": "U+20AC",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "sterling",
+   "unicode": "U+00A3",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "yen",
+   "unicode": "U+00A5",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "cent.ss12",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "dollar.ss12",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "plus",
+   "unicode": "U+002B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "minus",
+   "unicode": "U+2212",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "multiply",
+   "unicode": "U+00D7",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "divide",
+   "unicode": "U+00F7",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "equal",
+   "unicode": "U+003D",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "greater",
+   "unicode": "U+003E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "less",
+   "unicode": "U+003C",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "asciitilde",
+   "unicode": "U+007E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "asciicircum",
+   "unicode": "U+005E",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "percent",
+   "unicode": "U+0025",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "perthousand",
+   "unicode": "U+2030",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "plus.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "minus.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "multiply.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "divide.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "equal.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "greater.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "less.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "percent.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "perthousand.tf",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "arrowup",
+   "unicode": "U+2191",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni2197",
+   "unicode": "U+2197",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "arrowright",
+   "unicode": "U+2192",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni2198",
+   "unicode": "U+2198",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "arrowdown",
+   "unicode": "U+2193",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni2199",
+   "unicode": "U+2199",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "arrowleft",
+   "unicode": "U+2190",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni2196",
+   "unicode": "U+2196",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "arrowboth",
+   "unicode": "U+2194",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "arrowupdn",
+   "unicode": "U+2195",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0308",
+   "unicode": "U+0308",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0307",
+   "unicode": "U+0307",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "gravecomb",
+   "unicode": "U+0300",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "acutecomb",
+   "unicode": "U+0301",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni030B",
+   "unicode": "U+030B",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni030C.alt",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0302",
+   "unicode": "U+0302",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni030C",
+   "unicode": "U+030C",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0306",
+   "unicode": "U+0306",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni030A",
+   "unicode": "U+030A",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "tildecomb",
+   "unicode": "U+0303",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0304",
+   "unicode": "U+0304",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0312",
+   "unicode": "U+0312",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0326",
+   "unicode": "U+0326",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0327",
+   "unicode": "U+0327",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0328",
+   "unicode": "U+0328",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0308.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0307.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0312.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0326.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "dieresis",
+   "unicode": "U+00A8",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "dotaccent",
+   "unicode": "U+02D9",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "grave",
+   "unicode": "U+0060",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "acute",
+   "unicode": "U+00B4",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "hungarumlaut",
+   "unicode": "U+02DD",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "circumflex",
+   "unicode": "U+02C6",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "caron",
+   "unicode": "U+02C7",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "breve",
+   "unicode": "U+02D8",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ring",
+   "unicode": "U+02DA",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "tilde",
+   "unicode": "U+02DC",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "macron",
+   "unicode": "U+00AF",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "cedilla",
+   "unicode": "U+00B8",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "ogonek",
+   "unicode": "U+02DB",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "dieresis.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "dotaccent.ss01",
+   "unicode": null,
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni20A6",
+   "unicode": "U+20A6",
+   "origin": "V3/Instrument Sans",
+   "proposed": "Keep",
+   "basis": "inherited; no recorded shape measurement",
+   "status": "PROPOSED"
+  },
+  {
+   "glyph": "uni0323",
+   "unicode": "U+0323",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0108",
+   "unicode": "U+0108",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0109",
+   "unicode": "U+0109",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni011C",
+   "unicode": "U+011C",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni011D",
+   "unicode": "U+011D",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0124",
+   "unicode": "U+0124",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni015C",
+   "unicode": "U+015C",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni015D",
+   "unicode": "U+015D",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0114",
+   "unicode": "U+0114",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0115",
+   "unicode": "U+0115",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni012C",
+   "unicode": "U+012C",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni012D",
+   "unicode": "U+012D",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni014E",
+   "unicode": "U+014E",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni014F",
+   "unicode": "U+014F",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0128",
+   "unicode": "U+0128",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0129",
+   "unicode": "U+0129",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0168",
+   "unicode": "U+0168",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0169",
+   "unicode": "U+0169",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0134",
+   "unicode": "U+0134",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0135",
+   "unicode": "U+0135",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0125",
+   "unicode": "U+0125",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0162",
+   "unicode": "U+0162",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0163",
+   "unicode": "U+0163",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0166",
+   "unicode": "U+0166",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0167",
+   "unicode": "U+0167",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni013F",
+   "unicode": "U+013F",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0140",
+   "unicode": "U+0140",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0149",
+   "unicode": "U+0149",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0138",
+   "unicode": "U+0138",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "brokenbar",
+   "unicode": "U+00A6",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "logicalnot",
+   "unicode": "U+00AC",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "plusminus",
+   "unicode": "U+00B1",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni00B5",
+   "unicode": "U+00B5",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "currency",
+   "unicode": "U+00A4",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1EB8",
+   "unicode": "U+1EB8",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1EB9",
+   "unicode": "U+1EB9",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1ECC",
+   "unicode": "U+1ECC",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1ECD",
+   "unicode": "U+1ECD",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1E62",
+   "unicode": "U+1E62",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1E63",
+   "unicode": "U+1E63",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1ECA",
+   "unicode": "U+1ECA",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1ECB",
+   "unicode": "U+1ECB",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1EE4",
+   "unicode": "U+1EE4",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1EE5",
+   "unicode": "U+1EE5",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1ECB.dl",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni01F8",
+   "unicode": "U+01F8",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni01F9",
+   "unicode": "U+01F9",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1E3E",
+   "unicode": "U+1E3E",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1E3F",
+   "unicode": "U+1E3F",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1E44",
+   "unicode": "U+1E44",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni1E45",
+   "unicode": "U+1E45",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni02BC",
+   "unicode": "U+02BC",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0181",
+   "unicode": "U+0181",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni018A",
+   "unicode": "U+018A",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0198",
+   "unicode": "U+0198",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0253",
+   "unicode": "U+0253",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0257",
+   "unicode": "U+0257",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0199",
+   "unicode": "U+0199",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni01B3",
+   "unicode": "U+01B3",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni01B4",
+   "unicode": "U+01B4",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0186",
+   "unicode": "U+0186",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0254",
+   "unicode": "U+0254",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni0190",
+   "unicode": "U+0190",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni025B",
+   "unicode": "U+025B",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "zero.slash",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "zero.tf.slash",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "zerosuperior",
+   "unicode": "U+2070",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "onesuperior",
+   "unicode": "U+00B9",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "twosuperior",
+   "unicode": "U+00B2",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "threesuperior",
+   "unicode": "U+00B3",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "foursuperior",
+   "unicode": "U+2074",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "fivesuperior",
+   "unicode": "U+2075",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "sixsuperior",
+   "unicode": "U+2076",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "sevensuperior",
+   "unicode": "U+2077",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "eightsuperior",
+   "unicode": "U+2078",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "ninesuperior",
+   "unicode": "U+2079",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "zeroinferior",
+   "unicode": "U+2080",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "oneinferior",
+   "unicode": "U+2081",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "twoinferior",
+   "unicode": "U+2082",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "threeinferior",
+   "unicode": "U+2083",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "fourinferior",
+   "unicode": "U+2084",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "fiveinferior",
+   "unicode": "U+2085",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "sixinferior",
+   "unicode": "U+2086",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "seveninferior",
+   "unicode": "U+2087",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "eightinferior",
+   "unicode": "U+2088",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "nineinferior",
+   "unicode": "U+2089",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "zero.numr",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "one.numr",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "two.numr",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "three.numr",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "four.numr",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "five.numr",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "six.numr",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "seven.numr",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "eight.numr",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "nine.numr",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "zero.dnom",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "one.dnom",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "two.dnom",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "three.dnom",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "four.dnom",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "five.dnom",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "six.dnom",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "seven.dnom",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "eight.dnom",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "nine.dnom",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "fraction",
+   "unicode": "U+2044",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "onequarter",
+   "unicode": "U+00BC",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "onehalf",
+   "unicode": "U+00BD",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "threequarters",
+   "unicode": "U+00BE",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni2153",
+   "unicode": "U+2153",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni2154",
+   "unicode": "U+2154",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni215B",
+   "unicode": "U+215B",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni2713",
+   "unicode": "U+2713",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni2260",
+   "unicode": "U+2260",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "lessequal",
+   "unicode": "U+2264",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "greaterequal",
+   "unicode": "U+2265",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "approxequal",
+   "unicode": "U+2248",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "infinity",
+   "unicode": "U+221E",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni2116",
+   "unicode": "U+2116",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni20B5",
+   "unicode": "U+20B5",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "uni20B9",
+   "unicode": "U+20B9",
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "l.ss13",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  },
+  {
+   "glyph": "I.ss13",
+   "unicode": null,
+   "origin": "V4 new",
+   "proposed": "Diverge",
+   "basis": "No reference exists for this glyph (constructed from Instrument Sans parts/primitives).",
+   "status": "PROPOSED - unreviewed design"
+  }
+ ]
+}

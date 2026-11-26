@@ -1,0 +1,122 @@
+{
+ "scores": {
+  "plain": {
+   "geometry": 7.211538461538462,
+   "width": 5.69620253164557,
+   "vertical": 4.444444444444445,
+   "stroke": 0.0,
+   "spacing": 8.753274958632101,
+   "optical_rendering": 0.0,
+   "coverage_integrity": 3.046875,
+   "technical": 0.0,
+   "total": 29.15233539626058
+  },
+  "v2": {
+   "geometry": 9.615384615384615,
+   "width": 9.873417721518987,
+   "vertical": 8.88888888888889,
+   "stroke": 1.3636363636363638,
+   "spacing": 7.919367071152786,
+   "optical_rendering": 0.0,
+   "coverage_integrity": 3.741319444444444,
+   "technical": 1.6666666666666665,
+   "total": 43.06868077169275
+  },
+  "v3": {
+   "geometry": 14.903846153846153,
+   "width": 12.91139240506329,
+   "vertical": 8.88888888888889,
+   "stroke": 9.886363636363637,
+   "spacing": 12.774062327633755,
+   "optical_rendering": 5.0,
+   "coverage_integrity": 4.375,
+   "technical": 3.333333333333333,
+   "total": 72.07288674512905
+  }
+ },
+ "ui": {
+  "plain": {
+   "n": 37,
+   "x_err": 1.0458533324928658,
+   "w_abs": 1.4324642195127995,
+   "w_bias": 0.5456907931282363,
+   "within1": 0.6216216216216216
+  },
+  "v2": {
+   "n": 37,
+   "x_err": 0.7887809454687815,
+   "w_abs": 0.8735720517036777,
+   "w_bias": 0.024387375227684006,
+   "within1": 0.8108108108108109
+  },
+  "v3": {
+   "n": 37,
+   "x_err": 0.7896458386038916,
+   "w_abs": 0.9400853440822576,
+   "w_bias": 0.3727697395256335,
+   "within1": 0.7567567567567568
+  }
+ },
+ "integrity": {
+  "v2": {
+   "lsb==xMin": true,
+   "bbox within win metrics": true,
+   "OS/2 cap/x match glyphs": true,
+   "names+license present": true,
+   "no stale hinting": true,
+   "maxp consistent": true,
+   "composites resolve": true,
+   "weight class matches measured stems": false,
+   "no global-tracking hack": false
+  },
+  "v3": {
+   "lsb==xMin": true,
+   "bbox within win metrics": true,
+   "OS/2 cap/x match glyphs": true,
+   "names+license present": true,
+   "no stale hinting": true,
+   "maxp consistent": true,
+   "composites resolve": true,
+   "weight class matches measured stems": true,
+   "no global-tracking hack": true
+  }
+ },
+ "missing": {
+  "v2": [
+   "\u20a6",
+   "\u20b5",
+   "\u20b9",
+   "\u2116",
+   "\u2713",
+   "\u2260",
+   "\u2264",
+   "\u2265",
+   "\u00bd"
+  ],
+  "v3": [
+   "\u20b5",
+   "\u20b9",
+   "\u2116",
+   "\u2713",
+   "\u2260",
+   "\u2264",
+   "\u2265",
+   "\u00bd"
+  ],
+  "plain": [
+   "\u20a6",
+   "\u20b5",
+   "\u20b9",
+   "\u2116",
+   "\u2713",
+   "\u2260",
+   "\u2264",
+   "\u2265",
+   "\u00bd"
+  ]
+ },
+ "heavier_pass": {
+  "Medium": 1.0,
+  "SemiBold": 1.0
+ }
+}

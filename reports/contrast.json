@@ -1,0 +1,160 @@
+{
+ "standard": "WCAG 2.2 AA (4.5:1 text, 3:1 large text / UI components / focus indicators)",
+ "pairs": {
+  "light: textPrimary on surface": {
+   "fg": "#111111",
+   "bg": "#FFFFFF",
+   "ratio": 18.88,
+   "required": 4.5,
+   "pass_": true
+  },
+  "light: textPrimary on surfaceRaised": {
+   "fg": "#111111",
+   "bg": "#F6F6F4",
+   "ratio": 17.45,
+   "required": 4.5,
+   "pass_": true
+  },
+  "light: textSecondary on surface": {
+   "fg": "#5C5C5C",
+   "bg": "#FFFFFF",
+   "ratio": 6.69,
+   "required": 4.5,
+   "pass_": true
+  },
+  "light: textSecondary on surfaceRaised": {
+   "fg": "#5C5C5C",
+   "bg": "#F6F6F4",
+   "ratio": 6.18,
+   "required": 4.5,
+   "pass_": true
+  },
+  "light: accent on surface": {
+   "fg": "#0B6E4F",
+   "bg": "#FFFFFF",
+   "ratio": 6.25,
+   "required": 4.5,
+   "pass_": true
+  },
+  "light: onAccent on accent": {
+   "fg": "#FFFFFF",
+   "bg": "#0B6E4F",
+   "ratio": 6.25,
+   "required": 4.5,
+   "pass_": true
+  },
+  "light: danger on surface": {
+   "fg": "#B3261E",
+   "bg": "#FFFFFF",
+   "ratio": 6.54,
+   "required": 4.5,
+   "pass_": true
+  },
+  "light: border on surface": {
+   "fg": "#8A8A8A",
+   "bg": "#FFFFFF",
+   "ratio": 3.45,
+   "required": 3.0,
+   "pass_": true
+  },
+  "light: focus on surface": {
+   "fg": "#1A56DB",
+   "bg": "#FFFFFF",
+   "ratio": 6.18,
+   "required": 3.0,
+   "pass_": true
+  },
+  "light: focus on surfaceRaised": {
+   "fg": "#1A56DB",
+   "bg": "#F6F6F4",
+   "ratio": 5.71,
+   "required": 3.0,
+   "pass_": true
+  },
+  "light: accent on surfaceRaised": {
+   "fg": "#0B6E4F",
+   "bg": "#F6F6F4",
+   "ratio": 5.78,
+   "required": 4.5,
+   "pass_": true
+  },
+  "dark: textPrimary on surface": {
+   "fg": "#F2F2F2",
+   "bg": "#121212",
+   "ratio": 16.73,
+   "required": 4.5,
+   "pass_": true
+  },
+  "dark: textPrimary on surfaceRaised": {
+   "fg": "#F2F2F2",
+   "bg": "#1E1E1E",
+   "ratio": 14.89,
+   "required": 4.5,
+   "pass_": true
+  },
+  "dark: textSecondary on surface": {
+   "fg": "#A9A9A9",
+   "bg": "#121212",
+   "ratio": 7.97,
+   "required": 4.5,
+   "pass_": true
+  },
+  "dark: textSecondary on surfaceRaised": {
+   "fg": "#A9A9A9",
+   "bg": "#1E1E1E",
+   "ratio": 7.09,
+   "required": 4.5,
+   "pass_": true
+  },
+  "dark: accent on surface": {
+   "fg": "#5FD3A5",
+   "bg": "#121212",
+   "ratio": 10.12,
+   "required": 4.5,
+   "pass_": true
+  },
+  "dark: onAccent on accent": {
+   "fg": "#08281D",
+   "bg": "#5FD3A5",
+   "ratio": 8.52,
+   "required": 4.5,
+   "pass_": true
+  },
+  "dark: danger on surface": {
+   "fg": "#FF8A80",
+   "bg": "#121212",
+   "ratio": 8.21,
+   "required": 4.5,
+   "pass_": true
+  },
+  "dark: border on surface": {
+   "fg": "#7A7A7A",
+   "bg": "#121212",
+   "ratio": 4.36,
+   "required": 3.0,
+   "pass_": true
+  },
+  "dark: focus on surface": {
+   "fg": "#8AB4FF",
+   "bg": "#121212",
+   "ratio": 8.97,
+   "required": 3.0,
+   "pass_": true
+  },
+  "dark: focus on surfaceRaised": {
+   "fg": "#8AB4FF",
+   "bg": "#1E1E1E",
+   "ratio": 7.98,
+   "required": 3.0,
+   "pass_": true
+  },
+  "dark: accent on surfaceRaised": {
+   "fg": "#5FD3A5",
+   "bg": "#1E1E1E",
+   "ratio": 9.01,
+   "required": 4.5,
+   "pass_": true
+  }
+ },
+ "failures": []
+}

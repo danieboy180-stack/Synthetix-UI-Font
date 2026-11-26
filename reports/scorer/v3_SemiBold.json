@@ -1,0 +1,583 @@
+{
+ "font": "SynthetixUI-SemiBold.ttf",
+ "weight": 600,
+ "px_per_em": 70.0,
+ "vertical": {
+  "n": 9,
+  "passed": 8,
+  "failed": [
+   "Q below baseline"
+  ],
+  "values": {
+   "cap H": {
+    "candidate": 49.0,
+    "reference": 49
+   },
+   "x-height flat (v,w,x,z)": {
+    "candidate": 35.0,
+    "reference": 35
+   },
+   "ascender l": {
+    "candidate": 51.0,
+    "reference": 51
+   },
+   "ascender b,d,h,k": {
+    "candidate": 51.0,
+    "reference": 51.5
+   },
+   "desc p,q,y": {
+    "candidate": 12.0,
+    "reference": 12
+   },
+   "desc g,j": {
+    "candidate": 13.0,
+    "reference": 13
+   },
+   "t height": {
+    "candidate": 46.0,
+    "reference": 45
+   },
+   "digit 1,4,7 height": {
+    "candidate": 49.0,
+    "reference": 49
+   },
+   "Q below baseline": {
+    "candidate": 1.0,
+    "reference": 5
+   }
+  }
+ },
+ "widths": {
+  "n": 79,
+  "within_1px": 9,
+  "pct": 11.39240506329114,
+  "mape": 11.101762780733974,
+  "failing": [
+   {
+    "ch": "B",
+    "cand": 36,
+    "ref": 34,
+    "delta": 2
+   },
+   {
+    "ch": "C",
+    "cand": 48,
+    "ref": 46,
+    "delta": 2
+   },
+   {
+    "ch": "D",
+    "cand": 43,
+    "ref": 41,
+    "delta": 2
+   },
+   {
+    "ch": "E",
+    "cand": 33,
+    "ref": 29,
+    "delta": 4
+   },
+   {
+    "ch": "F",
+    "cand": 31,
+    "ref": 29,
+    "delta": 2
+   },
+   {
+    "ch": "G",
+    "cand": 49,
+    "ref": 46,
+    "delta": 3
+   },
+   {
+    "ch": "H",
+    "cand": 42,
+    "ref": 40,
+    "delta": 2
+   },
+   {
+    "ch": "I",
+    "cand": 9,
+    "ref": 6,
+    "delta": 3
+   },
+   {
+    "ch": "J",
+    "cand": 27,
+    "ref": 31,
+    "delta": -4
+   },
+   {
+    "ch": "K",
+    "cand": 41,
+    "ref": 37,
+    "delta": 4
+   },
+   {
+    "ch": "L",
+    "cand": 31,
+    "ref": 29,
+    "delta": 2
+   },
+   {
+    "ch": "M",
+    "cand": 51,
+    "ref": 49,
+    "delta": 2
+   },
+   {
+    "ch": "N",
+    "cand": 43,
+    "ref": 40,
+    "delta": 3
+   },
+   {
+    "ch": "O",
+    "cand": 53,
+    "ref": 51,
+    "delta": 2
+   },
+   {
+    "ch": "P",
+    "cand": 37,
+    "ref": 34,
+    "delta": 3
+   },
+   {
+    "ch": "Q",
+    "cand": 54,
+    "ref": 51,
+    "delta": 3
+   },
+   {
+    "ch": "R",
+    "cand": 39,
+    "ref": 35,
+    "delta": 4
+   },
+   {
+    "ch": "S",
+    "cand": 42,
+    "ref": 38,
+    "delta": 4
+   },
+   {
+    "ch": "T",
+    "cand": 39,
+    "ref": 37,
+    "delta": 2
+   },
+   {
+    "ch": "U",
+    "cand": 43,
+    "ref": 40,
+    "delta": 3
+   },
+   {
+    "ch": "V",
+    "cand": 46,
+    "ref": 44,
+    "delta": 2
+   },
+   {
+    "ch": "X",
+    "cand": 48,
+    "ref": 44,
+    "delta": 4
+   },
+   {
+    "ch": "Y",
+    "cand": 44,
+    "ref": 41,
+    "delta": 3
+   },
+   {
+    "ch": "Z",
+    "cand": 40,
+    "ref": 37,
+    "delta": 3
+   },
+   {
+    "ch": "a",
+    "cand": 35,
+    "ref": 32,
+    "delta": 3
+   },
+   {
+    "ch": "b",
+    "cand": 38,
+    "ref": 36,
+    "delta": 2
+   },
+   {
+    "ch": "c",
+    "cand": 36,
+    "ref": 33,
+    "delta": 3
+   },
+   {
+    "ch": "d",
+    "cand": 38,
+    "ref": 36,
+    "delta": 2
+   },
+   {
+    "ch": "e",
+    "cand": 36,
+    "ref": 34,
+    "delta": 2
+   },
+   {
+    "ch": "g",
+    "cand": 37,
+    "ref": 34,
+    "delta": 3
+   },
+   {
+    "ch": "h",
+    "cand": 34,
+    "ref": 31,
+    "delta": 3
+   },
+   {
+    "ch": "i",
+    "cand": 10,
+    "ref": 8,
+    "delta": 2
+   },
+   {
+    "ch": "j",
+    "cand": 17,
+    "ref": 14,
+    "delta": 3
+   },
+   {
+    "ch": "k",
+    "cand": 34,
+    "ref": 31,
+    "delta": 3
+   },
+   {
+    "ch": "l",
+    "cand": 9,
+    "ref": 6,
+    "delta": 3
+   },
+   {
+    "ch": "m",
+    "cand": 56,
+    "ref": 53,
+    "delta": 3
+   },
+   {
+    "ch": "n",
+    "cand": 34,
+    "ref": 31,
+    "delta": 3
+   },
+   {
+    "ch": "o",
+    "cand": 40,
+    "ref": 37,
+    "delta": 3
+   },
+   {
+    "ch": "p",
+    "cand": 39,
+    "ref": 36,
+    "delta": 3
+   },
+   {
+    "ch": "q",
+    "cand": 38,
+    "ref": 36,
+    "delta": 2
+   },
+   {
+    "ch": "r",
+    "cand": 21,
+    "ref": 18,
+    "delta": 3
+   },
+   {
+    "ch": "s",
+    "cand": 33,
+    "ref": 30,
+    "delta": 3
+   },
+   {
+    "ch": "t",
+    "cand": 23,
+    "ref": 21,
+    "delta": 2
+   },
+   {
+    "ch": "u",
+    "cand": 34,
+    "ref": 31,
+    "delta": 3
+   },
+   {
+    "ch": "v",
+    "cand": 37,
+    "ref": 34,
+    "delta": 3
+   },
+   {
+    "ch": "w",
+    "cand": 59,
+    "ref": 54,
+    "delta": 5
+   },
+   {
+    "ch": "x",
+    "cand": 38,
+    "ref": 34,
+    "delta": 4
+   },
+   {
+    "ch": "y",
+    "cand": 38,
+    "ref": 35,
+    "delta": 3
+   },
+   {
+    "ch": "z",
+    "cand": 32,
+    "ref": 30,
+    "delta": 2
+   },
+   {
+    "ch": "0",
+    "cand": 41,
+    "ref": 38,
+    "delta": 3
+   },
+   {
+    "ch": "1",
+    "cand": 21,
+    "ref": 18,
+    "delta": 3
+   },
+   {
+    "ch": "2",
+    "cand": 35,
+    "ref": 33,
+    "delta": 2
+   },
+   {
+    "ch": "3",
+    "cand": 38,
+    "ref": 36,
+    "delta": 2
+   },
+   {
+    "ch": "4",
+    "cand": 41,
+    "ref": 39,
+    "delta": 2
+   },
+   {
+    "ch": "5",
+    "cand": 36,
+    "ref": 34,
+    "delta": 2
+   },
+   {
+    "ch": "6",
+    "cand": 39,
+    "ref": 36,
+    "delta": 3
+   },
+   {
+    "ch": "7",
+    "cand": 36,
+    "ref": 34,
+    "delta": 2
+   },
+   {
+    "ch": "8",
+    "cand": 39,
+    "ref": 36,
+    "delta": 3
+   },
+   {
+    "ch": "9",
+    "cand": 39,
+    "ref": 36,
+    "delta": 3
+   },
+   {
+    "ch": "?",
+    "cand": 35,
+    "ref": 33,
+    "delta": 2
+   },
+   {
+    "ch": "&",
+    "cand": 47,
+    "ref": 44,
+    "delta": 3
+   },
+   {
+    "ch": "@",
+    "cand": 60,
+    "ref": 58,
+    "delta": 2
+   },
+   {
+    "ch": "#",
+    "cand": 45,
+    "ref": 43,
+    "delta": 2
+   },
+   {
+    "ch": "$",
+    "cand": 38,
+    "ref": 35,
+    "delta": 3
+   },
+   {
+    "ch": "(",
+    "cand": 24,
+    "ref": 17,
+    "delta": 7
+   },
+   {
+    "ch": ")",
+    "cand": 24,
+    "ref": 16,
+    "delta": 8
+   },
+   {
+    "ch": "/",
+    "cand": 29,
+    "ref": 27,
+    "delta": 2
+   },
+   {
+    "ch": "-",
+    "cand": 25,
+    "ref": 19,
+    "delta": 6
+   },
+   {
+    "ch": "'",
+    "cand": 11,
+    "ref": 7,
+    "delta": 4
+   },
+   {
+    "ch": "\"",
+    "cand": 24,
+    "ref": 18,
+    "delta": 6
+   }
+  ]
+ },
+ "pair_gaps": {
+  "n": 49,
+  "within_1px": 19,
+  "pct": 38.775510204081634,
+  "rms": 2.390457218668787,
+  "failing": {
+   "AB": -3,
+   "CD": -3,
+   "DE": -4,
+   "EF": -3,
+   "GH": -4,
+   "HI": -3,
+   "JK": -4,
+   "KL": -3,
+   "MN": -4,
+   "NO": -2,
+   "OP": -3,
+   "PQ": -2,
+   "QR": -5,
+   "RS": -5,
+   "ST": -2,
+   "TU": -3,
+   "bc": -2,
+   "de": -2,
+   "ef": -2,
+   "fg": -3,
+   "gh": -2,
+   "hi": -2,
+   "mn": -2,
+   "no": -3,
+   "op": -2,
+   "pq": -2,
+   "st": -2,
+   "tu": -2,
+   "uv": -3,
+   "vw": -3
+  }
+ },
+ "space_gaps": {
+  "n": 6,
+  "within_1px": 4,
+  "delta": {
+   "x o": 0,
+   "f b": -3,
+   "k q": -1,
+   ", j": -1,
+   "e m": -2,
+   "y v": -1
+  }
+ },
+ "pangram_word_gap_rms": 1.954016841836789,
+ "strings": {
+  "A-Z": {
+   "candidate": 1213,
+   "reference": 1207,
+   "pass_1pct": true
+  },
+  "a-z": {
+   "candidate": 984,
+   "reference": 955,
+   "pass_1pct": false
+  },
+  "pangram": {
+   "candidate": 1238,
+   "reference": 1209,
+   "pass_1pct": false
+  },
+  "digits 0-9": {
+   "candidate": 401,
+   "reference": 396,
+   "pass_1pct": false
+  }
+ },
+ "stems": {
+  "measured": {
+   "H": 9.474509803921569,
+   "T": 8.666666666666668,
+   "n": 9.149019607843139,
+   "l": 9.0,
+   "o_sides": 10.101960784313725,
+   "O_sides": 10.405882352941177,
+   "E_arms": 8.913725490196079,
+   "O_tb": 9.107843137254902,
+   "o_tb": 8.896078431372548,
+   "z_bars": 8.733333333333334,
+   "e_cb": 7.733333333333333
+  },
+  "target_scale": 1.5395189003436427,
+  "target_confidence": "INFERRED (MEDIUM/LOW)",
+  "n": 11,
+  "within_5pct": 9,
+  "per_stem": {
+   "H": true,
+   "T": false,
+   "n": true,
+   "l": true,
+   "o_sides": false,
+   "O_sides": true,
+   "E_arms": true,
+   "O_tb": true,
+   "o_tb": true,
+   "z_bars": true,
+   "e_cb": true
+  }
+ }
+}

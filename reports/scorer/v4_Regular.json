@@ -1,0 +1,208 @@
+{
+ "font": "SynthetixUI-Regular.ttf",
+ "weight": 400,
+ "px_per_em": 70.0,
+ "vertical": {
+  "n": 9,
+  "passed": 8,
+  "failed": [
+   "Q below baseline"
+  ],
+  "values": {
+   "cap H": {
+    "candidate": 49.0,
+    "reference": 49
+   },
+   "x-height flat (v,w,x,z)": {
+    "candidate": 35.0,
+    "reference": 35
+   },
+   "ascender l": {
+    "candidate": 51.0,
+    "reference": 51
+   },
+   "ascender b,d,h,k": {
+    "candidate": 51.0,
+    "reference": 51.5
+   },
+   "desc p,q,y": {
+    "candidate": 12.0,
+    "reference": 12
+   },
+   "desc g,j": {
+    "candidate": 13.0,
+    "reference": 13
+   },
+   "t height": {
+    "candidate": 45.0,
+    "reference": 45
+   },
+   "digit 1,4,7 height": {
+    "candidate": 49.0,
+    "reference": 49
+   },
+   "Q below baseline": {
+    "candidate": 1.0,
+    "reference": 5
+   }
+  }
+ },
+ "widths": {
+  "n": 79,
+  "within_1px": 68,
+  "pct": 86.07594936708861,
+  "mape": 4.00923003321023,
+  "failing": [
+   {
+    "ch": "J",
+    "cand": 28,
+    "ref": 31,
+    "delta": -3
+   },
+   {
+    "ch": "r",
+    "cand": 20,
+    "ref": 18,
+    "delta": 2
+   },
+   {
+    "ch": "!",
+    "cand": 8,
+    "ref": 10,
+    "delta": -2
+   },
+   {
+    "ch": "(",
+    "cand": 20,
+    "ref": 17,
+    "delta": 3
+   },
+   {
+    "ch": ")",
+    "cand": 20,
+    "ref": 16,
+    "delta": 4
+   },
+   {
+    "ch": "/",
+    "cand": 25,
+    "ref": 27,
+    "delta": -2
+   },
+   {
+    "ch": "-",
+    "cand": 24,
+    "ref": 19,
+    "delta": 5
+   },
+   {
+    "ch": ":",
+    "cand": 8,
+    "ref": 10,
+    "delta": -2
+   },
+   {
+    "ch": ";",
+    "cand": 8,
+    "ref": 11,
+    "delta": -3
+   },
+   {
+    "ch": ",",
+    "cand": 8,
+    "ref": 11,
+    "delta": -3
+   },
+   {
+    "ch": ".",
+    "cand": 8,
+    "ref": 10,
+    "delta": -2
+   }
+  ]
+ },
+ "pair_gaps": {
+  "n": 49,
+  "within_1px": 40,
+  "pct": 81.63265306122449,
+  "rms": 1.0879675865519869,
+  "failing": {
+   "QR": -2,
+   "RS": -2,
+   "TU": -2,
+   "VW": 2,
+   "WX": 2,
+   "XY": 2,
+   "tu": -2,
+   "vw": -2,
+   "xy": 2
+  }
+ },
+ "space_gaps": {
+  "n": 6,
+  "within_1px": 5,
+  "delta": {
+   "x o": 1,
+   "f b": -2,
+   "k q": 0,
+   ", j": -1,
+   "e m": -1,
+   "y v": 1
+  }
+ },
+ "pangram_word_gap_rms": 0.9770084209183945,
+ "strings": {
+  "A-Z": {
+   "candidate": 1203,
+   "reference": 1207,
+   "pass_1pct": true
+  },
+  "a-z": {
+   "candidate": 951,
+   "reference": 955,
+   "pass_1pct": true
+  },
+  "pangram": {
+   "candidate": 1198,
+   "reference": 1209,
+   "pass_1pct": true
+  },
+  "digits 0-9": {
+   "candidate": 393,
+   "reference": 396,
+   "pass_1pct": true
+  }
+ },
+ "stems": {
+  "measured": {
+   "H": 6.319607843137255,
+   "T": 5.8,
+   "n": 6.078431372549019,
+   "l": 6.0627450980392155,
+   "o_sides": 6.374509803921569,
+   "O_sides": 6.927450980392157,
+   "E_arms": 5.993464052287582,
+   "O_tb": 6.1196078431372545,
+   "o_tb": 5.623529411764705,
+   "z_bars": 5.733333333333333,
+   "e_cb": 5.466666666666667
+  },
+  "target_scale": 1.0,
+  "target_confidence": "HIGH",
+  "n": 11,
+  "within_5pct": 9,
+  "per_stem": {
+   "H": true,
+   "T": true,
+   "n": true,
+   "l": true,
+   "o_sides": true,
+   "O_sides": false,
+   "E_arms": true,
+   "O_tb": true,
+   "o_tb": true,
+   "z_bars": true,
+   "e_cb": false
+  }
+ }
+}

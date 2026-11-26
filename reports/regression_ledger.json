@@ -1,0 +1,32 @@
+{
+ "Regular": {
+  "v3_glyphs": 502,
+  "v4_glyphs": 626,
+  "added": 124,
+  "unchanged_glyphs": 485,
+  "recentred_tf": 17,
+  "max_tf_advance_delta": 10,
+  "violations": [],
+  "glyph_ids_stable": true
+ },
+ "Medium": {
+  "v3_glyphs": 502,
+  "v4_glyphs": 626,
+  "added": 124,
+  "unchanged_glyphs": 485,
+  "recentred_tf": 17,
+  "max_tf_advance_delta": 16,
+  "violations": [],
+  "glyph_ids_stable": true
+ },
+ "SemiBold": {
+  "v3_glyphs": 502,
+  "v4_glyphs": 626,
+  "added": 124,
+  "unchanged_glyphs": 485,
+  "recentred_tf": 17,
+  "max_tf_advance_delta": 26,
+  "violations": [],
+  "glyph_ids_stable": true
+ }
+}

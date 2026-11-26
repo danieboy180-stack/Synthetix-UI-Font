@@ -1,0 +1,72 @@
+{
+ "scope": "Measurable half of plan Step 0 only (ink width and tail depth at cap=49 px). Shape similarity vs the reference needs the reference bitmaps (absent), so NO alternate is promoted.",
+ "alternates": {
+  "Q.ss09": {
+   "default_ink_w_px": 50.9,
+   "alt_ink_w_px": 47.2,
+   "default_below_baseline_px": 0.7,
+   "alt_below_baseline_px": 8.8,
+   "reference_ink_w_px": 51,
+   "alt_width_error_px": -3.8,
+   "default_width_error_px": -0.1,
+   "reference_below_baseline_px": 5,
+   "alt_tail_error_px": 3.8,
+   "default_tail_error_px": -4.3
+  },
+  "J.ss08": {
+   "default_ink_w_px": 26.8,
+   "alt_ink_w_px": 33.4,
+   "default_below_baseline_px": 0.7,
+   "alt_below_baseline_px": 0.7,
+   "reference_ink_w_px": 31,
+   "alt_width_error_px": 2.4,
+   "default_width_error_px": -4.2
+  },
+  "K.ss04": {
+   "default_ink_w_px": 37.2,
+   "alt_ink_w_px": 40.9,
+   "default_below_baseline_px": 0.0,
+   "alt_below_baseline_px": 0.0,
+   "reference_ink_w_px": 37,
+   "alt_width_error_px": 3.9,
+   "default_width_error_px": 0.2
+  },
+  "R.ss05": {
+   "default_ink_w_px": 34.8,
+   "alt_ink_w_px": 35.2,
+   "default_below_baseline_px": 0.0,
+   "alt_below_baseline_px": 0.0,
+   "reference_ink_w_px": 35,
+   "alt_width_error_px": 0.2,
+   "default_width_error_px": -0.2
+  },
+  "G.ss07": {
+   "default_ink_w_px": 45.8,
+   "alt_ink_w_px": 45.8,
+   "default_below_baseline_px": 0.7,
+   "alt_below_baseline_px": 0.7,
+   "reference_ink_w_px": 46,
+   "alt_width_error_px": -0.2,
+   "default_width_error_px": -0.2
+  },
+  "a.ss02": {
+   "default_ink_w_px": 31.9,
+   "alt_ink_w_px": 33.5,
+   "default_below_baseline_px": 0.7,
+   "alt_below_baseline_px": 0.7,
+   "reference_ink_w_px": 32,
+   "alt_width_error_px": 1.5,
+   "default_width_error_px": -0.1
+  },
+  "y.ss03": {
+   "default_ink_w_px": 34.4,
+   "alt_ink_w_px": 34.3,
+   "default_below_baseline_px": 12.0,
+   "alt_below_baseline_px": 14.6,
+   "reference_ink_w_px": 35,
+   "alt_width_error_px": -0.7,
+   "default_width_error_px": -0.6
+  }
+ },
+ "reference_source": "reference/v3-reports/glyph_table.json (reference widths recorded by V3) and report vertical metric Q tail = 5 px (HIGH)"
+}

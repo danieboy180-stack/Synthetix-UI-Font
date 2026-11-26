@@ -1,0 +1,23 @@
+{
+ "source": "googlefonts/glyphsets 0.6.19 README (GF_Latin_Core letters)",
+ "passed_letters": true,
+ "per_master": {
+  "Regular": {
+   "letters_checked": 219,
+   "missing": [],
+   "unencoded_idotaccent_present": true
+  },
+  "Medium": {
+   "letters_checked": 219,
+   "missing": [],
+   "unencoded_idotaccent_present": true
+  },
+  "SemiBold": {
+   "letters_checked": 219,
+   "missing": [],
+   "unencoded_idotaccent_present": true
+  }
+ },
+ "not_verified": "104 non-letter Core glyphs; unencoded glyph /idotaccent (Lithuanian i + accent stacking) is absent",
+ "scope_note": "U+017F (long s) and U+0192 (florin) are NOT in the official Core letter list."
+}

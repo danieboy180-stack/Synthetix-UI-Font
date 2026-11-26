@@ -1,0 +1,20 @@
+1,2c1,2
+< import json, numpy as np, sys
+< sys.path.insert(0,'/home/claude/eng')
+---
+> import json, numpy as np, sys, os
+> sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+4c4
+< REF=json.load(open('/home/claude/eng/report_reference.json'))
+---
+> REF=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','reference','report_reference.json')))
+92,100d91
+< if __name__=='__main__':
+<     for label,p in [('plain Instrument Sans 400','/mnt/skills/examples/canvas-design/canvas-fonts/InstrumentSans-Regular.ttf'),('Synthetix v2 Regular','/home/claude/eng/audit/embedded_400.woff')]:
+<         E,R=evaluate(p); print('=====',label,E['_meta'])
+<         print(' vertical (candidate, reference):',{k:(round(a,1) if a is not None else None,b) for k,(a,b) in E['vertical'].items()})
+<         print(' widths',{k:round(v,3) for k,v in E['width_stats'].items()})
+<         print(' strings (cand,ref):',E['strings'])
+<         print(' pair gaps',{k:round(v,3) for k,v in E['gap_stats'].items()},' pangram word-gaps',{k:round(v,2) for k,v in E['pangram_word_gap_stats'].items()})
+<         print(' space gaps (cand,ref):',E['space_gaps'])
+<         print(' stems:',{k:(round(v,2) if isinstance(v,float) else ([round(x,2) for x in v] if v else v)) for k,v in E['stems'].items()})

@@ -1,0 +1,262 @@
+{
+ "font": "SynthetixUI-Medium.ttf",
+ "weight": 500,
+ "px_per_em": 70.0,
+ "vertical": {
+  "n": 9,
+  "passed": 8,
+  "failed": [
+   "Q below baseline"
+  ],
+  "values": {
+   "cap H": {
+    "candidate": 49.0,
+    "reference": 49
+   },
+   "x-height flat (v,w,x,z)": {
+    "candidate": 35.0,
+    "reference": 35
+   },
+   "ascender l": {
+    "candidate": 51.0,
+    "reference": 51
+   },
+   "ascender b,d,h,k": {
+    "candidate": 51.0,
+    "reference": 51.5
+   },
+   "desc p,q,y": {
+    "candidate": 12.0,
+    "reference": 12
+   },
+   "desc g,j": {
+    "candidate": 13.0,
+    "reference": 13
+   },
+   "t height": {
+    "candidate": 45.0,
+    "reference": 45
+   },
+   "digit 1,4,7 height": {
+    "candidate": 49.0,
+    "reference": 49
+   },
+   "Q below baseline": {
+    "candidate": 1.0,
+    "reference": 5
+   }
+  }
+ },
+ "widths": {
+  "n": 79,
+  "within_1px": 60,
+  "pct": 75.9493670886076,
+  "mape": 5.982207631590671,
+  "failing": [
+   {
+    "ch": "E",
+    "cand": 31,
+    "ref": 29,
+    "delta": 2
+   },
+   {
+    "ch": "J",
+    "cand": 27,
+    "ref": 31,
+    "delta": -4
+   },
+   {
+    "ch": "K",
+    "cand": 39,
+    "ref": 37,
+    "delta": 2
+   },
+   {
+    "ch": "d",
+    "cand": 38,
+    "ref": 36,
+    "delta": 2
+   },
+   {
+    "ch": "l",
+    "cand": 8,
+    "ref": 6,
+    "delta": 2
+   },
+   {
+    "ch": "m",
+    "cand": 55,
+    "ref": 53,
+    "delta": 2
+   },
+   {
+    "ch": "r",
+    "cand": 20,
+    "ref": 18,
+    "delta": 2
+   },
+   {
+    "ch": "w",
+    "cand": 56,
+    "ref": 54,
+    "delta": 2
+   },
+   {
+    "ch": "x",
+    "cand": 36,
+    "ref": 34,
+    "delta": 2
+   },
+   {
+    "ch": "1",
+    "cand": 21,
+    "ref": 18,
+    "delta": 3
+   },
+   {
+    "ch": "6",
+    "cand": 38,
+    "ref": 36,
+    "delta": 2
+   },
+   {
+    "ch": "9",
+    "cand": 38,
+    "ref": 36,
+    "delta": 2
+   },
+   {
+    "ch": "(",
+    "cand": 21,
+    "ref": 17,
+    "delta": 4
+   },
+   {
+    "ch": ")",
+    "cand": 22,
+    "ref": 16,
+    "delta": 6
+   },
+   {
+    "ch": "-",
+    "cand": 24,
+    "ref": 19,
+    "delta": 5
+   },
+   {
+    "ch": ";",
+    "cand": 9,
+    "ref": 11,
+    "delta": -2
+   },
+   {
+    "ch": ",",
+    "cand": 9,
+    "ref": 11,
+    "delta": -2
+   },
+   {
+    "ch": "'",
+    "cand": 9,
+    "ref": 7,
+    "delta": 2
+   },
+   {
+    "ch": "\"",
+    "cand": 21,
+    "ref": 18,
+    "delta": 3
+   }
+  ]
+ },
+ "pair_gaps": {
+  "n": 49,
+  "within_1px": 34,
+  "pct": 69.38775510204081,
+  "rms": 1.3923991921155663,
+  "failing": {
+   "AB": -3,
+   "CD": -2,
+   "DE": -2,
+   "GH": -2,
+   "JK": -2,
+   "KL": -2,
+   "MN": -2,
+   "OP": -2,
+   "QR": -2,
+   "RS": -3,
+   "TU": -2,
+   "VW": 2,
+   "fg": -2,
+   "st": -2,
+   "vw": -3
+  }
+ },
+ "space_gaps": {
+  "n": 6,
+  "within_1px": 4,
+  "delta": {
+   "x o": 0,
+   "f b": -3,
+   "k q": -1,
+   ", j": -2,
+   "e m": -1,
+   "y v": 0
+  }
+ },
+ "pangram_word_gap_rms": 1.02247471629109,
+ "strings": {
+  "A-Z": {
+   "candidate": 1206,
+   "reference": 1207,
+   "pass_1pct": true
+  },
+  "a-z": {
+   "candidate": 965,
+   "reference": 955,
+   "pass_1pct": false
+  },
+  "pangram": {
+   "candidate": 1216,
+   "reference": 1209,
+   "pass_1pct": true
+  },
+  "digits 0-9": {
+   "candidate": 396,
+   "reference": 396,
+   "pass_1pct": true
+  }
+ },
+ "stems": {
+  "measured": {
+   "H": 7.76078431372549,
+   "T": 7.043137254901961,
+   "n": 7.3843137254901965,
+   "l": 7.3843137254901965,
+   "o_sides": 7.97843137254902,
+   "O_sides": 8.309803921568626,
+   "E_arms": 7.250980392156863,
+   "O_tb": 7.398039215686275,
+   "o_tb": 7.137254901960784,
+   "z_bars": 7.0,
+   "e_cb": 6.5019607843137255
+  },
+  "target_scale": 1.2474226804123711,
+  "target_confidence": "INFERRED (MEDIUM/LOW)",
+  "n": 11,
+  "within_5pct": 10,
+  "per_stem": {
+   "H": true,
+   "T": false,
+   "n": true,
+   "l": true,
+   "o_sides": true,
+   "O_sides": true,
+   "E_arms": true,
+   "O_tb": true,
+   "o_tb": true,
+   "z_bars": true,
+   "e_cb": true
+  }
+ }
+}

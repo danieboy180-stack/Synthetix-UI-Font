@@ -1,0 +1,156 @@
+{
+ "verdict": "NOT 10/10. Release candidate V4.0.10; V4.1.0 withheld.",
+ "counts": {
+  "NOT": 8,
+  "PASS": 6,
+  "PARTIAL": 1,
+  "RECORDED": 1,
+  "FAIL": 8
+ },
+ "gates": [
+  {
+   "group": "Hard",
+   "gate": "Font Bakery universal + Google Fonts profiles: 0 FAIL",
+   "status": "NOT MEASURED",
+   "evidence": "fontbakery not installed and no network in the build sandbox. tools/run_checks.py::check_metadata is a small own subset, not a substitute."
+  },
+  {
+   "group": "Hard",
+   "gate": "Pri-African coverage + language shaping (Hausa, Yoruba, Igbo)",
+   "status": "PASS",
+   "evidence": "coverage sets complete in 3 masters; 192 NFC/NFD/reversed-mark render comparisons, 0 failures (Chromium)."
+  },
+  {
+   "group": "Hard",
+   "gate": "Latin Core coverage (official 324-glyph list)",
+   "status": "PARTIAL",
+   "evidence": "official Core letters: 219/219 present in all 3 masters (source: googlefonts/glyphsets 0.6.19). NOT verified: the 104 non-letter Core glyphs (list not retrievable offline) and the unencoded /idotaccent glyph (absent)."
+  },
+  {
+   "group": "Hard",
+   "gate": "Tabular figures equal width; no .notdef for required characters",
+   "status": "PASS",
+   "evidence": "static + 7 variable instances equal; no cmap entry maps to .notdef."
+  },
+  {
+   "group": "Hard",
+   "gate": "Clean-clone build reproduces recorded SHA-256",
+   "status": "PASS",
+   "evidence": "28/28 font files identical from a clean copy of the inputs (checked under two PYTHONHASHSEED values). Run inside the same sandbox, not on a separate machine/CI."
+  },
+  {
+   "group": "Hard",
+   "gate": "Variable and static agree within 1 unit",
+   "status": "PASS",
+   "evidence": "max coordinate delta 0.5 units at 400/500/600; advances identical."
+  },
+  {
+   "group": "Hard",
+   "gate": "Advance widths identical across Chromium, Firefox, WebKit, native apps",
+   "status": "NOT MEASURED",
+   "evidence": "Chromium only: TTF/WOFF/WOFF2/variable agree (max delta 0.000 px); DPR 1-3, dark, forced-colours, 200% zoom/text agree (0.008 px). Firefox, WebKit, iOS, Android not run."
+  },
+  {
+   "group": "Hard",
+   "gate": "OFL text and copyright intact",
+   "status": "PASS",
+   "evidence": "fonts/OFL.txt + name IDs 0/13/14 verified."
+  },
+  {
+   "group": "Hard",
+   "gate": "Name clearance recorded",
+   "status": "RECORDED - DECISION OPEN",
+   "evidence": "NAME_CLEARANCE.md: an established DeFi protocol named Synthetix exists (web search). Trademark/domain registries were not searched. Owner decision pending."
+  },
+  {
+   "group": "Hard",
+   "gate": "Zero open critical defects",
+   "status": "FAIL",
+   "evidence": "Open: name collision (critical for any public release), Q tail, J/K/R/a/C/G shape gaps, rn~m confusable, variable latin subset over budget. See V4_REPORT.md."
+  },
+  {
+   "group": "Fidelity",
+   "gate": "Shape similarity >= 0.85 on >= 90% of Match glyphs",
+   "status": "FAIL (recorded, not re-measured)",
+   "evidence": "V3 recorded raw IoU: 31/52 = 59.6% >= 0.85. The outlines are byte-identical in V4 (regression ledger), so the recorded values carry over. Reference bitmaps are absent: cannot re-measure."
+  },
+  {
+   "group": "Fidelity",
+   "gate": "Widths within 1 px for >= 90%",
+   "status": "FAIL",
+   "evidence": "68/79 = 86.1% (frozen scorer, Regular). Failing: 'J' 'r' '!' '(' ')' '/' '-' ':' ';' ',' '.'"
+  },
+  {
+   "group": "Fidelity",
+   "gate": "Held-out pair gaps within 1 px for >= 90%",
+   "status": "FAIL",
+   "evidence": "40/49 = 81.6%; NOT held out (V3 fitted on the same pairs), so this is an upper bound."
+  },
+  {
+   "group": "Fidelity",
+   "gate": "Vertical metrics all within 1 px",
+   "status": "FAIL",
+   "evidence": "8/9; failing: ['Q below baseline']"
+  },
+  {
+   "group": "Fidelity",
+   "gate": "Stems within 5% in all four weights from real references",
+   "status": "FAIL / NOT MEASURABLE",
+   "evidence": "Regular 9/11 (HIGH targets). Medium/SemiBold targets are inferred; no Bold exists; no heavier references. Cannot be met without new references."
+  },
+  {
+   "group": "Quality",
+   "gate": "Small-size confusables (Il1, O0, rn~m at 12-14 px)",
+   "status": "FAIL (default); passes with opt-in ss13",
+   "evidence": "default worst-case Jaccard: {'I~l': 1.0, 'I~1': 0.367, 'l~1': 0.355, 'O~0': 0.492, 'rn~m': 0.75, 'cl~d': 0.512, 'vv~w': 0.467}; with ss13+zero: {'I~l': 0.394, 'I~1': 0.6, 'l~1': 0.387, 'O~0': 0.464, 'rn~m': 0.491, 'cl~d': 0.488, 'vv~w': 0.478}. Pre-registered threshold 0.65. Default fails 2 of 7 pairs; ss13+zero passes 7 of 7."
+  },
+  {
+   "group": "Quality",
+   "gate": "WCAG 2.2 AA contrast pairs (light + dark)",
+   "status": "PASS",
+   "evidence": "22 pairs, 0 failures. Palette is a placeholder."
+  },
+  {
+   "group": "Quality",
+   "gate": "Subset byte budgets (registered before first export)",
+   "status": "FAIL",
+   "evidence": "over budget: ['variable/latin 50344 > 45000']. The variable latin-lite subset (core features + ss13) is 40184 B, within its 45,000 B limit; the owner decides which variable build ships."
+  },
+  {
+   "group": "Quality",
+   "gate": "Human review of named kerning pairs",
+   "status": "NOT DONE",
+   "evidence": "needs people/devices/tools not available in this run (scaffolds provided where possible)."
+  },
+  {
+   "group": "Quality",
+   "gate": "Token adoption on real product screens (one per platform)",
+   "status": "NOT DONE",
+   "evidence": "needs people/devices/tools not available in this run (scaffolds provided where possible)."
+  },
+  {
+   "group": "Quality",
+   "gate": "Native iOS/Android test apps",
+   "status": "NOT DONE",
+   "evidence": "needs people/devices/tools not available in this run (scaffolds provided where possible)."
+  },
+  {
+   "group": "Quality",
+   "gate": "Firefox + WebKit rendering",
+   "status": "NOT DONE",
+   "evidence": "needs people/devices/tools not available in this run (scaffolds provided where possible)."
+  },
+  {
+   "group": "Quality",
+   "gate": "Real-device checks",
+   "status": "NOT DONE",
+   "evidence": "needs people/devices/tools not available in this run (scaffolds provided where possible)."
+  },
+  {
+   "group": "Identity",
+   "gate": "Blind identity review by two reviewers (IDENTITY_DIRECTION.md)",
+   "status": "NOT DONE",
+   "evidence": "requires two human reviewers."
+  }
+ ]
+}

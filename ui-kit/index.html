@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Synthetix UI kit — V4.0.10 release candidate</title>
+<link rel="stylesheet" href="../css/synthetix-ui.css">
+<link rel="stylesheet" href="../tokens/dist/tokens.css">
+<style>
+ body{margin:0;background:var(--sx-color-surface);color:var(--sx-color-textPrimary);font-family:var(--sx-font);font-size:1rem;line-height:1.5rem}
+ .wrap{max-width:880px;margin:0 auto;padding:24px 20px 64px}
+ header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:24px}
+ h2{margin:40px 0 12px}
+ .muted{color:var(--sx-color-textSecondary)}
+ .card{background:var(--sx-color-surfaceRaised);border:1px solid var(--sx-color-border);border-radius:12px;padding:16px;margin:12px 0}
+ .row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:8px 0;border-bottom:1px solid color-mix(in srgb,var(--sx-color-border) 40%,transparent)}
+ .row:last-child{border-bottom:0}
+ button,.btn{font:inherit;font-family:var(--sx-font);font-size:.875rem;line-height:1.25rem;font-weight:var(--sx-wght-medium);border-radius:999px;padding:10px 18px;border:1px solid transparent;cursor:pointer;transition:background-color .15s}
+ .primary{background:var(--sx-color-accent);color:var(--sx-color-onAccent)}
+ .secondary{background:transparent;color:var(--sx-color-textPrimary);border-color:var(--sx-color-border)}
+ input{font:inherit;font-family:var(--sx-font);width:100%;box-sizing:border-box;padding:12px 14px;border-radius:10px;border:1px solid var(--sx-color-border);background:var(--sx-color-surface);color:var(--sx-color-textPrimary)}
+ label{display:block;margin:12px 0 6px}
+ .err{color:var(--sx-color-danger)}
+ .conf{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+ .conf div{background:var(--sx-color-surface);border:1px solid var(--sx-color-border);border-radius:8px;padding:10px}
+ table{border-collapse:collapse;width:100%}td,th{text-align:left;padding:6px 8px;border-bottom:1px solid color-mix(in srgb,var(--sx-color-border) 40%,transparent)}
+ .num{text-align:right}
+ .pill{font-size:.75rem;line-height:1rem;padding:2px 8px;border-radius:999px;border:1px solid var(--sx-color-border)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="sx-titleM">Synthetix UI <span class="pill sx-caption">RC · 4.0.10</span></div>
+  <button class="secondary" id="theme" aria-pressed="false">Dark mode</button>
+</header>
+
+<p class="sx-body muted">Demo screen using only semantic classes and tokens. Palette and type scale are proposals pending brand review. Identity review has <strong>not</strong> been done.</p>
+
+<h2 class="sx-titleL">Checkout</h2>
+<div class="card" aria-label="Order summary">
+  <div class="row"><span class="sx-body">Ankara tote bag × 2</span><span class="sx-amount">₦12,500.00</span></div>
+  <div class="row"><span class="sx-body">Shea butter (250 g)</span><span class="sx-amount">₦3,750.00</span></div>
+  <div class="row"><span class="sx-body">Delivery · Ìbàdàn</span><span class="sx-amount">₦1,800.00</span></div>
+  <div class="row"><span class="sx-bodyStrong">Total</span><span class="sx-amount" style="font-weight:var(--sx-wght-semibold)">₦18,050.00</span></div>
+</div>
+<div class="card">
+  <label class="sx-label" for="n">Full name</label><input id="n" value="Ọlájídé Ṣẹ̀yẹ Ụzọ" autocomplete="name">
+  <label class="sx-label" for="p">Phone</label><input id="p" value="0803 123 4567" aria-describedby="h">
+  <div class="sx-caption muted" id="h">We send the receipt to WhatsApp.</div>
+  <label class="sx-label err" for="e">Email</label><input id="e" value="ade@" aria-invalid="true" aria-describedby="eh"><div class="sx-caption err" id="eh">Enter a valid email address.</div>
+  <p style="display:flex;gap:12px;margin:20px 0 0"><button class="primary">Pay ₦18,050.00</button><button class="secondary">Back to cart</button></p>
+</div>
+
+<h2 class="sx-titleL">Nigerian-language specimen</h2>
+<div class="card sx-body">
+  <p><strong>Yorùbá</strong> — Ẹ káàbọ̀! Ọmọ ṣe dáadáa; Ọ̀gbẹ́ni Ṣọlá ń gbé ní Ìbàdàn. ẸỌṢ ẹọṣ</p>
+  <p><strong>Igbo</strong> — Ị dị mma? Ụlọ ọrụ ọhụrụ dị ná Ṅsụka. ỊỤỌ ịụọ</p>
+  <p><strong>Hausa</strong> — Ɓaraka da zuwa! Ɗan ƙasa, ƴar ƙwallo, ɓarna, ƙaƙa. ƁƊƘƳ ɓɗƙƴ</p>
+</div>
+
+<h2 class="sx-titleL">Type scale</h2>
+<div class="card">
+  <div class="sx-display">Display 40/48</div><div class="sx-titleL">Title L 32/40</div><div class="sx-titleM">Title M 24/32</div><div class="sx-titleS">Title S 18/24</div>
+  <div class="sx-bodyStrong">Body strong 16/24</div><div class="sx-body">Body 16/24 — The quick brown fox jumps over the lazy dog.</div>
+  <div class="sx-label">Label 14/20</div><div class="sx-caption">Caption 12/16 — 0123456789 ₦ ½ ¼ ¾ H₂O x²</div>
+</div>
+
+<h2 class="sx-titleL">Confusables test (12 · 13 · 14 px)</h2>
+<div class="conf" id="conf">
+  <div style="font-size:12px">Il1 O0 rn m<br>Il1 O0 rn m <span style="font-weight:600">Il1 O0 rn m</span></div>
+  <div style="font-size:13px">Il1 O0 rn m<br>Il1 O0 rn m <span style="font-weight:600">Il1 O0 rn m</span></div>
+  <div style="font-size:14px">Il1 O0 rn m<br>Il1 O0 rn m <span style="font-weight:600">Il1 O0 rn m</span></div>
+</div>
+<p class="sx-caption muted">Numeric distinctness is computed by tools/confusables.py; a human review at real device sizes is still required.</p>
+
+<h2 class="sx-titleL">Tabular figures</h2>
+<table><tr><th>Item</th><th class="num">Qty</th><th class="num">Amount</th></tr>
+<tr><td>Rice (50 kg)</td><td class="num sx-tnum">1</td><td class="num sx-amount">₦78,000.00</td></tr>
+<tr><td>Beans (25 kg)</td><td class="num sx-tnum">12</td><td class="num sx-amount">₦9,999.99</td></tr>
+<tr><td>Garri (10 kg)</td><td class="num sx-tnum">111</td><td class="num sx-amount">₦1,111.11</td></tr></table>
+<script>
+ const b=document.getElementById('theme'),r=document.documentElement;
+ b.addEventListener('click',()=>{const d=r.getAttribute('data-theme')!=='dark';r.setAttribute('data-theme',d?'dark':'light');b.setAttribute('aria-pressed',d);b.textContent=d?'Light mode':'Dark mode'});
+</script>
+</div>
+</body></html>

@@ -1,0 +1,11 @@
+{
+ "note": "Frozen scorer + reference data. fmeasure.py is byte-identical to V3; evalref.py differs from V3 only by sandbox paths (reports/scorer_port.diff). Any change here requires re-scoring V3.",
+ "sha256": {
+  "tools/scorer/fmeasure.py": "637768eb26ba4c9b95143c714d795c3ed1f27c3c05aecea1f600ffa3c16aa94e",
+  "tools/scorer/evalref.py": "e6884795c5888437461728c91ce430f9019b192179ef11e5b6e88ddb53746a36",
+  "tools/scorer/run_scorer.py": "e5f88603c6311519dd3d60d49408d4a915383d2b04d57fde178294c35456e1c9",
+  "reference/report_reference.json": "9264f6c1e8b8090ae66a03cfc8872f33b6fc8036731a529237af621970ff2ada",
+  "reference/pinterest-sans-measured.json": "afca85b4ca6bb84bc0effd2a3dbf63f1392419efcfe383790925f92eca6c2804",
+  "reference/v3-reports/glyph_table.json": "a52526d772d45b4ba96a02bb1792cdb951bae90fbf1f60796f1c84f4125f4875"
+ }
+}

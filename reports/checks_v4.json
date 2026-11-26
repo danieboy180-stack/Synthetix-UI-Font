@@ -1,0 +1,423 @@
+{
+ "coverage": {
+  "passed": true,
+  "known_gaps_outside_scope": {
+   "U+017F": "\u017f long s (historic; not drawn)",
+   "U+0192": "\u0192 florin (not drawn)"
+  },
+  "detail": {
+   "Regular": {
+    "latin1_A0_FF": {
+     "n": 96,
+     "missing": []
+    },
+    "latin_ext_A_100_17F_minus_long_s": {
+     "n": 127,
+     "missing": []
+    },
+    "ascii": {
+     "n": 95,
+     "missing": []
+    },
+    "hausa_yoruba_igbo": {
+     "n": 41,
+     "missing": []
+    },
+    "ui_symbols_tier3": {
+     "n": 22,
+     "missing": []
+    },
+    "figures_sups_subs": {
+     "n": 20,
+     "missing": []
+    },
+    "punct_currency": {
+     "n": 18,
+     "missing": []
+    },
+    "mapped_but_empty_outline": [],
+    "notdef_mapped": []
+   },
+   "Medium": {
+    "latin1_A0_FF": {
+     "n": 96,
+     "missing": []
+    },
+    "latin_ext_A_100_17F_minus_long_s": {
+     "n": 127,
+     "missing": []
+    },
+    "ascii": {
+     "n": 95,
+     "missing": []
+    },
+    "hausa_yoruba_igbo": {
+     "n": 41,
+     "missing": []
+    },
+    "ui_symbols_tier3": {
+     "n": 22,
+     "missing": []
+    },
+    "figures_sups_subs": {
+     "n": 20,
+     "missing": []
+    },
+    "punct_currency": {
+     "n": 18,
+     "missing": []
+    },
+    "mapped_but_empty_outline": [],
+    "notdef_mapped": []
+   },
+   "SemiBold": {
+    "latin1_A0_FF": {
+     "n": 96,
+     "missing": []
+    },
+    "latin_ext_A_100_17F_minus_long_s": {
+     "n": 127,
+     "missing": []
+    },
+    "ascii": {
+     "n": 95,
+     "missing": []
+    },
+    "hausa_yoruba_igbo": {
+     "n": 41,
+     "missing": []
+    },
+    "ui_symbols_tier3": {
+     "n": 22,
+     "missing": []
+    },
+    "figures_sups_subs": {
+     "n": 20,
+     "missing": []
+    },
+    "punct_currency": {
+     "n": 18,
+     "missing": []
+    },
+    "mapped_but_empty_outline": [],
+    "notdef_mapped": []
+   }
+  }
+ },
+ "tabular": {
+  "passed": true,
+  "static": {
+   "Regular": {
+    "advances": [
+     589
+    ],
+    "equal": true
+   },
+   "Medium": {
+    "advances": [
+     587
+    ],
+    "equal": true
+   },
+   "SemiBold": {
+    "advances": [
+     587
+    ],
+    "equal": true
+   }
+  },
+  "variable_instances": {
+   "400": [
+    589
+   ],
+   "425": [
+    589
+   ],
+   "450": [
+    588
+   ],
+   "500": [
+    587
+   ],
+   "550": [
+    587
+   ],
+   "575": [
+    587
+   ],
+   "600": [
+    587
+   ]
+  }
+ },
+ "variable_parity": {
+  "passed": true,
+  "tolerance_units": 1,
+  "detail": {
+   "Regular": {
+    "max_coordinate_delta_units": 0,
+    "advance_mismatches": 0,
+    "structure_mismatches": 0
+   },
+   "Medium": {
+    "max_coordinate_delta_units": 0.5,
+    "advance_mismatches": 0,
+    "structure_mismatches": 0
+   },
+   "SemiBold": {
+    "max_coordinate_delta_units": 0.5,
+    "advance_mismatches": 0,
+    "structure_mismatches": 0
+   },
+   "intermediate_n_advance": {
+    "masters": {
+     "Regular": 587,
+     "Medium": 592,
+     "SemiBold": 598
+    },
+    "interpolated": {
+     "450": 590,
+     "550": 595
+    },
+    "monotonic": true
+   }
+  }
+ },
+ "metadata_checks": {
+  "passed": true,
+  "problems": [],
+  "info": {
+   "ttf/SynthetixUI-Regular.ttf": {
+    "fsType": 0,
+    "upm": 1000,
+    "vendor": "NONE",
+    "version_name5": "Version 4.010; modified from Instrument Sans 1.000",
+    "fontRevision": 4.0099945068359375,
+    "bbox": [
+     -116,
+     -293,
+     2030,
+     958
+    ],
+    "win": [
+     1000,
+     340
+    ],
+    "hhea": [
+     950,
+     -250,
+     0
+    ],
+    "typo": [
+     950,
+     -250,
+     0
+    ]
+   },
+   "ttf/SynthetixUI-Medium.ttf": {
+    "fsType": 0,
+    "upm": 1000,
+    "vendor": "NONE",
+    "version_name5": "Version 4.010; modified from Instrument Sans 1.000",
+    "fontRevision": 4.0099945068359375,
+    "bbox": [
+     -124,
+     -308,
+     2052,
+     958
+    ],
+    "win": [
+     1000,
+     340
+    ],
+    "hhea": [
+     950,
+     -250,
+     0
+    ],
+    "typo": [
+     950,
+     -250,
+     0
+    ]
+   },
+   "ttf/SynthetixUI-SemiBold.ttf": {
+    "fsType": 0,
+    "upm": 1000,
+    "vendor": "NONE",
+    "version_name5": "Version 4.010; modified from Instrument Sans 1.000",
+    "fontRevision": 4.0099945068359375,
+    "bbox": [
+     -134,
+     -329,
+     2082,
+     958
+    ],
+    "win": [
+     1000,
+     340
+    ],
+    "hhea": [
+     950,
+     -250,
+     0
+    ],
+    "typo": [
+     950,
+     -250,
+     0
+    ]
+   },
+   "variable/SynthetixUI[wght].ttf": {
+    "fsType": 0,
+    "upm": 1000,
+    "vendor": "NONE",
+    "version_name5": "Version 4.010; modified from Instrument Sans 1.000",
+    "fontRevision": 4.0099945068359375,
+    "bbox": [
+     -116,
+     -293,
+     2030,
+     958
+    ],
+    "win": [
+     1000,
+     340
+    ],
+    "hhea": [
+     950,
+     -250,
+     0
+    ],
+    "typo": [
+     950,
+     -250,
+     0
+    ],
+    "axes": [
+     [
+      "wght",
+      400.0,
+      400.0,
+      600.0
+     ]
+    ],
+    "instances": 3
+   }
+  },
+  "note": "Own checks only (subset of what Font Bakery covers). Font Bakery itself could not be run: not installed, no network."
+ },
+ "status": {
+  "coverage": true,
+  "tabular": true,
+  "parity": true,
+  "metadata": true,
+  "chromium": true,
+  "shaping": true
+ },
+ "chromium": {
+  "faces_loaded": [
+   "Sttf400:loaded",
+   "Sttf500:loaded",
+   "Sttf600:loaded",
+   "Swoff400:loaded",
+   "Swoff500:loaded",
+   "Swoff600:loaded",
+   "Swoff2400:loaded",
+   "Swoff2500:loaded",
+   "Swoff2600:loaded",
+   "SXVF:loaded",
+   "SXVF2:loaded"
+  ],
+  "widths_100px": {
+   "ttfRegular": 3200.796875,
+   "ttfMedium": 3237.703125,
+   "ttfSemiBold": 3289.203125,
+   "woffRegular": 3200.796875,
+   "woffMedium": 3237.703125,
+   "woffSemiBold": 3289.203125,
+   "woff2Regular": 3200.796875,
+   "woff2Medium": 3237.703125,
+   "woff2SemiBold": 3289.203125,
+   "vf400": 3200.796875,
+   "vf500": 3237.703125,
+   "vf600": 3289.203125,
+   "vfw400": 3200.796875,
+   "vfw500": 3237.703125,
+   "vfw600": 3289.203125
+  },
+  "format_parity_max_delta_px": 0.0,
+  "variable_vs_static_max_delta_px": 0.0,
+  "weights": {
+   "w300": 1611.703125,
+   "w400": 1611.703125,
+   "w500": 1625.203125,
+   "w600": 1643.40625,
+   "w700": 1643.40625,
+   "w900": 1643.40625,
+   "n700": 1643.40625,
+   "n900": 1643.40625
+  },
+  "no_synthetic_bold": true,
+  "font_synthesis_none_same": true,
+  "environment_widths": {
+   "dpr1": 640.171875,
+   "dpr2": 640.171875,
+   "dpr3": 640.171875,
+   "dark": 640.171875,
+   "forced_colors": 640.171875,
+   "reduced_motion": 640.171875,
+   "zoom200_css_width_div2": 640.1640625,
+   "textsize200_div2": 640.1640625
+  },
+  "environment_max_delta_px": 0.0078125,
+  "feature_widths": {
+   "tn0": 353.40625,
+   "tn1": 353.40625,
+   "tn8": 353.40625,
+   "tn9": 363.78125,
+   "tn9b": 363.78125,
+   "pn0": 388.5,
+   "pn1": 224.46875,
+   "kern1": 482.828125,
+   "kern0": 526.140625,
+   "fr0": 184.453125,
+   "fr1": 108.546875,
+   "ncur1": 286.453125,
+   "ncur2": 286.453125
+  },
+  "tnum_digit_strings_equal": true,
+  "tnum_money_columns_align": true,
+  "pnum_differs_from_tnum": true,
+  "kerning_active": true,
+  "frac_changes_layout": true,
+  "passed": true,
+  "engine": "Chromium only (Firefox/WebKit not installed in the build sandbox)"
+ },
+ "language_shaping": {
+  "passed": true,
+  "comparisons": 192,
+  "fonts_loaded": [
+   [
+    "R",
+    [
+     "loaded"
+    ]
+   ],
+   [
+    "S",
+    [
+     "loaded"
+    ]
+   ],
+   [
+    "V",
+    [
+     "loaded"
+    ]
+   ]
+  ],
+  "failures": [],
+  "method": "NFC vs NFD vs reversed-mark-order render parity in Chromium at 160px, each form in its own block at an integer origin (threshold 40 px)"
+ }
+}

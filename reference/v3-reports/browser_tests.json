@@ -1,0 +1,91 @@
+{
+ "fonts_loaded": [
+  "SX 400 loaded",
+  "SX 500 loaded",
+  "SX 600 loaded"
+ ],
+ "weights": {
+  "300": 440.015625,
+  "400": 440.015625,
+  "500": 444.234375,
+  "600": 450.3125,
+  "700": 450.3125,
+  "900": 450.3125
+ },
+ "no_synthetic_bold": true,
+ "linearity_pct": {
+  "400": 0.009469430754052119,
+  "500": 0.006252929228661654,
+  "600": 0.006168495313429206
+ },
+ "linearity_pass": true,
+ "kerning": [
+  306.3125,
+  332.71875
+ ],
+ "kerning_pass": true,
+ "dpr_widths": {
+  "1": 205.828125,
+  "2": 205.828125,
+  "3": 205.828125
+ },
+ "dpr_pass": true,
+ "wrap_lines_and_overflow": {
+  "14": [
+   3,
+   false
+  ],
+  "16": [
+   4,
+   false
+  ],
+  "18": [
+   4,
+   false
+  ]
+ },
+ "wrap_pass": true,
+ "line_normal_px_at_100": 120,
+ "linebox_pass": true,
+ "naira": {
+  "naira": [
+   2466,
+   73.19993591308594
+  ],
+  "N": [
+   1895,
+   73.19993591308594
+  ],
+  "missing": [
+   1387,
+   66.69921875
+  ],
+  "notdef": [
+   1836,
+   65.99993896484375
+  ]
+ },
+ "naira_pass": true,
+ "fallback": [
+  290.578125,
+  290.578125
+ ],
+ "fallback_pass": true,
+ "ui_heldout": {
+  "n": 37,
+  "mean": 0.7896458386038916,
+  "within1": 0.7567567567567568,
+  "within15": 0.8918918918918919
+ },
+ "tests": {
+  "no_synthetic_bold": true,
+  "linearity_pass": true,
+  "kerning_pass": true,
+  "dpr_pass": true,
+  "wrap_pass": true,
+  "linebox_pass": true,
+  "naira_pass": true,
+  "fallback_pass": true
+ },
+ "fonts_ok": true
+}

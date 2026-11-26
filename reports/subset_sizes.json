@@ -1,0 +1,19 @@
+{
+ "static/Regular/latin": 24528,
+ "static/Regular/latin-ext": 10600,
+ "static/Regular/african": 4160,
+ "static/Regular/symbols": 2560,
+ "static/Medium/latin": 24780,
+ "static/Medium/latin-ext": 10768,
+ "static/Medium/african": 4180,
+ "static/Medium/symbols": 2616,
+ "static/SemiBold/latin": 25164,
+ "static/SemiBold/latin-ext": 10776,
+ "static/SemiBold/african": 4228,
+ "static/SemiBold/symbols": 2632,
+ "variable/latin": 50344,
+ "variable/latin-lite": 40184,
+ "variable/latin-ext": 20804,
+ "variable/african": 8508,
+ "variable/symbols": 5108
+}
