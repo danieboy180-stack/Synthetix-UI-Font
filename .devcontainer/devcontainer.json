@@ -1,0 +1,18 @@
+{
+  "name": "synthetix-ui-font",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y --no-install-recommends ttfautohint nodejs && pip install -r requirements-dev.txt && python -m playwright install --with-deps chromium firefox webkit",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "anthropic.claude-code"
+      ]
+    }
+  },
+  "remoteEnv": {
+    "PYTHONHASHSEED": "0"
+  }
+}
