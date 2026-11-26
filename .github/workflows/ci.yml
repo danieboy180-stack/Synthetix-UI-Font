@@ -1,26 +1,58 @@
-# UNVERIFIED: written in an offline sandbox and never executed. It is the path to the gates the sandbox could not run
-# (Font Bakery, Firefox/WebKit). Review and run it once before trusting it.
+# Steps 5 and 8 of docs/PLAN_98.md.
+# fast:  every push / PR. Verifies the frozen scorer, rebuilds from baseline, checks regression, reproducibility,
+#        UFO round trip, the frozen scorer on 3 weights, and the contract. No browsers, no emulators.
+# heavy: only on workflow_dispatch or release/** branches (hard rule 8). Firefox/WebKit advance parity and Font Bakery.
 name: fonts
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+env:
+  PYTHONHASHSEED: "0"
 jobs:
-  build-and-verify:
-    runs-on: ubuntu-latest
+  fast:
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: '3.12' }
-      - run: pip install -r requirements.txt brotli "fontbakery[googlefonts]" gftools
-      - run: python -m playwright install --with-deps chromium firefox webkit
+        with: { python-version: '3.12', cache: pip, cache-dependency-path: requirements-dev.txt }
+      - run: pip install -r requirements-dev.txt
+      - name: "Judge is frozen (hashes in reports/scorer.lock.json must match)"
+        run: python tools/verify_scorer_lock.py
       - run: python build/build_static.py && python build/build_variable_export.py
-      - run: python tokens/build_tokens.py
       - run: python tools/check_regression.py
+      - name: "Clean-clone reproducibility (all 28 files incl. WOFF2, real brotli)"
+        run: python tools/check_reproducible.py
+      - name: "UFO round trip (outlines + advances identical, layout grafted)"
+        run: python tools/ufo_roundtrip_check.py
       - run: python tools/run_checks.py
-      - run: SX_SKIP_WOFF2_HASH=1 python tools/check_reproducible.py     # WOFF2 bytes differ with the real brotli wheel
-      - run: python tools/engine_parity.py chromium firefox webkit        # advance widths must agree across engines
-      - name: Font Bakery (hard gate: 0 FAIL)
+      - name: Frozen scorer, 3 weights
         run: |
-          fontbakery check-universal fonts/ttf/*.ttf "fonts/variable/SynthetixUI[wght].ttf" --no-progress
-          fontbakery check-googlefonts fonts/ttf/*.ttf "fonts/variable/SynthetixUI[wght].ttf" --no-progress || true   # review; remove '|| true' once triaged
+          mkdir -p reports/ci
+          python tools/scorer/run_scorer.py fonts/ttf/SynthetixUI-Regular.ttf  400 reports/ci/scorer_Regular.json
+          python tools/scorer/run_scorer.py fonts/ttf/SynthetixUI-Medium.ttf   500 reports/ci/scorer_Medium.json
+          python tools/scorer/run_scorer.py fonts/ttf/SynthetixUI-SemiBold.ttf 600 reports/ci/scorer_SemiBold.json
       - run: python tools/contract_check.py
       - uses: actions/upload-artifact@v4
+        if: always()
         with: { name: reports, path: reports }
+  heavy:
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/heads/release/')
+    needs: fast
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12', cache: pip, cache-dependency-path: requirements-dev.txt }
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ttfautohint
+      - run: pip install -r requirements-dev.txt
+      - run: python -m playwright install --with-deps chromium firefox webkit
+      - run: python build/build_static.py && python build/build_variable_export.py
+      - run: python tools/engine_parity.py chromium firefox webkit
+      - name: "Font Bakery universal (hard gate: 0 FAIL)"
+        run: fontbakery check-universal fonts/ttf/*.ttf "fonts/variable/SynthetixUI[wght].ttf" --no-progress
+      - name: "Font Bakery Google Fonts profile (report only until triaged, plan step 87)"
+        run: fontbakery check-googlefonts fonts/ttf/*.ttf "fonts/variable/SynthetixUI[wght].ttf" --no-progress || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: reports-heavy, path: reports }
