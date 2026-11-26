@@ -1,0 +1,23 @@
+{
+ "Regular": {
+  "glyphs": 626,
+  "order_same": true,
+  "glyph_diffs": [],
+  "other_tables_identical": true,
+  "other_diff": []
+ },
+ "Medium": {
+  "glyphs": 626,
+  "order_same": true,
+  "glyph_diffs": [],
+  "other_tables_identical": true,
+  "other_diff": []
+ },
+ "SemiBold": {
+  "glyphs": 626,
+  "order_same": true,
+  "glyph_diffs": [],
+  "other_tables_identical": true,
+  "other_diff": []
+ }
+}
