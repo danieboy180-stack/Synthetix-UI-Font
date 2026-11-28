@@ -1,0 +1,78 @@
+{
+ "reference": "Pinterest Sans UI text as rendered on device (measurement only; no font file used)",
+ "captures": [
+  {
+   "id": "A",
+   "file": "reference/captures/pangram_A.png",
+   "source_file": "Screenshot_20261031-125556_Pinterest.png",
+   "source_sha256": "69c41eab26fc3a0cb27d0953f725042f81e02034749285262524f585796f3938",
+   "crop_box_xyxy": [
+    0,
+    865,
+    1430,
+    1403
+   ],
+   "source_size_wh": [
+    1430,
+    2665
+   ],
+   "lines": [
+    "Sphinx of black quartz, judge my",
+    "vow.",
+    "ABCDEFGHIJKLMNOPQRSTUVWX",
+    "YZ abcdefghijklmnopqrstuvwxyz",
+    "0123456789 !?%&@#$()/-:;,.'\""
+   ],
+   "weight": "Regular (UI body text)",
+   "device_note": "Android phone screenshot, grayscale antialiasing; system font-size differs per sheet (A largest, C smallest); app: Pinterest, bio edit sheet"
+  },
+  {
+   "id": "B",
+   "file": "reference/captures/pangram_B.png",
+   "source_file": "Screenshot_20261031-125615_Pinterest.png",
+   "source_sha256": "61eb638c035da2ffebcde01bf133e006ac9eb9166038228743753059b88e8760",
+   "crop_box_xyxy": [
+    0,
+    805,
+    1440,
+    1189
+   ],
+   "source_size_wh": [
+    1440,
+    2689
+   ],
+   "lines": [
+    "Sphinx of black quartz, judge my vow.",
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "abcdefghijklmnopqrstuvwxyz",
+    "0123456789 !?%&@#$()/-:;,.'\""
+   ],
+   "weight": "Regular (UI body text)",
+   "device_note": "Android phone screenshot, grayscale antialiasing; system font-size differs per sheet (A largest, C smallest); app: Pinterest, bio edit sheet"
+  },
+  {
+   "id": "C",
+   "file": "reference/captures/pangram_C.png",
+   "source_file": "Screenshot_20261031-125641_Pinterest.png",
+   "source_sha256": "bd5038df97740e569d97a19d8ac5cddfa2533a4454942a6386a0c016a6bfbd52",
+   "crop_box_xyxy": [
+    0,
+    704,
+    1439,
+    1045
+   ],
+   "source_size_wh": [
+    1439,
+    2704
+   ],
+   "lines": [
+    "Sphinx of black quartz, judge my vow.",
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "abcdefghijklmnopqrstuvwxyz 0123456789 !?",
+    "%&@#$()/-:;,.'\""
+   ],
+   "weight": "Regular (UI body text)",
+   "device_note": "Android phone screenshot, grayscale antialiasing; system font-size differs per sheet (A largest, C smallest); app: Pinterest, bio edit sheet"
+  }
+ ]
+}
