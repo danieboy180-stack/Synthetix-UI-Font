@@ -1,0 +1,279 @@
+/usr/local/lib/python3.12/dist-packages/fontbakery/fonts_profile.py:103: UserWarning: Failed to load fontbakery.checks.vendorspecific.googlefonts.glyphsets.shape_languages: No module named 'shaperglot'
+  warnings.warn("Failed to load %s: %s" % (import_path, e))
+Start ... running 127 individual check executions.
+ >> fontdata_namecheck
+    Familyname must be unique according to namecheck.fontdata.com
+    with SynthetixUI.ttf
+
+    Rationale:                                                                
+                                                                                
+    We need to check names are not already used, and today the best place to    
+    check that is http://namecheck.fontdata.com                                 
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/494
+
+    ERROR Failed to access: https://namecheck.fontdata.com/api/?q=SynthetixUI.  
+         This check relies on the external service                              
+         http://namecheck.fontdata.com via the internet. While the service      
+         cannot be reached or does not respond this check is broken.            
+                                                                                
+                                                                                
+              You can exclude this check with the command line option:          
+              -x fontdata_namecheck                                             
+                                                                                
+              Or you can wait until the service is available again.             
+              If the problem persists please report this issue at:              
+          https://github.com/fonttools/fontbakery/issues                        
+                                                                                
+              Original error message:                                           
+              <class 'requests.exceptions.ConnectionError'> [code:              
+          namecheck-service]                                                    
+                                                                                
+
+    Result: ERROR
+
+ >> mandatory_avar_table
+    Ensure variable fonts include an avar table.
+    with SynthetixUI.ttf
+
+    Rationale:                                                                
+                                                                                
+    Most variable fonts should include an avar table to correctly define axes   
+    progression rates.                                                          
+                                                                                
+    For example, a weight axis from 0% to 100% doesn't map directly to 100 to   
+    1000, because a 10% progression from 0% may be too much to define the 200,  
+    while 90% may be too little to define the 900.                              
+                                                                                
+    If the progression rates of axes is linear, this check can be ignored.      
+    Fontmake will also skip adding an avar table if the progression rates are   
+    linear. However, it is still recommended that designers visually proof      
+    each instance is at the expected weight, width etc.                         
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/3100
+
+    WARN This variable font does not have an avar table. Most variable fonts    
+         should include an avar table to correctly define axes progression      
+         rates. [code: missing-avar]                                            
+
+    Result: WARN
+
+ >> math_signs_width
+    Check math signs have the same width.
+    with SynthetixUI.ttf
+
+    Rationale:                                                                
+                                                                                
+    It is a common practice to have math signs sharing the same width           
+    (preferably the same width as tabular figures accross the entire font       
+    family).                                                                    
+                                                                                
+    This probably comes from the will to avoid additional tabular math signs    
+    knowing that their design can easily share the same width.                  
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/3832
+
+    WARN The most common width is 521 among a set of 11 math glyphs. The        
+         following math glyphs have a different width, though:                  
+                                                                                
+         Width = 531: multiply                                                  
+                                                                                
+         Width = 510: approxequal [code: width-outliers]                        
+
+    Result: WARN
+
+ >> nested_components
+    Ensure glyphs do not have components which are themselves components.
+    with SynthetixUI.ttf
+
+    Rationale:                                                                
+                                                                                
+    There have been bugs rendering variable fonts with nested components.       
+    Additionally, some static fonts with nested components have been reported   
+    to have rendering and printing issues.                                      
+                                                                                
+    For more info, see: * https://github.com/fonttools/fontbakery/issues/2961   
+    * https://github.com/arrowtype/recursive/issues/412                         
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/2961
+
+    FAIL The following glyphs have components which themselves are component    
+         glyphs: * uni013F * uni0140 and uni1ECB [code:                         
+         found-nested-components]                                               
+
+    Result: FAIL
+
+ >> no_mac_entries
+    Ensure font doesn't have Mac name table entries (platform=1).
+    with SynthetixUI.ttf
+
+    Rationale:                                                                
+                                                                                
+    Mac name table entries are not needed anymore. Even Apple stopped           
+    producing name tables with platform 1. Please see for example the           
+    following system font:                                                      
+                                                                                
+    /System/Library/Fonts/SFCompact.ttf                                         
+                                                                                
+    Also, Dave Opstad, who developed Apple's TrueType specifications, told      
+    Olli Meier a couple years ago (as of January/2022) that these entries are   
+    outdated and should not be produced anymore.                                
+                                                                                
+    More info: https://github.com/googlefonts/gftools/issues/469
+
+    FAIL Please remove name ID 1 [code: mac-names]                              
+    FAIL Please remove name ID 2 [code: mac-names]                              
+    FAIL Please remove name ID 3 [code: mac-names]                              
+    FAIL Please remove name ID 4 [code: mac-names]                              
+    FAIL Please remove name ID 5 [code: mac-names]                              
+    FAIL Please remove name ID 6 [code: mac-names]                              
+    FAIL Please remove name ID 10 [code: mac-names]                             
+    FAIL Please remove name ID 279 [code: mac-names]                            
+    FAIL Please remove name ID 280 [code: mac-names]                            
+    FAIL Please remove name ID 281 [code: mac-names]                            
+
+    Result: FAIL
+
+ >> overlapping_path_segments
+    Check there are no overlapping path segments
+    with SynthetixUI.ttf
+
+    Rationale:                                                                
+                                                                                
+    Some rasterizers encounter difficulties when rendering glyphs with          
+    overlapping path segments.                                                  
+                                                                                
+    A path segment is a section of a path defined by two on-curve points. When  
+    two segments share the same coordinates, they are considered overlapping.   
+                                                                                
+    More info: 
+https://github.com/google/fonts/issues/7594#issuecomment-2401909084
+
+    WARN The following glyphs have overlapping path segments:                   
+                                                                                
+                                                                                
+          * uni0190 (U+0190): L<<318.0,422.0>--<318.0,335.0>> has the same      
+          coordinates as a previous segment.                                    
+                                                                                
+          * uni0190 (U+0190): L<<318.0,335.0>--<318.0,422.0>> has the same      
+          coordinates as a previous segment.                                    
+                                                                                
+          * uni025B (U+025B): L<<245.0,296.0>--<245.0,209.0>> has the same      
+          coordinates as a previous segment.                                    
+                                                                                
+          * uni025B (U+025B): L<<245.0,209.0>--<245.0,296.0>> has the same      
+          coordinates as a previous segment. [code:                             
+          overlapping-path-segments]                                            
+                                                                                
+
+    Result: WARN
+
+ >> soft_hyphen
+    Does the font contain a soft hyphen?
+    with SynthetixUI.ttf
+
+    Rationale:                                                                
+                                                                                
+    The 'Soft Hyphen' character (codepoint 0x00AD) is used to mark a            
+    hyphenation possibility within a word in the absence of or overriding       
+    dictionary hyphenation.                                                     
+                                                                                
+    It is sometimes designed empty with no width (such as a control             
+    character), sometimes the same as the traditional hyphen, sometimes double  
+    encoded with the hyphen.                                                    
+                                                                                
+    That being said, it is recommended to not include it in the font at all,    
+    because discretionary hyphenation should be handled at the level of the     
+    shaping engine, not the font. Also, even if present, the software would     
+    not display that character.                                                 
+                                                                                
+    More discussion at:                                                         
+    https://typedrawers.com/discussion/2046/special-dash-things-softhyphen-hor  
+    izontalbar                                                                  
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/4046
+               https://github.com/fonttools/fontbakery/issues/3486
+
+    WARN This font has a 'Soft Hyphen' character. [code: softhyphen]            
+
+    Result: WARN
+
+ >> stylisticset_description
+    Ensure Stylistic Sets have description.
+    with SynthetixUI.ttf
+
+    Rationale:                                                                
+                                                                                
+    Stylistic sets should provide description text. Programs such as InDesign,  
+    TextEdit and Inkscape use that info to display to the users so that they    
+    know what a given stylistic set offers.                                     
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/3155
+
+    WARN The stylistic set ss13 lacks a description string on the 'name'        
+         table. [code: missing-description]                                     
+
+    Result: WARN
+
+ >> valid_glyphnames
+    Glyph names are all valid?
+    with SynthetixUI.ttf
+
+    Rationale:                                                                
+                                                                                
+    Microsoft's recommendations for OpenType Fonts states the following:        
+                                                                                
+    'NOTE: The PostScript glyph name must be no longer than 31 characters,      
+    include only uppercase or lowercase English letters, European digits, the   
+    period or the underscore, i.e. from the set `[A-Za-z0-9_.]` and should      
+    start with a letter, except the special glyph name `.notdef` which starts   
+    with a period.'                                                             
+                                                                                
+    https://learn.microsoft.com/en-us/typography/opentype/otspec181/recom#-pos  
+    t--table                                                                    
+                                                                                
+    In practice, though, particularly in modern environments, glyph names can   
+    be as long as 63 characters.                                                
+                                                                                
+    According to the "Adobe Glyph List Specification" available at:             
+                                                                                
+    https://github.com/adobe-type-tools/agl-specification                       
+                                                                                
+    More info: https://github.com/fonttools/fontbakery/issues/2832
+               https://github.com/fonttools/fontbakery/issues/4829
+
+    WARN The following glyph names may be too long for some legacy systems      
+         which may expect a maximum 31-characters length limit:                 
+         periodcentered.loclCAT.case.ss01 [code: legacy-long-names]             
+
+    Result: WARN
+
+
+Total:
+    ERROR: 1
+    FATAL: 0
+    FAIL: 2
+    WARN: 6
+    INFO: 3
+    SKIP: 20
+    PASS: 95
+
+
+
+    Meaning of check results:
+
+    An ERROR is something wrong with FontBakery itself, possibly a bug.
+    A  FATAL is an extremely severe issue that must be addressed immediately.
+    A  FAIL is a problem with the font that must be fixed.
+    A  WARN is something that you should consider addressing.
+    An INFO result simply prints something useful. Typically stats.
+    A  PASS means the font looks good for the given checking routine.
+And a  SKIP happens when the check does not apply to the given font.
+
+    If you get ERRORs, please help us improve the tool by reporting them at
+    https://github.com/fonttools/fontbakery/issues (but other kinds of bug
+    reports and/or feature requests are also always welcome, of course!)
+
+
+
+DONE!

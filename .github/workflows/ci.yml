@@ -32,6 +32,10 @@ jobs:
           python tools/scorer/run_scorer.py fonts/ttf/SynthetixUI-Regular.ttf  400 reports/ci/scorer_Regular.json
           python tools/scorer/run_scorer.py fonts/ttf/SynthetixUI-Medium.ttf   500 reports/ci/scorer_Medium.json
           python tools/scorer/run_scorer.py fonts/ttf/SynthetixUI-SemiBold.ttf 600 reports/ci/scorer_SemiBold.json
+      - name: "Reference measurements + provisional glyph IoU (from crops in the repo)"
+        run: |
+          python tools/measure_captures.py > /dev/null
+          python tools/glyph_iou.py > /dev/null
       - run: python tools/contract_check.py
       - uses: actions/upload-artifact@v4
         if: always()
@@ -49,6 +53,7 @@ jobs:
       - run: python -m playwright install --with-deps chromium firefox webkit
       - run: python build/build_static.py && python build/build_variable_export.py
       - run: python tools/engine_parity.py chromium firefox webkit
+      # Session 1 result: 2 FAIL on every shipped file (nested components uni013F/uni0140/uni1ECB; Mac name records). This gate is expected RED until plan step 87.
       - name: "Font Bakery universal (hard gate: 0 FAIL)"
         run: fontbakery check-universal fonts/ttf/*.ttf "fonts/variable/SynthetixUI[wght].ttf" --no-progress
       - name: "Font Bakery Google Fonts profile (report only until triaged, plan step 87)"

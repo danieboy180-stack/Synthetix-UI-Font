@@ -1,0 +1,33 @@
+{
+ "Regular": {
+  "vertical_over_cap": 0.1343,
+  "horizontal_over_cap": 0.1184,
+  "V_over_H": 1.135,
+  "stem_H": 0.1343,
+  "stem_l": 0.1343
+ },
+ "Medium": {
+  "vertical_over_cap": 0.1573,
+  "horizontal_over_cap": 0.1457,
+  "V_over_H": 1.079,
+  "stem_H": 0.1658,
+  "stem_l": 0.1429
+ },
+ "SemiBold": {
+  "vertical_over_cap": 0.191,
+  "horizontal_over_cap": 0.1837,
+  "V_over_H": 1.04,
+  "stem_H": 0.2057,
+  "stem_l": 0.1837
+ },
+ "reference_regular_session1": {
+  "vertical_over_cap": 0.1152,
+  "horizontal_over_cap": 0.1155,
+  "V_over_H": 0.997
+ },
+ "reference_classes_frozen": {
+  "regular": 0.1173,
+  "semibold": 0.1434,
+  "bold": 0.1786
+ }
+}
